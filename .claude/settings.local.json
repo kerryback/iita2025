@@ -6,7 +6,11 @@
       "WebSearch",
       "Bash(python:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(gh repo create:*)",
+      "Bash(curl:*)",
+      "Bash(start index.html)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

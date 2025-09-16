@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incorporating AI into Teaching and Teaching about AI - FMA 2025</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.2em;
+            font-weight: 300;
+        }
+
+        .subtitle {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .version-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .version-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .version-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .version-card.default {
+            border-color: #ffd700;
+            background: rgba(255, 215, 0, 0.1);
+        }
+
+        .version-title {
+            font-size: 1.4em;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .version-desc {
+            margin-bottom: 25px;
+            opacity: 0.9;
+            line-height: 1.5;
+        }
+
+        .btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn:hover {
+            background: linear-gradient(45deg, #ee5a24, #ff6b6b);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn.default {
+            background: linear-gradient(45deg, #ffd700, #ffb700);
+            color: #333;
+        }
+
+        .btn.default:hover {
+            background: linear-gradient(45deg, #ffb700, #ffd700);
+            color: #333;
+        }
+
+        .default-badge {
+            background: #ffd700;
+            color: #333;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            opacity: 0.7;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .version-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Incorporating AI into Teaching and Teaching about AI</h1>
+        <div class="subtitle">Kerry Back • Rice University • FMA 2025</div>
+
+        <div class="version-grid">
+            <div class="version-card default">
+                <div class="default-badge">RECOMMENDED</div>
+                <div class="version-title">Standard Version (3:2)</div>
+                <div class="version-desc">
+                    Optimized for traditional projectors and most conference rooms.
+                    Best compatibility with older projection systems.
+                </div>
+                <a href="slides3x2.html" class="btn default">View Presentation</a>
+            </div>
+
+            <div class="version-card">
+                <div class="version-title">Widescreen Version (16:9)</div>
+                <div class="version-desc">
+                    Perfect for modern widescreen projectors and displays.
+                    Enhanced viewing experience on newer systems.
+                </div>
+                <a href="slides16x9.html" class="btn">View Presentation</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            Choose the version that matches your projector's aspect ratio for the best viewing experience.
+        </div>
+    </div>
+</body>
+</html>
