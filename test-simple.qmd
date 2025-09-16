@@ -1,0 +1,17 @@
+---
+title: "Simple Test"
+format:
+  revealjs:
+    theme: default
+---
+
+## Slide 1
+
+This is a test slide.
+
+## Slide 2
+
+This is another test slide.
+
+- Point 1
+- Point 2
