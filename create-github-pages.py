@@ -38,6 +38,9 @@ def create_16x9_version():
             content
         )
 
+    # Change PNG max heights from 400px to 300px for 16:9 version
+    content = re.sub(r'max-height:\s*400px', 'max-height: 300px', content)
+
     # Write the 16:9 version
     target_file.write_text(content, encoding='utf-8')
     print(f"+ Created {target_file}")
