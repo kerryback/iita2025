@@ -67,7 +67,7 @@
     "href": "docs/slides3x2.html#example-1-after-excel",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "example 1 (after Excel)",
-    "text": "example 1 (after Excel)\nIn class, iteratively develop a prompt to get the best performance from a chatbot on a valuation case\n\nStart simple, evaluate answer\nGet class to help build prompt to avoid errors, get better answer\nTry new prompt, evaluate again, write a better one\nSave prompt, try prompt on a different case\nCan use any chatbot that codes, but Claude is best (today) because it can produce Excel workbooks"
+    "text": "example 1 (after Excel)\nIn class, iteratively develop a prompt to get the best performance from a chatbot on a valuation case\n\nStart simple, evaluate answer\nGet class to help build prompt to avoid errors, get better answer. Try new prompt, evaluate again, write a better one\nSave prompt, try prompt on a different case\nCan use any chatbot that codes, but Claude is best (today) because it can produce Excel workbooks"
   },
   {
     "objectID": "docs/slides3x2.html#live-demos-are-risky",
@@ -375,7 +375,7 @@
     "href": "docs/slides16x9.html#example-1-after-excel",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "example 1 (after Excel)",
-    "text": "example 1 (after Excel)\nIn class, iteratively develop a prompt to get the best performance from a chatbot on a valuation case\n\nStart simple, evaluate answer\nGet class to help build prompt to avoid errors, get better answer\nTry new prompt, evaluate again, write a better one\nSave prompt, try prompt on a different case\nCan use any chatbot that codes, but Claude is best (today) because it can produce Excel workbooks"
+    "text": "example 1 (after Excel)\nIn class, iteratively develop a prompt to get the best performance from a chatbot on a valuation case\n\nStart simple, evaluate answer\nGet class to help build prompt to avoid errors, get better answer. Try new prompt, evaluate again, write a better one\nSave prompt, try prompt on a different case\nCan use any chatbot that codes, but Claude is best (today) because it can produce Excel workbooks"
   },
   {
     "objectID": "docs/slides16x9.html#live-demos-are-risky",
