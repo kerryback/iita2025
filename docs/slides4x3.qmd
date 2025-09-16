@@ -112,7 +112,7 @@ But technical skills alone will not cut it. The <span class="highlight">most in 
 <span class="highlight">In class, iteratively develop a prompt to get the best performance from a chatbot on a valuation case</span> 
 
 - Start simple, evaluate answer
-- Get class to help build prompt to avoid errors, get better answer. Try new prompt, evaluate again, write a better one
+- Get class to help build prompt to avoid errors, get better answer. Try new prompt, evaluate again, write better one
 - Save prompt, <span class="highlight">try prompt on a different case</span>
 - Can use any chatbot that codes, but <span class="highlight">Claude is best</span> (today) because it can produce Excel workbooks
 

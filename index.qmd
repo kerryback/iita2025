@@ -14,12 +14,12 @@ Select the version that matches your projector's aspect ratio for the best viewi
 ::: {.version-grid}
 
 ::: {.version-card}
-### Standard Version (3:2)
+### Standard Version (4:3)
 
 Optimized for traditional projectors and most conference rooms.
 Best compatibility with older projection systems.
 
-[View Presentation](docs/slides3x2.html){.btn}
+[View Presentation](docs/slides4x3.html){.btn}
 :::
 
 ::: {.version-card}

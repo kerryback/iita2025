@@ -11,10 +11,10 @@ import shutil
 from pathlib import Path
 
 def create_16x9_version():
-    """Create 16:9 version from the 3:2 presentation"""
+    """Create 16:9 version from the 4:3 presentation"""
 
     # Source and target files
-    source_file = Path("docs/slides3x2.qmd")
+    source_file = Path("docs/slides4x3.qmd")
     target_file = Path("docs/slides16x9.qmd")
 
     if not source_file.exists():
@@ -53,7 +53,7 @@ def render_presentations():
 
     files_to_render = [
         ("index.qmd", "Landing page"),
-        ("docs/slides3x2.qmd", "3:2 presentation"),
+        ("docs/slides4x3.qmd", "4:3 presentation"),
         ("docs/slides16x9.qmd", "16:9 presentation")
     ]
 
@@ -113,7 +113,7 @@ def commit_and_push():
         # Commit
         commit_message = """Create clean GitHub Pages structure with proper landing page
 
-- Move presentation to docs/slides3x2.qmd
+- Move presentation to docs/slides4x3.qmd
 - Create index.qmd as landing page that renders to docs/
 - Add _quarto.yml for project configuration
 - Generate slides16x9.qmd with 16:9 dimensions
@@ -176,12 +176,12 @@ def main():
     print("\n" + "=" * 60)
     print("Success! GitHub Pages deployment ready:")
     print("   * docs/index.html         - Landing page")
-    print("   * docs/slides3x2.html     - Standard 3:2 ratio")
+    print("   * docs/slides4x3.html     - Standard 4:3 ratio")
     print("   * docs/slides16x9.html    - Widescreen 16:9 ratio")
     print("   * docs/CNAME              - Custom domain configuration")
     print("\nStructure:")
     print("   * index.qmd               - Landing page source")
-    print("   * docs/slides3x2.qmd      - 3:2 presentation source")
+    print("   * docs/slides4x3.qmd      - 4:3 presentation source")
     print("   * docs/slides16x9.qmd     - 16:9 presentation source")
     print("   * _quarto.yml             - Project configuration")
     print("\nYour site should be live at: https://fma2025.kerryback.com")

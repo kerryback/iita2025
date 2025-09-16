@@ -375,7 +375,7 @@
     "href": "docs/slides16x9.html#example-1-after-excel",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "example 1 (after Excel)",
-    "text": "example 1 (after Excel)\nIn class, iteratively develop a prompt to get the best performance from a chatbot on a valuation case\n\nStart simple, evaluate answer\nGet class to help build prompt to avoid errors, get better answer. Try new prompt, evaluate again, write a better one\nSave prompt, try prompt on a different case\nCan use any chatbot that codes, but Claude is best (today) because it can produce Excel workbooks"
+    "text": "example 1 (after Excel)\nIn class, iteratively develop a prompt to get the best performance from a chatbot on a valuation case\n\nStart simple, evaluate answer\nGet class to help build prompt to avoid errors, get better answer. Try new prompt, evaluate again, write better one\nSave prompt, try prompt on a different case\nCan use any chatbot that codes, but Claude is best (today) because it can produce Excel workbooks"
   },
   {
     "objectID": "docs/slides16x9.html#live-demos-are-risky",
@@ -940,6 +940,314 @@
   {
     "objectID": "index-16x9.html#final-slide",
     "href": "index-16x9.html#final-slide",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "",
+    "text": "QUESTIONS?"
+  },
+  {
+    "objectID": "docs/slides4x3.html#life-was-the-same-for-40-years",
+    "href": "docs/slides4x3.html#life-was-the-same-for-40-years",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Life was the same for 40 years",
+    "text": "Life was the same for 40 years\n\n\n\n\nVisiCalc introduced for the Apple II in 1979\n\n\n\n\nLotus-123 introduced for the IBM PC in 1983\n\n\n\n\nMicrosoft Excel introduced for Windows in 1987"
+  },
+  {
+    "objectID": "docs/slides4x3.html#now-with-ai-were-all-in-the-same-boat",
+    "href": "docs/slides4x3.html#now-with-ai-were-all-in-the-same-boat",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Now, with AI, we’re all in the same boat",
+    "text": "Now, with AI, we’re all in the same boat"
+  },
+  {
+    "objectID": "docs/slides4x3.html#its-hard-to-keep-up",
+    "href": "docs/slides4x3.html#its-hard-to-keep-up",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "It’s hard to keep up!",
+    "text": "It’s hard to keep up!"
+  },
+  {
+    "objectID": "docs/slides4x3.html#chatbots",
+    "href": "docs/slides4x3.html#chatbots",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Chatbots",
+    "text": "Chatbots\n\nObviously, students already use chatbots\nWe should encourage them to use chatbots even more - for idea generation, planning work, and doing work (for which they are responsible, of course)\nChatGPT, Claude, etc. write and run Python code to do numerical calculations, so hallucinations are not really a problem.*\n\n\n*Except that they sometimes think it’s OK to use synthetic data without telling us, instead of the data they are instructed to use."
+  },
+  {
+    "objectID": "docs/slides4x3.html#sequence-of-instruction",
+    "href": "docs/slides4x3.html#sequence-of-instruction",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "sequence of instruction",
+    "text": "sequence of instruction\n\nWe generally teach concepts first with slides (or board)\nThen show in tools (usually Excel)\nNow, there is a next step: chatbots"
+  },
+  {
+    "objectID": "docs/slides4x3.html#aaron-linsky-cto-aia-labs-at-bridgewater",
+    "href": "docs/slides4x3.html#aaron-linsky-cto-aia-labs-at-bridgewater",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Aaron Linsky, CTO, AIA Labs at Bridgewater:",
+    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst."
+  },
+  {
+    "objectID": "docs/slides4x3.html#yeyati-brookings-2025",
+    "href": "docs/slides4x3.html#yeyati-brookings-2025",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Yeyati, Brookings, 2025:",
+    "text": "Yeyati, Brookings, 2025:\n\n\nAs AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.\nAs job descriptions evolve, so does the definition of financial talent. Excel is no longer a differentiator. Python is fast becoming the new Excel. \nBut technical skills alone will not cut it. The most in demand profiles today are those that speak both AI and finance, and can move between legal, operational, and data contexts without losing the plot."
+  },
+  {
+    "objectID": "docs/slides4x3.html#example-1-after-excel",
+    "href": "docs/slides4x3.html#example-1-after-excel",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "example 1 (after Excel)",
+    "text": "example 1 (after Excel)\nIn class, iteratively develop a prompt to get the best performance from a chatbot on a valuation case\n\nStart simple, evaluate answer\nGet class to help build prompt to avoid errors, get better answer. Try new prompt, evaluate again, write better one\nSave prompt, try prompt on a different case\nCan use any chatbot that codes, but Claude is best (today) because it can produce Excel workbooks"
+  },
+  {
+    "objectID": "docs/slides4x3.html#live-demos-are-risky",
+    "href": "docs/slides4x3.html#live-demos-are-risky",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Live demos are risky",
+    "text": "Live demos are risky"
+  },
+  {
+    "objectID": "docs/slides4x3.html#prompt-example-1-claude",
+    "href": "docs/slides4x3.html#prompt-example-1-claude",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Prompt Example 1 (Claude)",
+    "text": "Prompt Example 1 (Claude)\n\nRead the uploaded case. Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely."
+  },
+  {
+    "objectID": "docs/slides4x3.html#prompt-example-2-julius",
+    "href": "docs/slides4x3.html#prompt-example-2-julius",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Prompt Example 2 (Julius)",
+    "text": "Prompt Example 2 (Julius)\n\n\nUsing the latest version of yfinance, get closing prices for SPY, IEF, and GLD at a monthly frequency since 1990.\nCompute returns as percent changes. Compute the sample means and covariance matrix. Compute the mean-variance frontier.\nAssuming a monthly risk-free rate of 0.04/12, calculate the tangency portfolio. Plot the mean-variance frontier, SPY, IEF, and GLD, the tangency portfolio, and the capital allocation line."
+  },
+  {
+    "objectID": "docs/slides4x3.html#prompt-example-3-google-colab",
+    "href": "docs/slides4x3.html#prompt-example-3-google-colab",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Prompt Example 3 (Google Colab)",
+    "text": "Prompt Example 3 (Google Colab)\n\n\nUsing the latest version of yfinance, get closing prices for WMT since January 2020. Compute returns as percent changes.\nGet monthly Fama-French factors from French’s data library using pandas datareader. Divide the Fama-French data by 100 to put it in decimal format. Reconcile the date formats of the Fama-French and Yahoo data and merge them.\nCompute excess returns for WMT using RF from the Fama-French data. Regress the excess returns on Mkt-RF. Create a scatter plot with regression line."
+  },
+  {
+    "objectID": "docs/slides4x3.html#how-to-grade",
+    "href": "docs/slides4x3.html#how-to-grade",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "How to grade?",
+    "text": "How to grade?\n\nOur graduates must be able to prompt chatbots and evaluate and refine the work of chatbots.\nReplace “turn in an Excel workbook” with “turn in a chat, what was produced by the chat, and your evaluation of the product.”\nAssign what used to be a group project as an in-class exam with AI assistance allowed."
+  },
+  {
+    "objectID": "docs/slides4x3.html#mitmedia-labs-state-of-ai-in-business-2025",
+    "href": "docs/slides4x3.html#mitmedia-labs-state-of-ai-in-business-2025",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "MIT/Media Labs State of AI in Business 2025",
+    "text": "MIT/Media Labs State of AI in Business 2025\n\nWorkers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work."
+  },
+  {
+    "objectID": "docs/slides4x3.html#tools-vs-concepts",
+    "href": "docs/slides4x3.html#tools-vs-concepts",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Tools vs Concepts",
+    "text": "Tools vs Concepts\n\nWe use tools to teach concepts\n\n\nIt’s easier to explain NPV in a spreadsheet than with words alone\nIt’s easier to explain AI-assisted financial analysis using AI tools than with words alone\n\n\nBut we can’t just teach tools: tomorrow’s AI tools will be different from today’s."
+  },
+  {
+    "objectID": "docs/slides4x3.html#an-overview-case",
+    "href": "docs/slides4x3.html#an-overview-case",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "An overview case",
+    "text": "An overview case\nBlazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada, 2024.\n\nDescribes creation of a custom chatbot\nDiscusses reliability, bias, compliance, data privacy, trust of customers"
+  },
+  {
+    "objectID": "docs/slides4x3.html#the-ai-landscape",
+    "href": "docs/slides4x3.html#the-ai-landscape",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "The AI landscape",
+    "text": "The AI landscape\n\n\n\n\n\n\nApps can use AI\nChatbots are apps\nAgents are chatbots with tools\nAgents include database agents"
+  },
+  {
+    "objectID": "docs/slides4x3.html#section",
+    "href": "docs/slides4x3.html#section",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "",
+    "text": "In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that\n\n\n\nfor roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI."
+  },
+  {
+    "objectID": "docs/slides4x3.html#section-1",
+    "href": "docs/slides4x3.html#section-1",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "",
+    "text": "Apps automate routine tasks\n\nBrowser-based apps can be deployed:\n\nLocally (install Python + Streamlit)\nIn the cloud for demonstration (ngrok, get free access key)\nPermanently in the cloud (Koyeb, Render, Heroku, …)"
+  },
+  {
+    "objectID": "docs/slides4x3.html#prompt-example-4-replit",
+    "href": "docs/slides4x3.html#prompt-example-4-replit",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Prompt example 4 (Replit)",
+    "text": "Prompt example 4 (Replit)\n\nCreate a retirement planning app that allows a user to enter (i) current account balance, (ii) annual savings (constant), (iii) years to retirement, (iv) mean and standard deviation of annual returns.\nSimulate normally distributed annual returns for 1,000 lifetimes and present an analysis, including a density plot of final balances and percentiles. Highlight the mean and median on the density plot."
+  },
+  {
+    "objectID": "docs/slides4x3.html#prompt-example-5-colab",
+    "href": "docs/slides4x3.html#prompt-example-5-colab",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Prompt example 5 (colab)",
+    "text": "Prompt example 5 (colab)\n\nCreate a streamlit app in which the user inputs a ticker, and the app calculates a beta for the stock and produces the scatterplot as done for WMT before and also implements the following:\nMy ngrok access key is stored as a secret key. Use it to deploy the app."
+  },
+  {
+    "objectID": "docs/slides4x3.html#prompt-example-6-colab",
+    "href": "docs/slides4x3.html#prompt-example-6-colab",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "prompt example 6 (colab)",
+    "text": "prompt example 6 (colab)\n\n\nAdd the following functionality to the streamlit app:\nUse pandas datareader to get the most recent three-month T-bill rate from FRED. Assume a 6% market risk premium. Use the risk-free rate and the estimated beta to compute the cost of equity capital.\nCreate a Word doc containing the scatterplot and a table displaying the cost of capital calculation. Provide a download link. Deploy on ngrok."
+  },
+  {
+    "objectID": "docs/slides4x3.html#requirements",
+    "href": "docs/slides4x3.html#requirements",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Requirements",
+    "text": "Requirements\n\nAPI key from LLM host (OpenAI, Anthropic, …)\nCan use Open Router for free keys and free (open source) LLMs."
+  },
+  {
+    "objectID": "docs/slides4x3.html#prompt-example-7-colab",
+    "href": "docs/slides4x3.html#prompt-example-7-colab",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "prompt example 7 (colab)",
+    "text": "prompt example 7 (colab)\n\n\nAdd the following functionality to the Streamlit app:\nUse my OpenAI API key stored as a secret key. Send the ticker and all elements of the cost of capital calculation to GPT 4.1 and ask for a discussion of the analysis and its meaning.\nInclude the analysis from GPT 4.1 in the Word doc with the scatterplot and cost-of-capital table. Deploy on ngrok."
+  },
+  {
+    "objectID": "docs/slides4x3.html#a-custom-chatbot-is-an-app-consisting-of",
+    "href": "docs/slides4x3.html#a-custom-chatbot-is-an-app-consisting-of",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "A custom chatbot is an app consisting of",
+    "text": "A custom chatbot is an app consisting of\n\nUser interface\nAPI connection to an LLM, which has possibly been fine-tuned\nSystem prompt\nPossible retrieval of documents\nPossible use of tools"
+  },
+  {
+    "objectID": "docs/slides4x3.html#system-prompt-is-fundamental",
+    "href": "docs/slides4x3.html#system-prompt-is-fundamental",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "System prompt is fundamental",
+    "text": "System prompt is fundamental\n\nThe simplest custom chatbot is an app that passes messages back and forth between a user and an LLM.\nThe basic element that makes it a ‘custom chatbot’ is its system prompt.\n\n\nA system prompt is text that is sent to the LLM along with each user prompt. It contains information and instructions for the LLM."
+  },
+  {
+    "objectID": "docs/slides4x3.html#custom-chatbot-structure",
+    "href": "docs/slides4x3.html#custom-chatbot-structure",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Custom Chatbot structure",
+    "text": "Custom Chatbot structure"
+  },
+  {
+    "objectID": "docs/slides4x3.html#prompt-example-8-colab",
+    "href": "docs/slides4x3.html#prompt-example-8-colab",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "prompt example 8 (colab)",
+    "text": "prompt example 8 (colab)\n\nCreate a custom chatbot as a streamlit app. The app should accept a user prompt and display a response.\nUse my OpenAI API key that is stored as a secret key. Route prompts to GPT 4.1.\nFor the system prompt, use “Reply in pig Latin.” Deploy on ngrok."
+  },
+  {
+    "objectID": "docs/slides4x3.html#rag-retrieval-augmented-generation-chatbots",
+    "href": "docs/slides4x3.html#rag-retrieval-augmented-generation-chatbots",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "RAG (Retrieval Augmented Generation) chatbots",
+    "text": "RAG (Retrieval Augmented Generation) chatbots\n\nBreak documents into chunks (~paragraphs, overlapping)\nCalculate vector embedding of each chunk based on some embedding scheme\nCalculate embedding of user prompt. Find similar chunks.\nSend prompt and chunks to AI model.\nKey element of many corporate AI implementations"
+  },
+  {
+    "objectID": "docs/slides4x3.html#example-rag-chatbots",
+    "href": "docs/slides4x3.html#example-rag-chatbots",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Example RAG chatbots",
+    "text": "Example RAG chatbots\n\nGoogle’s Notebook LM\nCan vibe code your own from class materials or textbook"
+  },
+  {
+    "objectID": "docs/slides4x3.html#agent-chatbot-tools",
+    "href": "docs/slides4x3.html#agent-chatbot-tools",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Agent = Chatbot + Tools",
+    "text": "Agent = Chatbot + Tools\n\nAn AI agent is a chatbot equipped with tools to do things.\nClaude and ChatGPT are agents - they can send code to Python environments.\nDatabase tools are very useful for chatbots"
+  },
+  {
+    "objectID": "docs/slides4x3.html#claude-for-financial-services",
+    "href": "docs/slides4x3.html#claude-for-financial-services",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Claude for Financial Services",
+    "text": "Claude for Financial Services\nFrom Anthropic:\nThrough data providers, Claude has real-time access to comprehensive financial information:\n\n\n\nBox\nDaloopa\nDatabricks\n\n\n\nFactSet\nMorningstar\nPalantir\n\n\n\nPitchBook\nS&P Global\nSnowflake"
+  },
+  {
+    "objectID": "docs/slides4x3.html#why-mba-students-should-learn-about-agents",
+    "href": "docs/slides4x3.html#why-mba-students-should-learn-about-agents",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Why mba students should learn about agents",
+    "text": "Why mba students should learn about agents\nFortune, 9-14-2025:\n\n\nPromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out $900-per-hour wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).\nTanmai Gopal, PromptQL’s cofounder and CEO, said “MBA types … are very strategic thinkers, and they’re smart people, but they don’t have an intuition for what AI can do.”"
+  },
+  {
+    "objectID": "docs/slides4x3.html#agent-passes-prompt-from-user-to-llm",
+    "href": "docs/slides4x3.html#agent-passes-prompt-from-user-to-llm",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "agent passes prompt from user to LLM",
+    "text": "agent passes prompt from user to LLM\n\n\n\n\n\nMay require chatting at this stage to clarify user’s request"
+  },
+  {
+    "objectID": "docs/slides4x3.html#agent-passes-sql-from-llm-to-data-warehouse",
+    "href": "docs/slides4x3.html#agent-passes-sql-from-llm-to-data-warehouse",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "agent passes SQL from LLM to data warehouse",
+    "text": "agent passes SQL from LLM to data warehouse"
+  },
+  {
+    "objectID": "docs/slides4x3.html#data-warehouse-passes-response-to-agent",
+    "href": "docs/slides4x3.html#data-warehouse-passes-response-to-agent",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Data Warehouse passes response to agent",
+    "text": "Data Warehouse passes response to agent\n\n\n\n\n\nResponse could be error message\nIf so, agent should send to LLM for new SQL code"
+  },
+  {
+    "objectID": "docs/slides4x3.html#agent-passes-data-from-warehouse-to-user",
+    "href": "docs/slides4x3.html#agent-passes-data-from-warehouse-to-user",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "agent passes data from warehouse to user",
+    "text": "agent passes data from warehouse to user"
+  },
+  {
+    "objectID": "docs/slides4x3.html#database-agent-mapsto-tool",
+    "href": "docs/slides4x3.html#database-agent-mapsto-tool",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Database Agent \\(\\mapsto\\) Tool",
+    "text": "Database Agent \\(\\mapsto\\) Tool\n\nConfigure the database agent as a tool for an existing chatbot with Python capabilities\nOpenAI’s Assistants API\nAnthropic’s Model Context Protocol (MCP)"
+  },
+  {
+    "objectID": "docs/slides4x3.html#demos-all-vibe-coded",
+    "href": "docs/slides4x3.html#demos-all-vibe-coded",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Demos (all vibe coded)",
+    "text": "Demos (all vibe coded)\n\nRice Business Stock Market Data Portal\nClaude MCP server for the data portal"
+  },
+  {
+    "objectID": "docs/slides4x3.html#claude-code",
+    "href": "docs/slides4x3.html#claude-code",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Claude Code",
+    "text": "Claude Code\n\nProbably not for students, but for research and teaching prep\nUses standard Anthropic models, but must have great system prompt\nRuns in terminal or can use as chat assistant in VS Code, Cursor, or Windsurf."
+  },
+  {
+    "objectID": "docs/slides4x3.html#claude-code-capabilities",
+    "href": "docs/slides4x3.html#claude-code-capabilities",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Claude Code capabilities",
+    "text": "Claude Code capabilities\n\nCreate, edit, copy, move, delete files\nWrite and run Python scripts and notebooks\nWrite and build Latex documents, including beamer"
+  },
+  {
+    "objectID": "docs/slides4x3.html#section-2",
+    "href": "docs/slides4x3.html#section-2",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "",
+    "text": "Create and edit Word docs and PowerPoint decks\nCreate, edit, and render q Quarto docs for web pages and html slides\nCreate GitHub repos and push and launch apps on hosts (Koyeb, Render, …)\nAnd you can chat with it about anything"
+  },
+  {
+    "objectID": "docs/slides4x3.html#demo-claude-code-prompt",
+    "href": "docs/slides4x3.html#demo-claude-code-prompt",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Demo claude code prompt",
+    "text": "Demo claude code prompt\nCreate a LaTeX doc in the article style with Hello World as the title. Compile to pdf.\n\nIt’s even more helpful when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)\n\nDo this analysis and generate a figure or LaTeX table and insert it into the document … Read this paragraph and suggest improvements … Make these global edits …"
+  },
+  {
+    "objectID": "docs/slides4x3.html#final-slide",
+    "href": "docs/slides4x3.html#final-slide",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "",
     "text": "QUESTIONS?"
