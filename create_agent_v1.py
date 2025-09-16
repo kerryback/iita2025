@@ -90,5 +90,5 @@ ax.legend(handles=legend_elements, loc='upper right', fontsize=16, frameon=True,
 plt.tight_layout()
 plt.savefig('docs/agent_v1.png', dpi=300, bbox_inches='tight',
             facecolor='lightgray', edgecolor='none')
-print("First version created as ai_docs/agent_dataflow_matplotlib_v1.png")
+print("First version created as docs/agent_v1.png")
 plt.close()
