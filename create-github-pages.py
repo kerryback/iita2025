@@ -26,10 +26,11 @@ def create_16x9_version():
 
     # Replace the format section to use 16:9 dimensions
     # Look for existing width/height settings and update them
+    # Use negative lookbehind to avoid matching max-height
     if 'width:' in content and 'height:' in content:
-        # Replace existing dimensions
-        content = re.sub(r'width:\s*\d+', 'width: 1280', content)
-        content = re.sub(r'height:\s*\d+', 'height: 720', content)
+        # Replace existing dimensions (but not max-height)
+        content = re.sub(r'(?<!max-)width:\s*\d+', 'width: 1280', content)
+        content = re.sub(r'(?<!max-)height:\s*\d+', 'height: 720', content)
     else:
         # Add dimensions after revealjs: line
         content = re.sub(
@@ -37,9 +38,6 @@ def create_16x9_version():
             r'\1    width: 1280\n    height: 720\n',
             content
         )
-
-    # Change PNG max heights from 400px to 300px for 16:9 version
-    content = re.sub(r'max-height:\s*400px', 'max-height: 300px', content)
 
     # Write the 16:9 version
     target_file.write_text(content, encoding='utf-8')

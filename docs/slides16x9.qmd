@@ -46,7 +46,7 @@ Microsoft Excel introduced for Windows in 1987
 
 ::: {.fragment}
 ::: {style="text-align: center; margin-top: 50px;"}
-![](ducks-sinking.png){style="max-height: 720px; width: auto;"}
+![](ducks-sinking.png){style="max-height: 400px; width: auto;"}
 :::
 :::
 
@@ -55,11 +55,11 @@ Microsoft Excel introduced for Windows in 1987
 ::: {.fragment data-fragment-index="0"}
 ::: {style="text-align: center; margin-top: 50px; position: relative; height: 720px;"}
 ::: {.fade-out data-fragment-index="1"}
-![](coyote11.png){style="max-height: 720px; width: auto;"}
+![](coyote11.png){style="max-height:400px; width: auto;"}
 :::
 
 ::: {.fragment .fade-in data-fragment-index="1" style="position: absolute; top: 0; left: 0; right: 0; margin-top: 0;"}
-![](coyote21.png){style="max-height: 720px; width: auto;"}
+![](coyote21.png){style="max-height: 400px; width: auto;"}
 :::
 :::
 :::
@@ -184,7 +184,7 @@ personal AI tools for work tasks. In fact, almost every single person used an LL
 
 :::: {.columns}
 ::: {.column width="60%"}
-![](ai_learning_progression_with_prompt.png){style="max-height: 720px; width: auto;"}
+![](ai_learning_progression_with_prompt.png){style="max-height: 400px; width: auto;"}
 :::
 
 ::: {.column width="40%"}
@@ -207,7 +207,7 @@ In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman st
 :::
 ::: {.column style="width: 1280%; display: flex; align-items: center; justify-content: center;"}
 ::: {.fragment}
-![](bugs-bunny.png){style="max-height: 720px; width: auto;"}
+![](bugs-bunny.png){style="max-height: 400px; width: auto;"}
 :::
 :::
 ::::
@@ -285,7 +285,7 @@ Browser-based apps can be deployed:
 
 ## Custom Chatbot structure
 
-![](chatbot.png){style="max-height: 720px; width: auto;"}
+![](chatbot.png){style="max-height: 400px; width: auto;"}
 
 ## prompt example 8 (colab)
 
@@ -360,7 +360,7 @@ Fortune, 9-14-2025:
 
 :::: {.columns}
 ::: {.column width="60%"}
-![](agent_v1.png){style="max-height: 720px; width: auto;"}
+![](agent_v1.png){style="max-height: 400px; width: auto;"}
 :::
 
 ::: {.column width="40%"}
@@ -374,7 +374,7 @@ May require chatting at this stage to clarify user's request
 
 :::: {.columns}
 ::: {.column width="60%"}
-![](agent_v2.png){style="max-height: 720px; width: auto;"}
+![](agent_v2.png){style="max-height: 400px; width: auto;"}
 :::
 ::: {.column width="40%"}
 :::
@@ -384,7 +384,7 @@ May require chatting at this stage to clarify user's request
 
 :::: {.columns}
 ::: {.column width="60%"}
-![](agent_v3.png){style="max-height: 720px; width: auto;"}
+![](agent_v3.png){style="max-height: 400px; width: auto;"}
 :::
 
 ::: {.column width="40%"}
@@ -400,7 +400,7 @@ If so, agent should send to LLM for new SQL code
 
 :::: {.columns}
 ::: {.column width="60%"}
-![](agent_v4.png){style="max-height: 720px; width: auto;"}
+![](agent_v4.png){style="max-height: 400px; width: auto;"}
 :::
 ::: {.column width="40%"}
 :::
