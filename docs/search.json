@@ -361,14 +361,14 @@
     "href": "docs/slides16x9.html#aaron-linsky-cto-aia-labs-at-bridgewater",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Aaron Linsky, CTO, AIA Labs at Bridgewater:",
-    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst."
+    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst."
   },
   {
     "objectID": "docs/slides16x9.html#yeyati-brookings-2025",
     "href": "docs/slides16x9.html#yeyati-brookings-2025",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Yeyati, Brookings, 2025:",
-    "text": "Yeyati, Brookings, 2025:\n\n\nAs AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.\nAs job descriptions evolve, so does the definition of financial talent. Excel is no longer a differentiator. Python is fast becoming the new Excel. \nBut technical skills alone will not cut it. The most in demand profiles today are those that speak both AI and finance, and can move between legal, operational, and data contexts without losing the plot."
+    "text": "Yeyati, Brookings, 2025:\n\n\nAs AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.\n\n\nAs job descriptions evolve, so does the definition of financial talent. Excel is no longer a differentiator. Python is fast becoming the new Excel. \n\n\nBut technical skills alone will not cut it. The most in demand profiles today are those that speak both AI and finance, and can move between legal, operational, and data contexts without losing the plot."
   },
   {
     "objectID": "docs/slides16x9.html#example-1-after-excel",
@@ -389,21 +389,21 @@
     "href": "docs/slides16x9.html#prompt-example-1-claude",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt Example 1 (Claude)",
-    "text": "Prompt Example 1 (Claude)\n\nRead the uploaded case. Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely."
+    "text": "Prompt Example 1 (Claude)\n\nRead the uploaded case. Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely."
   },
   {
     "objectID": "docs/slides16x9.html#prompt-example-2-julius",
     "href": "docs/slides16x9.html#prompt-example-2-julius",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt Example 2 (Julius)",
-    "text": "Prompt Example 2 (Julius)\n\n\nUsing the latest version of yfinance, get closing prices for SPY, IEF, and GLD at a monthly frequency since 1990.\nCompute returns as percent changes. Compute the sample means and covariance matrix. Compute the mean-variance frontier.\nAssuming a monthly risk-free rate of 0.04/12, calculate the tangency portfolio. Plot the mean-variance frontier, SPY, IEF, and GLD, the tangency portfolio, and the capital allocation line."
+    "text": "Prompt Example 2 (Julius)\n\n\nUsing the latest version of yfinance, get closing prices for SPY, IEF, and GLD at a monthly frequency since 1990.\n\n\nCompute returns as percent changes. Compute the sample means and covariance matrix. Compute the mean-variance frontier.\n\n\nAssuming a monthly risk-free rate of 0.04/12, calculate the tangency portfolio. Plot the mean-variance frontier, SPY, IEF, and GLD, the tangency portfolio, and the capital allocation line."
   },
   {
     "objectID": "docs/slides16x9.html#prompt-example-3-google-colab",
     "href": "docs/slides16x9.html#prompt-example-3-google-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt Example 3 (Google Colab)",
-    "text": "Prompt Example 3 (Google Colab)\n\n\nUsing the latest version of yfinance, get closing prices for WMT since January 2020. Compute returns as percent changes.\nGet monthly Fama-French factors from French’s data library using pandas datareader. Divide the Fama-French data by 100 to put it in decimal format. Reconcile the date formats of the Fama-French and Yahoo data and merge them.\nCompute excess returns for WMT using RF from the Fama-French data. Regress the excess returns on Mkt-RF. Create a scatter plot with regression line."
+    "text": "Prompt Example 3 (Google Colab)\n\n\nUsing the latest version of yfinance, get closing prices for WMT since January 2020. Compute returns as percent changes.\n\n\nGet monthly Fama-French factors from French’s data library using pandas datareader. Divide the Fama-French data by 100 to put it in decimal format. Reconcile the date formats of the Fama-French and Yahoo data and merge them.\nCompute excess returns for WMT using RF from the Fama-French data. Regress the excess returns on Mkt-RF. Create a scatter plot with regression line."
   },
   {
     "objectID": "docs/slides16x9.html#how-to-grade",
@@ -459,21 +459,21 @@
     "href": "docs/slides16x9.html#prompt-example-4-replit",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt example 4 (Replit)",
-    "text": "Prompt example 4 (Replit)\n\nCreate a retirement planning app that allows a user to enter (i) current account balance, (ii) annual savings (constant), (iii) years to retirement, (iv) mean and standard deviation of annual returns.\nSimulate normally distributed annual returns for 1,000 lifetimes and present an analysis, including a density plot of final balances and percentiles. Highlight the mean and median on the density plot."
+    "text": "Prompt example 4 (Replit)\n\nCreate a retirement planning app that allows a user to enter (i) current account balance, (ii) annual savings (constant), (iii) years to retirement, (iv) mean and standard deviation of annual returns.\n\n\nSimulate normally distributed annual returns for 1,000 lifetimes and present an analysis, including a density plot of final balances and percentiles. Highlight the mean and median on the density plot."
   },
   {
     "objectID": "docs/slides16x9.html#prompt-example-5-colab",
     "href": "docs/slides16x9.html#prompt-example-5-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt example 5 (colab)",
-    "text": "Prompt example 5 (colab)\n\nCreate a streamlit app in which the user inputs a ticker, and the app calculates a beta for the stock and produces the scatterplot as done for WMT before and also implements the following:\nMy ngrok access key is stored as a secret key. Use it to deploy the app."
+    "text": "Prompt example 5 (colab)\n\nCreate a streamlit app in which the user inputs a ticker, and the app calculates a beta for the stock and produces the scatterplot as done for WMT before and also implements the following:\n\n\nMy ngrok access key is stored as a secret key. Use it to deploy the app."
   },
   {
     "objectID": "docs/slides16x9.html#prompt-example-6-colab",
     "href": "docs/slides16x9.html#prompt-example-6-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "prompt example 6 (colab)",
-    "text": "prompt example 6 (colab)\n\n\nAdd the following functionality to the streamlit app:\nUse pandas datareader to get the most recent three-month T-bill rate from FRED. Assume a 6% market risk premium. Use the risk-free rate and the estimated beta to compute the cost of equity capital.\nCreate a Word doc containing the scatterplot and a table displaying the cost of capital calculation. Provide a download link. Deploy on ngrok."
+    "text": "prompt example 6 (colab)\n\n\nAdd the following functionality to the streamlit app:\n\n\nUse pandas datareader to get the most recent three-month T-bill rate from FRED. Assume a 6% market risk premium. Use the risk-free rate and the estimated beta to compute the cost of equity capital.\n\n\nCreate a Word doc containing the scatterplot and a table displaying the cost of capital calculation. Provide a download link. Deploy on ngrok."
   },
   {
     "objectID": "docs/slides16x9.html#requirements",
@@ -487,7 +487,7 @@
     "href": "docs/slides16x9.html#prompt-example-7-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "prompt example 7 (colab)",
-    "text": "prompt example 7 (colab)\n\n\nAdd the following functionality to the Streamlit app:\nUse my OpenAI API key stored as a secret key. Send the ticker and all elements of the cost of capital calculation to GPT 4.1 and ask for a discussion of the analysis and its meaning.\nInclude the analysis from GPT 4.1 in the Word doc with the scatterplot and cost-of-capital table. Deploy on ngrok."
+    "text": "prompt example 7 (colab)\n\n\nAdd the following functionality to the Streamlit app:\n\n\nUse my OpenAI API key stored as a secret key. Send the ticker and all elements of the cost of capital calculation to GPT 4.1 and ask for a discussion of the analysis and its meaning.\n\n\nInclude the analysis from GPT 4.1 in the Word doc with the scatterplot and cost-of-capital table. Deploy on ngrok."
   },
   {
     "objectID": "docs/slides16x9.html#a-custom-chatbot-is-an-app-consisting-of",
@@ -515,7 +515,7 @@
     "href": "docs/slides16x9.html#prompt-example-8-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "prompt example 8 (colab)",
-    "text": "prompt example 8 (colab)\n\nCreate a custom chatbot as a streamlit app. The app should accept a user prompt and display a response.\nUse my OpenAI API key that is stored as a secret key. Route prompts to GPT 4.1.\nFor the system prompt, use “Reply in pig Latin.” Deploy on ngrok."
+    "text": "prompt example 8 (colab)\n\nCreate a custom chatbot as a streamlit app. The app should accept a user prompt and display a response.\n\n\nUse my OpenAI API key that is stored as a secret key. Route prompts to GPT 4.1.\n\n\nFor the system prompt, use “Reply in pig Latin.” Deploy on ngrok."
   },
   {
     "objectID": "docs/slides16x9.html#rag-retrieval-augmented-generation-chatbots",
@@ -550,7 +550,7 @@
     "href": "docs/slides16x9.html#why-mba-students-should-learn-about-agents",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Why mba students should learn about agents",
-    "text": "Why mba students should learn about agents\nFortune, 9-14-2025:\n\n\nPromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out $900-per-hour wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).\nTanmai Gopal, PromptQL’s cofounder and CEO, said “MBA types … are very strategic thinkers, and they’re smart people, but they don’t have an intuition for what AI can do.”"
+    "text": "Why mba students should learn about agents\nFortune, 9-14-2025:\n\n\nPromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out $900-per-hour wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).\n\n\nTanmai Gopal, PromptQL’s cofounder and CEO, said “MBA types … are very strategic thinkers, and they’re smart people, but they don’t have an intuition for what AI can do.”"
   },
   {
     "objectID": "docs/slides16x9.html#agent-passes-prompt-from-user-to-llm",
@@ -984,14 +984,14 @@
     "href": "docs/slides4x3.html#aaron-linsky-cto-aia-labs-at-bridgewater",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Aaron Linsky, CTO, AIA Labs at Bridgewater:",
-    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst."
+    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst."
   },
   {
     "objectID": "docs/slides4x3.html#yeyati-brookings-2025",
     "href": "docs/slides4x3.html#yeyati-brookings-2025",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Yeyati, Brookings, 2025:",
-    "text": "Yeyati, Brookings, 2025:\n\n\nAs AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.\nAs job descriptions evolve, so does the definition of financial talent. Excel is no longer a differentiator. Python is fast becoming the new Excel. \nBut technical skills alone will not cut it. The most in demand profiles today are those that speak both AI and finance, and can move between legal, operational, and data contexts without losing the plot."
+    "text": "Yeyati, Brookings, 2025:\n\n\nAs AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.\n\n\nAs job descriptions evolve, so does the definition of financial talent. Excel is no longer a differentiator. Python is fast becoming the new Excel. \n\n\nBut technical skills alone will not cut it. The most in demand profiles today are those that speak both AI and finance, and can move between legal, operational, and data contexts without losing the plot."
   },
   {
     "objectID": "docs/slides4x3.html#example-1-after-excel",
@@ -1012,21 +1012,21 @@
     "href": "docs/slides4x3.html#prompt-example-1-claude",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt Example 1 (Claude)",
-    "text": "Prompt Example 1 (Claude)\n\nRead the uploaded case. Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely."
+    "text": "Prompt Example 1 (Claude)\n\nRead the uploaded case. Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely."
   },
   {
     "objectID": "docs/slides4x3.html#prompt-example-2-julius",
     "href": "docs/slides4x3.html#prompt-example-2-julius",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt Example 2 (Julius)",
-    "text": "Prompt Example 2 (Julius)\n\n\nUsing the latest version of yfinance, get closing prices for SPY, IEF, and GLD at a monthly frequency since 1990.\nCompute returns as percent changes. Compute the sample means and covariance matrix. Compute the mean-variance frontier.\nAssuming a monthly risk-free rate of 0.04/12, calculate the tangency portfolio. Plot the mean-variance frontier, SPY, IEF, and GLD, the tangency portfolio, and the capital allocation line."
+    "text": "Prompt Example 2 (Julius)\n\n\nUsing the latest version of yfinance, get closing prices for SPY, IEF, and GLD at a monthly frequency since 1990.\n\n\nCompute returns as percent changes. Compute the sample means and covariance matrix. Compute the mean-variance frontier.\n\n\nAssuming a monthly risk-free rate of 0.04/12, calculate the tangency portfolio. Plot the mean-variance frontier, SPY, IEF, and GLD, the tangency portfolio, and the capital allocation line."
   },
   {
     "objectID": "docs/slides4x3.html#prompt-example-3-google-colab",
     "href": "docs/slides4x3.html#prompt-example-3-google-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt Example 3 (Google Colab)",
-    "text": "Prompt Example 3 (Google Colab)\n\n\nUsing the latest version of yfinance, get closing prices for WMT since January 2020. Compute returns as percent changes.\nGet monthly Fama-French factors from French’s data library using pandas datareader. Divide the Fama-French data by 100 to put it in decimal format. Reconcile the date formats of the Fama-French and Yahoo data and merge them.\nCompute excess returns for WMT using RF from the Fama-French data. Regress the excess returns on Mkt-RF. Create a scatter plot with regression line."
+    "text": "Prompt Example 3 (Google Colab)\n\n\nUsing the latest version of yfinance, get closing prices for WMT since January 2020. Compute returns as percent changes.\n\n\nGet monthly Fama-French factors from French’s data library using pandas datareader. Divide the Fama-French data by 100 to put it in decimal format. Reconcile the date formats of the Fama-French and Yahoo data and merge them.\nCompute excess returns for WMT using RF from the Fama-French data. Regress the excess returns on Mkt-RF. Create a scatter plot with regression line."
   },
   {
     "objectID": "docs/slides4x3.html#how-to-grade",
@@ -1082,21 +1082,21 @@
     "href": "docs/slides4x3.html#prompt-example-4-replit",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt example 4 (Replit)",
-    "text": "Prompt example 4 (Replit)\n\nCreate a retirement planning app that allows a user to enter (i) current account balance, (ii) annual savings (constant), (iii) years to retirement, (iv) mean and standard deviation of annual returns.\nSimulate normally distributed annual returns for 1,000 lifetimes and present an analysis, including a density plot of final balances and percentiles. Highlight the mean and median on the density plot."
+    "text": "Prompt example 4 (Replit)\n\nCreate a retirement planning app that allows a user to enter (i) current account balance, (ii) annual savings (constant), (iii) years to retirement, (iv) mean and standard deviation of annual returns.\n\n\nSimulate normally distributed annual returns for 1,000 lifetimes and present an analysis, including a density plot of final balances and percentiles. Highlight the mean and median on the density plot."
   },
   {
     "objectID": "docs/slides4x3.html#prompt-example-5-colab",
     "href": "docs/slides4x3.html#prompt-example-5-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt example 5 (colab)",
-    "text": "Prompt example 5 (colab)\n\nCreate a streamlit app in which the user inputs a ticker, and the app calculates a beta for the stock and produces the scatterplot as done for WMT before and also implements the following:\nMy ngrok access key is stored as a secret key. Use it to deploy the app."
+    "text": "Prompt example 5 (colab)\n\nCreate a streamlit app in which the user inputs a ticker, and the app calculates a beta for the stock and produces the scatterplot as done for WMT before and also implements the following:\n\n\nMy ngrok access key is stored as a secret key. Use it to deploy the app."
   },
   {
     "objectID": "docs/slides4x3.html#prompt-example-6-colab",
     "href": "docs/slides4x3.html#prompt-example-6-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "prompt example 6 (colab)",
-    "text": "prompt example 6 (colab)\n\n\nAdd the following functionality to the streamlit app:\nUse pandas datareader to get the most recent three-month T-bill rate from FRED. Assume a 6% market risk premium. Use the risk-free rate and the estimated beta to compute the cost of equity capital.\nCreate a Word doc containing the scatterplot and a table displaying the cost of capital calculation. Provide a download link. Deploy on ngrok."
+    "text": "prompt example 6 (colab)\n\n\nAdd the following functionality to the streamlit app:\n\n\nUse pandas datareader to get the most recent three-month T-bill rate from FRED. Assume a 6% market risk premium. Use the risk-free rate and the estimated beta to compute the cost of equity capital.\n\n\nCreate a Word doc containing the scatterplot and a table displaying the cost of capital calculation. Provide a download link. Deploy on ngrok."
   },
   {
     "objectID": "docs/slides4x3.html#requirements",
@@ -1110,7 +1110,7 @@
     "href": "docs/slides4x3.html#prompt-example-7-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "prompt example 7 (colab)",
-    "text": "prompt example 7 (colab)\n\n\nAdd the following functionality to the Streamlit app:\nUse my OpenAI API key stored as a secret key. Send the ticker and all elements of the cost of capital calculation to GPT 4.1 and ask for a discussion of the analysis and its meaning.\nInclude the analysis from GPT 4.1 in the Word doc with the scatterplot and cost-of-capital table. Deploy on ngrok."
+    "text": "prompt example 7 (colab)\n\n\nAdd the following functionality to the Streamlit app:\n\n\nUse my OpenAI API key stored as a secret key. Send the ticker and all elements of the cost of capital calculation to GPT 4.1 and ask for a discussion of the analysis and its meaning.\n\n\nInclude the analysis from GPT 4.1 in the Word doc with the scatterplot and cost-of-capital table. Deploy on ngrok."
   },
   {
     "objectID": "docs/slides4x3.html#a-custom-chatbot-is-an-app-consisting-of",
@@ -1138,7 +1138,7 @@
     "href": "docs/slides4x3.html#prompt-example-8-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "prompt example 8 (colab)",
-    "text": "prompt example 8 (colab)\n\nCreate a custom chatbot as a streamlit app. The app should accept a user prompt and display a response.\nUse my OpenAI API key that is stored as a secret key. Route prompts to GPT 4.1.\nFor the system prompt, use “Reply in pig Latin.” Deploy on ngrok."
+    "text": "prompt example 8 (colab)\n\nCreate a custom chatbot as a streamlit app. The app should accept a user prompt and display a response.\n\n\nUse my OpenAI API key that is stored as a secret key. Route prompts to GPT 4.1.\n\n\nFor the system prompt, use “Reply in pig Latin.” Deploy on ngrok."
   },
   {
     "objectID": "docs/slides4x3.html#rag-retrieval-augmented-generation-chatbots",
@@ -1173,7 +1173,7 @@
     "href": "docs/slides4x3.html#why-mba-students-should-learn-about-agents",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Why mba students should learn about agents",
-    "text": "Why mba students should learn about agents\nFortune, 9-14-2025:\n\n\nPromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out $900-per-hour wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).\nTanmai Gopal, PromptQL’s cofounder and CEO, said “MBA types … are very strategic thinkers, and they’re smart people, but they don’t have an intuition for what AI can do.”"
+    "text": "Why mba students should learn about agents\nFortune, 9-14-2025:\n\n\nPromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out $900-per-hour wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).\n\n\nTanmai Gopal, PromptQL’s cofounder and CEO, said “MBA types … are very strategic thinkers, and they’re smart people, but they don’t have an intuition for what AI can do.”"
   },
   {
     "objectID": "docs/slides4x3.html#agent-passes-prompt-from-user-to-llm",

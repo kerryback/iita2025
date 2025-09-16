@@ -210,6 +210,8 @@ Kerry Back<br>Rice University<br>FMA 2025
 <div style="font-size: 0.9em;">
 <div class="quote-box">
 <p>We’ve been developing capabilities powered by Claude since 2023 within AIA Labs.</p>
+</div>
+<div class="quote-box">
 <p>Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.</p>
 </div>
 </div>
@@ -219,7 +221,11 @@ Kerry Back<br>Rice University<br>FMA 2025
 <div style="font-size: 0.9em;">
 <div class="quote-box">
 <p>As AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.</p>
+</div>
+<div class="quote-box">
 <p>As job descriptions evolve, so does the definition of financial talent. <span class="highlight">Excel is no longer a differentiator. Python is fast becoming the new Excel. </span></p>
+</div>
+<div class="quote-box">
 <p>But technical skills alone will not cut it. The <span class="highlight">most in demand profiles today are those that speak both AI and finance</span>, and can move between legal, operational, and data contexts without losing the plot.</p>
 </div>
 </div>
@@ -247,6 +253,8 @@ Kerry Back<br>Rice University<br>FMA 2025
 <h2>Prompt Example 1 (Claude)</h2>
 <div class="quote-box">
 <p>Read the uploaded case. Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.</p>
+</div>
+<div class="quote-box">
 <p>Document your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.</p>
 </div>
 </section>
@@ -255,7 +263,11 @@ Kerry Back<br>Rice University<br>FMA 2025
 <div style="font-size: 0.9em;">
 <div class="quote-box">
 <p>Using the latest version of yfinance, get closing prices for SPY, IEF, and GLD at a monthly frequency since 1990.</p>
+</div>
+<div class="quote-box">
 <p>Compute returns as percent changes. Compute the sample means and covariance matrix. Compute the mean-variance frontier.</p>
+</div>
+<div class="quote-box">
 <p>Assuming a monthly risk-free rate of 0.04/12, calculate the tangency portfolio. Plot the mean-variance frontier, SPY, IEF, and GLD, the tangency portfolio, and the capital allocation line.</p>
 </div>
 </div>
@@ -265,6 +277,8 @@ Kerry Back<br>Rice University<br>FMA 2025
 <div style="font-size: 0.8em;">
 <div class="quote-box">
 <p>Using the latest version of yfinance, get closing prices for WMT since January 2020. Compute returns as percent changes.</p>
+</div>
+<div class="quote-box">
 <p>Get monthly Fama-French factors from French’s data library using pandas datareader. Divide the Fama-French data by 100 to put it in decimal format. Reconcile the date formats of the Fama-French and Yahoo data and merge them.</p>
 <p>Compute excess returns for WMT using RF from the Fama-French data. Regress the excess returns on Mkt-RF. Create a scatter plot with regression line.</p>
 </div>
@@ -361,6 +375,8 @@ Kerry Back<br>Rice University<br>FMA 2025
 <h2>Prompt example 4 (Replit)</h2>
 <div class="quote-box">
 <p>Create a retirement planning app that allows a user to enter (i) current account balance, (ii) annual savings (constant), (iii) years to retirement, (iv) mean and standard deviation of annual returns.</p>
+</div>
+<div class="quote-box">
 <p>Simulate normally distributed annual returns for 1,000 lifetimes and present an analysis, including a density plot of final balances and percentiles. Highlight the mean and median on the density plot.</p>
 </div>
 </section>
@@ -368,6 +384,8 @@ Kerry Back<br>Rice University<br>FMA 2025
 <h2>Prompt example 5 (colab)</h2>
 <div class="quote-box">
 <p>Create a streamlit app in which the user inputs a ticker, and the app calculates a beta for the stock and produces the scatterplot as done for WMT before and also implements the following:</p>
+</div>
+<div class="quote-box">
 <p>My ngrok access key is stored as a secret key. Use it to deploy the app.</p>
 </div>
 </section>
@@ -376,7 +394,11 @@ Kerry Back<br>Rice University<br>FMA 2025
 <div style="font-size: 0.9em;">
 <div class="quote-box">
 <p>Add the following functionality to the streamlit app:</p>
+</div>
+<div class="quote-box">
 <p>Use pandas datareader to get the most recent three-month T-bill rate from FRED. Assume a 6% market risk premium. Use the risk-free rate and the estimated beta to compute the cost of equity capital.</p>
+</div>
+<div class="quote-box">
 <p>Create a Word doc containing the scatterplot and a table displaying the cost of capital calculation. Provide a download link. Deploy on ngrok.</p>
 </div>
 </div>
@@ -398,7 +420,11 @@ Kerry Back<br>Rice University<br>FMA 2025
 <div style="font-size: 0.9em;">
 <div class="quote-box">
 <p>Add the following functionality to the Streamlit app:</p>
+</div>
+<div class="quote-box">
 <p>Use my OpenAI API key stored as a secret key. Send the ticker and all elements of the cost of capital calculation to GPT 4.1 and ask for a discussion of the analysis and its meaning.</p>
+</div>
+<div class="quote-box">
 <p>Include the analysis from GPT 4.1 in the Word doc with the scatterplot and cost-of-capital table. Deploy on ngrok.</p>
 </div>
 </div>
@@ -436,7 +462,11 @@ Kerry Back<br>Rice University<br>FMA 2025
 <h2>prompt example 8 (colab)</h2>
 <div class="quote-box">
 <p>Create a custom chatbot as a streamlit app. The app should accept a user prompt and display a response.</p>
+</div>
+<div class="quote-box">
 <p>Use my OpenAI API key that is stored as a secret key. Route prompts to GPT 4.1.</p>
+</div>
+<div class="quote-box">
 <p>For the system prompt, use “Reply in pig Latin.” Deploy on ngrok.</p>
 </div>
 </section>
@@ -501,6 +531,8 @@ Kerry Back<br>Rice University<br>FMA 2025
 <div style="font-size: 0.9em;">
 <div class="quote-box">
 <p>PromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out <span class="highlight">$900-per-hour</span> wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).</p>
+</div>
+<div class="quote-box">
 <p>Tanmai Gopal, PromptQL’s cofounder and CEO, said “<span class="highlight">MBA types</span> … are very strategic thinkers, and they’re smart people, but they <span class="highlight">don’t have an intuition for what AI can do</span>.”</p>
 </div>
 </div>
