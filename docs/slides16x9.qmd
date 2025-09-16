@@ -53,7 +53,7 @@ Microsoft Excel introduced for Windows in 1987
 ## It's hard to keep up!
 
 ::: {.fragment data-fragment-index="0"}
-::: {style="text-align: center; margin-top: 50px; position: relative; height: 720px;"}
+::: {style="text-align: center; margin-top: 50px; position: relative; height: 400px;"}
 ::: {.fade-out data-fragment-index="1"}
 ![](coyote11.png){style="max-height:400px; width: auto;"}
 :::

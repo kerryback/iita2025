@@ -39,6 +39,10 @@ def create_16x9_version():
             content
         )
 
+    # For 16:9 version, adjust container div heights from 720px to 400px to match images
+    # This prevents scrollbars from appearing
+    content = re.sub(r'height:\s*720px', 'height: 400px', content)
+
     # Write the 16:9 version
     target_file.write_text(content, encoding='utf-8')
     print(f"+ Created {target_file}")
