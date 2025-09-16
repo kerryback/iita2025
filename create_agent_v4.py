@@ -150,11 +150,11 @@ legend_elements = [
     mpatches.Patch(color=color2, label='Step 2: SQL Query'),
     mpatches.Patch(color=color3, label='Step 3: Data Response')
 ]
-ax.legend(handles=legend_elements, loc='upper right', fontsize=30, frameon=True, fancybox=True, shadow=True)
+ax.legend(handles=legend_elements, loc='upper right', fontsize=16, frameon=True, fancybox=True, shadow=True)
 
 # Save the figure
 plt.tight_layout()
-plt.savefig('agent_v4.png', dpi=300, bbox_inches='tight',
+plt.savefig('docs/agent_v4.png', dpi=300, bbox_inches='tight',
             facecolor='lightgray', edgecolor='none')
-print("Diagram created as agent_v4.png")
+print("Diagram created as docs/agent_v4.png")
 plt.close()

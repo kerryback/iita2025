@@ -128,12 +128,12 @@ legend_elements = [
     mpatches.Patch(color=color2, label='Step 2: SQL Query'),
     mpatches.Patch(color=color3, label='Step 3: Data Response')
 ]
-ax.legend(handles=legend_elements, loc='upper right', fontsize=30, frameon=True, fancybox=True, shadow=True)
+ax.legend(handles=legend_elements, loc='upper right', fontsize=16, frameon=True, fancybox=True, shadow=True)
 
 # Save the figure
 plt.tight_layout()
 plt.savefig('agent' \
 '_v2.png', dpi=300, bbox_inches='tight',
             facecolor='lightgray', edgecolor='none')
-print("Second version created as ai_agent_dataflow_matplotlib_v2.png")
+print("Second version created as ai_docs/agent_dataflow_matplotlib_v2.png")
 plt.close()
