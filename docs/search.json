@@ -620,7 +620,7 @@
     "href": "docs/slides16x9.html#demo-claude-code-prompt",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Demo claude code prompt",
-    "text": "Demo claude code prompt\nCreate a LaTeX doc in the article style with Hello World as the title. Compile to pdf.\n\nIt’s even more helpful when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)\nDo this analysis and generate a figure or LaTeX table and insert it into the document … Read this paragraph and suggest improvements … Make these global edits …"
+    "text": "Demo claude code prompt\n\nCreate a LaTeX doc in the article style with Hello World as the title. Compile to pdf.\nIt’s even more helpful when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)\n\n\nDo this analysis and generate a figure or LaTeX table and insert it into the document … Read this paragraph and suggest improvements … Make these global edits …"
   },
   {
     "objectID": "docs/slides16x9.html#final-slide",
@@ -1243,7 +1243,7 @@
     "href": "docs/slides4x3.html#demo-claude-code-prompt",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Demo claude code prompt",
-    "text": "Demo claude code prompt\nCreate a LaTeX doc in the article style with Hello World as the title. Compile to pdf.\n\nIt’s even more helpful when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)\nDo this analysis and generate a figure or LaTeX table and insert it into the document … Read this paragraph and suggest improvements … Make these global edits …"
+    "text": "Demo claude code prompt\n\nCreate a LaTeX doc in the article style with Hello World as the title. Compile to pdf.\nIt’s even more helpful when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)\n\n\nDo this analysis and generate a figure or LaTeX table and insert it into the document … Read this paragraph and suggest improvements … Make these global edits …"
   },
   {
     "objectID": "docs/slides4x3.html#final-slide",
