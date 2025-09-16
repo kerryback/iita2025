@@ -490,12 +490,12 @@ Quarto docs for web pages and html slides
 
 ## Demo claude code prompt
 
-- Create a LaTeX doc in the article style with Hello World as the title.  Compile to pdf.
-- It's even more helpful  when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)
-
 ::: {.quote-box}
-Do this analysis and generate a figure or LaTeX table and insert it into the document ... Read this paragraph and suggest improvements ... Make these global edits ...
+Create a LaTeX doc in the article style with Hello World as the title.  Compile to pdf.
 :::
+
+- It's even more helpful  when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)
+- Do this analysis and generate a figure or LaTeX table and insert it into the document ... Read this paragraph and suggest improvements ... Make these global edits ...
 
 - 
 
