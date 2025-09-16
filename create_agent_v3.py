@@ -138,7 +138,7 @@ legend_elements = [
     mpatches.Patch(color=color2, label='Step 2: SQL Query'),
     mpatches.Patch(color=color3, label='Step 3: Data Response')
 ]
-ax.legend(handles=legend_elements, loc='upper right', fontsize=20, frameon=True, fancybox=True, shadow=True)
+ax.legend(handles=legend_elements, loc='upper right', fontsize=30, frameon=True, fancybox=True, shadow=True)
 
 # Save the figure
 plt.tight_layout()
