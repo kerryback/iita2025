@@ -142,6 +142,20 @@ def copy_assets():
             except Exception as e:
                 print(f"  ! Warning: Could not copy {file_path.name}: {e}")
 
+    # Copy reveal.js dependencies folders
+    deps_folders = ["index_files", "index-16x9_files"]
+    for folder in deps_folders:
+        src_folder = Path(folder)
+        if src_folder.exists():
+            dest_folder = Path("docs") / folder
+            try:
+                if dest_folder.exists():
+                    shutil.rmtree(dest_folder)
+                shutil.copytree(src_folder, dest_folder)
+                print(f"+ Copied {folder}/ directory with reveal.js dependencies")
+            except Exception as e:
+                print(f"  ! Warning: Could not copy {folder}/: {e}")
+
     if copied_files:
         print(f"+ Copied {len(copied_files)} asset files")
     else:

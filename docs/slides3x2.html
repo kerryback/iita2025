@@ -996,71 +996,137 @@ Kerry Back<br>Rice University<br>FMA 2025
     });
     </script>
     <style>
+
     #fireworksCanvas {
+
         position: fixed;
+
         top: 0;
+
         left: 0;
+
         width: 100vw;
+
         height: 100vh;
+
         pointer-events: none;
+
         z-index: 9999;
+
         display: none;
+
     }
+
     </style>
+
+    
 
     <canvas id="fireworksCanvas"></canvas>
 
+    
+
     <script src="fireworks.js"></script>
+
     <script>
+
     // Function to show questions text
+
     function showQuestionsText() {
+
         const questionsText = document.getElementById('questions-text');
+
         if (questionsText) {
+
             questionsText.style.opacity = '1';
+
         }
+
     }
 
+    
+
     // Hide questions text immediately on any slide change
+
     Reveal.on('slidechanged', event => {
+
         const questionsText = document.getElementById('questions-text');
+
         if (questionsText && event.currentSlide.id !== 'final-slide') {
+
             questionsText.style.opacity = '0';
+
         }
+
     });
+
+    
 
     // Trigger fireworks when final slide becomes active
+
     Reveal.on('slidechanged', event => {
+
         if (event.currentSlide.id === 'final-slide') {
+
             const questionsText = document.getElementById('questions-text');
+
             if (questionsText) {
+
                 questionsText.style.opacity = '0';
+
             }
+
             setTimeout(() => {
+
                 startFireworks();
+
                 // Show questions text after fireworks end (5 seconds total)
+
                 setTimeout(showQuestionsText, 5000);
+
             }, 100);
+
         }
+
     });
 
+    
+
     // Also trigger on load if we're already on the final slide
+
     document.addEventListener('DOMContentLoaded', function() {
+
         setTimeout(() => {
+
             if (typeof Reveal !== 'undefined') {
+
                 const currentSlide = Reveal.getCurrentSlide();
+
                 if (currentSlide && currentSlide.id === 'final-slide') {
+
                     const questionsText = document.getElementById('questions-text');
+
                     if (questionsText) {
+
                         questionsText.style.opacity = '0';
+
                     }
+
                     setTimeout(() => {
+
                         startFireworks();
+
                         setTimeout(showQuestionsText, 5000);
+
                     }, 100);
+
                 }
+
             }
+
         }, 500);
+
     });
+
     </script>
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
