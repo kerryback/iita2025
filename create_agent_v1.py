@@ -18,7 +18,7 @@ ax.set_facecolor('lightgray')
 # Node positions
 nodes = {
     'User': (1, 4),
-    'App': (5, 4),
+    'Agent': (5, 4),
     'LLM': (9, 4),
     'DW': (5, 1)
 }
@@ -26,7 +26,7 @@ nodes = {
 # Node colors
 node_colors = {
     'User': 'lightyellow',
-    'App': 'lightgreen',
+    'Agent': 'lightgreen',
     'LLM': 'lightyellow',
     'DW': 'lightyellow'
 }
@@ -46,7 +46,7 @@ for name, (x, y) in nodes.items():
         ax.text(x, y - 0.2, 'Warehouse', ha='center', va='center', fontsize=18, fontweight='bold')
     else:
         # Single-line text for other nodes
-        width = 1.5 if name == 'App' else 1.7
+        width = 1.5 if name == 'Agent' else 1.7
         height = 0.6
         rect = FancyBboxPatch((x - width/2, y - height/2), width, height,
                               boxstyle="round,pad=0.3",
@@ -61,17 +61,17 @@ color1 = '#1E90FF'  # Blue for steps 1 & 2
 color2 = '#32CD32'  # Green for steps 3 & 4
 color3 = '#FF6347'  # Red/Tomato for steps 5 & 6
 
-# Add blue arrows only (User -> App and App -> LLM)
-# User -> App (curved upward blue arrow - negative rad for upward curve)
+# Add blue arrows only (User -> Agent and Agent -> LLM)
+# User -> Agent (curved upward blue arrow - negative rad for upward curve)
 arrow_user_app = FancyArrowPatch((nodes['User'][0] + 1, nodes['User'][1]),
-                                 (nodes['App'][0] - 1.0, nodes['App'][1]),
+                                 (nodes['Agent'][0] - 1.0, nodes['Agent'][1]),
                                  connectionstyle="arc3,rad=-0.4",
                                  arrowstyle='->',
                                  color=color1, linewidth=3.5, mutation_scale=25, zorder=0, alpha=0.6)
 ax.add_patch(arrow_user_app)
 
-# App -> LLM (curved upward blue arrow - negative rad for upward curve)
-arrow_app_llm = FancyArrowPatch((nodes['App'][0] + 1.0, nodes['App'][1]),
+# Agent -> LLM (curved upward blue arrow - negative rad for upward curve)
+arrow_app_llm = FancyArrowPatch((nodes['Agent'][0] + 1.0, nodes['Agent'][1]),
                                 (nodes['LLM'][0] - 1.1, nodes['LLM'][1]),
                                 connectionstyle="arc3,rad=-0.4",
                                 arrowstyle='->',

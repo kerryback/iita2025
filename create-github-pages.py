@@ -60,7 +60,7 @@ def create_16x9_version():
     return True
 
 def render_presentations():
-    """Render both presentation versions with custom output names"""
+    """Render both presentation versions with custom output names directly in docs folder"""
 
     # Define source files and their target names
     render_configs = [
@@ -68,37 +68,49 @@ def render_presentations():
         ("index-16x9.qmd", "slides16x9.html")
     ]
 
+    # Ensure docs folder exists
+    Path("docs").mkdir(exist_ok=True)
+
     for qmd_file, target_name in render_configs:
         if not Path(qmd_file).exists():
             print(f"Warning: {qmd_file} not found, skipping...")
             continue
 
-        print(f"\nRendering {qmd_file} -> {target_name}...")
+        print(f"\nRendering {qmd_file} -> docs/{target_name}...")
         try:
-            # Render to temporary HTML file first
-            temp_html = qmd_file.replace('.qmd', '.html')
+            # Copy qmd file to docs folder temporarily
+            temp_qmd = Path("docs") / qmd_file
+            shutil.copy2(qmd_file, temp_qmd)
 
-            result = subprocess.run(
-                ["quarto", "render", qmd_file],
-                capture_output=True,
-                text=True,
-                check=True
-            )
+            # Change to docs directory and render there
+            original_cwd = Path.cwd()
 
-            # Move rendered file to docs folder with new name
-            docs_path = Path("docs") / target_name
-            if Path(temp_html).exists():
-                shutil.move(temp_html, docs_path)
+            try:
+                import os
+                os.chdir("docs")
+
+                result = subprocess.run(
+                    ["quarto", "render", qmd_file, "--output", target_name],
+                    capture_output=True,
+                    text=True,
+                    check=True
+                )
+
                 print(f"+ Successfully created docs/{target_name}")
-            else:
-                print(f"- Error: {temp_html} was not created")
-                return False
 
-            # Show any warnings
-            if result.stderr and "WARNING" in result.stderr:
-                warnings = [line for line in result.stderr.split('\n') if 'WARNING' in line]
-                for warning in warnings[:3]:  # Show first 3 warnings
-                    print(f"  ! {warning}")
+                # Show any warnings
+                if result.stderr and "WARNING" in result.stderr:
+                    warnings = [line for line in result.stderr.split('\n') if 'WARNING' in line]
+                    for warning in warnings[:3]:  # Show first 3 warnings
+                        print(f"  ! {warning}")
+
+            finally:
+                # Always change back to original directory
+                os.chdir(str(original_cwd))
+
+                # Clean up temporary qmd file
+                if temp_qmd.exists():
+                    temp_qmd.unlink()
 
         except subprocess.CalledProcessError as e:
             print(f"- Error rendering {qmd_file}:")
@@ -142,24 +154,12 @@ def copy_assets():
             except Exception as e:
                 print(f"  ! Warning: Could not copy {file_path.name}: {e}")
 
-    # Copy reveal.js dependencies folders
-    deps_folders = ["index_files", "index-16x9_files"]
-    for folder in deps_folders:
-        src_folder = Path(folder)
-        if src_folder.exists():
-            dest_folder = Path("docs") / folder
-            try:
-                if dest_folder.exists():
-                    shutil.rmtree(dest_folder)
-                shutil.copytree(src_folder, dest_folder)
-                print(f"+ Copied {folder}/ directory with reveal.js dependencies")
-            except Exception as e:
-                print(f"  ! Warning: Could not copy {folder}/: {e}")
-
     if copied_files:
         print(f"+ Copied {len(copied_files)} asset files")
     else:
         print("  No additional assets found to copy")
+
+    # Note: reveal.js dependencies will be created automatically when rendering in docs/
 
     return True
 
@@ -306,14 +306,13 @@ def create_landing_page():
         <div class="subtitle">Kerry Back • Rice University • FMA 2025</div>
 
         <div class="version-grid">
-            <div class="version-card default">
-                <div class="default-badge">RECOMMENDED</div>
+            <div class="version-card">
                 <div class="version-title">Standard Version (3:2)</div>
                 <div class="version-desc">
                     Optimized for traditional projectors and most conference rooms.
                     Best compatibility with older projection systems.
                 </div>
-                <a href="slides3x2.html" class="btn default">View Presentation</a>
+                <a href="slides3x2.html" class="btn">View Presentation</a>
             </div>
 
             <div class="version-card">

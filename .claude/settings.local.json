@@ -12,7 +12,9 @@
       "Bash(start index.html)",
       "Bash(git commit:*)",
       "Bash(git pull:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(start test-local.html)",
+      "Bash(start docs/slides3x2.html)"
     ],
     "deny": [],
     "ask": []

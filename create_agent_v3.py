@@ -18,7 +18,7 @@ ax.set_facecolor('lightgray')
 # Node positions
 nodes = {
     'User': (1, 4),
-    'App': (5, 4),
+    'Agent': (5, 4),
     'LLM': (9, 4),
     'DW': (5, 1)
 }
@@ -26,7 +26,7 @@ nodes = {
 # Node colors
 node_colors = {
     'User': 'lightyellow',
-    'App': 'lightgreen',
+    'Agent': 'lightgreen',
     'LLM': 'lightyellow',
     'DW': 'lightyellow'
 }
@@ -46,7 +46,7 @@ for name, (x, y) in nodes.items():
         ax.text(x, y - 0.2, 'Warehouse', ha='center', va='center', fontsize=18, fontweight='bold')
     else:
         # Single-line text for other nodes
-        width = 1.5 if name == 'App' else 1.7
+        width = 1.5 if name == 'Agent' else 1.7
         height = 0.6
         rect = FancyBboxPatch((x - width/2, y - height/2), width, height,
                               boxstyle="round,pad=0.3",
@@ -90,31 +90,31 @@ def draw_curved_arrow(ax, start, end, color, curve_height=0.5, above=True):
                            zorder=1)
     ax.add_patch(arrow)
 
-# Draw blue arrows (User -> App and App -> LLM)
-# User -> App (curved upward blue arrow - negative rad for upward curve)
+# Draw blue arrows (User -> Agent and Agent -> LLM)
+# User -> Agent (curved upward blue arrow - negative rad for upward curve)
 arrow_user_app = FancyArrowPatch((nodes['User'][0] + 1, nodes['User'][1]),
-                                 (nodes['App'][0] - 1.0, nodes['App'][1]),
+                                 (nodes['Agent'][0] - 1.0, nodes['Agent'][1]),
                                  connectionstyle="arc3,rad=-0.4",
                                  arrowstyle='->',
                                  color=color1, linewidth=3.5, mutation_scale=25, zorder=0, alpha=0.6)
 ax.add_patch(arrow_user_app)
 
-# App -> LLM (curved upward blue arrow - negative rad for upward curve)
-arrow_app_llm = FancyArrowPatch((nodes['App'][0] + 1.0, nodes['App'][1]),
+# Agent -> LLM (curved upward blue arrow - negative rad for upward curve)
+arrow_app_llm = FancyArrowPatch((nodes['Agent'][0] + 1.0, nodes['Agent'][1]),
                                 (nodes['LLM'][0] - 1.1, nodes['LLM'][1]),
                                 connectionstyle="arc3,rad=-0.4",
                                 arrowstyle='->',
                                 color=color1, linewidth=3.5, mutation_scale=25, zorder=0, alpha=0.6)
 ax.add_patch(arrow_app_llm)
 
-# Add green arrows (LLM -> App and App -> DW)
-# LLM -> App (below)
+# Add green arrows (LLM -> Agent and Agent -> DW)
+# LLM -> Agent (below)
 draw_curved_arrow(ax, (nodes['LLM'][0] - 1, nodes['LLM'][1] - 0.2),
-                 (nodes['App'][0] + 0.9, nodes['App'][1] - 0.2),
+                 (nodes['Agent'][0] + 0.9, nodes['Agent'][1] - 0.2),
                  color2, curve_height=0.6, above=False)
 
-# App -> DW (now curves right, was position 5)
-start_4 = (nodes['App'][0] + 0.5, nodes['App'][1] - 0.35)
+# Agent -> DW (now curves right, was position 5)
+start_4 = (nodes['Agent'][0] + 0.5, nodes['Agent'][1] - 0.35)
 end_4 = (nodes['DW'][0] + 0.5, nodes['DW'][1] + 0.4)
 arrow_4 = FancyArrowPatch(start_4, end_4,
                          connectionstyle="arc3,rad=-0.3",
@@ -122,10 +122,10 @@ arrow_4 = FancyArrowPatch(start_4, end_4,
                          color=color2, linewidth=3.5, mutation_scale=25, zorder=1)
 ax.add_patch(arrow_4)
 
-# Add red arrow (DW -> App, but NOT App -> User)
-# DW -> App (now curves left, was position 4)
+# Add red arrow (DW -> Agent, but NOT Agent -> User)
+# DW -> Agent (now curves left, was position 4)
 start_5 = (nodes['DW'][0] - 0.5, nodes['DW'][1] + 0.4)
-end_5 = (nodes['App'][0] - 0.5, nodes['App'][1] - 0.35)
+end_5 = (nodes['Agent'][0] - 0.5, nodes['Agent'][1] - 0.35)
 arrow_5 = FancyArrowPatch(start_5, end_5,
                          connectionstyle="arc3,rad=-0.3",
                          arrowstyle='->',
