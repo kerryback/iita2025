@@ -89,7 +89,7 @@ Microsoft Excel introduced for Windows in 1987
 ::: {style="font-size: 0.9em;"}
 >We've been developing capabilities powered by Claude since 2023 within AIA Labs. 
 
->Claude powered the first versions of our Investment Analyst Assistant, which <span class="highlight">streamlined our analysts' workflow by generating Python code</span>, creating data visualizations, and iterating through <span class="highlight">complex financial analysis tasks with the precision of a junior analyst</span>.
+>Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
 :::
 
 ## Yeyati, Brookings, 2025:
