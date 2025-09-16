@@ -14,7 +14,8 @@
       "Bash(git pull:*)",
       "Bash(git push:*)",
       "Bash(start test-local.html)",
-      "Bash(start docs/slides3x2.html)"
+      "Bash(start docs/slides3x2.html)",
+      "Bash(start docs/test-simple.html)"
     ],
     "deny": [],
     "ask": []

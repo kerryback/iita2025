@@ -62,24 +62,24 @@ def create_16x9_version():
 def render_presentations():
     """Render both presentation versions with custom output names directly in docs folder"""
 
-    # Define source files and their target names
-    render_configs = [
-        ("index.qmd", "slides3x2.html"),
-        ("index-16x9.qmd", "slides16x9.html")
-    ]
-
     # Ensure docs folder exists
     Path("docs").mkdir(exist_ok=True)
+
+    # Define source files and their target names (without .html extension for quarto)
+    render_configs = [
+        ("index.qmd", "slides3x2"),
+        ("index-16x9.qmd", "slides16x9")
+    ]
 
     for qmd_file, target_name in render_configs:
         if not Path(qmd_file).exists():
             print(f"Warning: {qmd_file} not found, skipping...")
             continue
 
-        print(f"\nRendering {qmd_file} -> docs/{target_name}...")
+        print(f"\nRendering {qmd_file} -> docs/{target_name}.html...")
         try:
-            # Copy qmd file to docs folder temporarily
-            temp_qmd = Path("docs") / qmd_file
+            # Create a temporary qmd file with the target name in docs folder
+            temp_qmd = Path("docs") / f"{target_name}.qmd"
             shutil.copy2(qmd_file, temp_qmd)
 
             # Change to docs directory and render there
@@ -90,13 +90,13 @@ def render_presentations():
                 os.chdir("docs")
 
                 result = subprocess.run(
-                    ["quarto", "render", qmd_file, "--output", target_name],
+                    ["quarto", "render", f"{target_name}.qmd"],
                     capture_output=True,
                     text=True,
                     check=True
                 )
 
-                print(f"+ Successfully created docs/{target_name}")
+                print(f"+ Successfully created docs/{target_name}.html")
 
                 # Show any warnings
                 if result.stderr and "WARNING" in result.stderr:
