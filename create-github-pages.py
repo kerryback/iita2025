@@ -28,8 +28,8 @@ def create_16x9_version():
     # Look for existing width/height settings and update them
     if 'width:' in content and 'height:' in content:
         # Replace existing dimensions
-        content = re.sub(r'width:\s*\d+', 'width: 1280', content)
-        content = re.sub(r'height:\s*\d+', 'height: 720', content)
+        content = re.sub(r'width:\s*\d+', 'width: auto', content)
+        content = re.sub(r'height:\s*\d+', 'height: 300px', content)
     else:
         # Add dimensions after revealjs: line
         content = re.sub(
