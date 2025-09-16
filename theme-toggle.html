@@ -1,0 +1,145 @@
+<style>
+.theme-toggle-footer {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 1000;
+}
+
+.theme-toggle-btn {
+  background: rgba(0, 0, 0, 0.3);
+  color: #ffd700;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+
+.theme-toggle-btn.light-mode {
+  background: rgba(255, 255, 255, 0.8);
+  color: #ff8c00;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle-btn.light-mode:hover {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Global highlight styles that adapt to theme */
+.highlight {
+  color: #FFB6C1;
+  font-weight: bold;
+}
+
+/* Light mode override styles */
+html.light-theme,
+body.light-theme {
+  background-color: #f7f3d3 !important;
+  color: #333 !important;
+}
+
+body.light-theme .reveal {
+  background: #f7f3d3 !important;
+  background-color: #f7f3d3 !important;
+  color: #333 !important;
+}
+
+body.light-theme .reveal .slides {
+  background-color: #f7f3d3 !important;
+}
+
+body.light-theme .reveal .slides section {
+  background: #f7f3d3 !important;
+  background-color: #f7f3d3 !important;
+  color: #333 !important;
+}
+
+body.light-theme .reveal .slides section:before,
+body.light-theme .reveal .slides section:after {
+  background: #f7f3d3 !important;
+}
+
+body.light-theme .reveal .backgrounds {
+  background-color: #f7f3d3 !important;
+}
+
+body.light-theme .reveal .backgrounds .slide-background {
+  background-color: #f7f3d3 !important;
+}
+
+body.light-theme .reveal h1,
+body.light-theme .reveal h2,
+body.light-theme .reveal h3,
+body.light-theme .reveal h4,
+body.light-theme .reveal h5,
+body.light-theme .reveal h6 {
+  color: #8b4513 !important;
+}
+
+body.light-theme .highlight {
+  color: tomato !important;
+  font-weight: bold;
+}
+
+body.light-theme blockquote {
+  background: rgba(0, 0, 0, 0.05) !important;
+  border-left: 4px solid #8b4513 !important;
+  color: #333 !important;
+  margin: 0 !important;
+  padding: 1em !important;
+}
+
+/* Ensure blockquotes don't interfere with full page background */
+blockquote {
+  background: transparent !important;
+}
+</style>
+
+<div class="theme-toggle-footer">
+  <button class="theme-toggle-btn" onclick="toggleTheme()" title="Toggle theme">☀️</button>
+</div>
+
+<script>
+let currentTheme = 'dark';
+
+function toggleTheme() {
+  const toggleBtn = document.querySelector('.theme-toggle-btn');
+  
+  if (currentTheme === 'dark') {
+    // Switch to light theme
+    toggleBtn.classList.add('light-mode');
+    toggleBtn.innerHTML = '🌙';
+    document.documentElement.classList.add('light-theme');
+    document.body.classList.add('light-theme');
+    currentTheme = 'light';
+    localStorage.setItem('selectedTheme', 'light');
+  } else {
+    // Switch to dark theme
+    toggleBtn.classList.remove('light-mode');
+    toggleBtn.innerHTML = '☀️';
+    document.documentElement.classList.remove('light-theme');
+    document.body.classList.remove('light-theme');
+    currentTheme = 'dark';
+    localStorage.setItem('selectedTheme', 'dark');
+  }
+}
+
+// Load saved theme preference on page load
+document.addEventListener('DOMContentLoaded', function() {
+  const savedTheme = localStorage.getItem('selectedTheme');
+  if (savedTheme === 'light') {
+    toggleTheme();
+  }
+});
+</script>
