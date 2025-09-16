@@ -87,19 +87,23 @@ Microsoft Excel introduced for Windows in 1987
 ## Aaron Linsky, CTO, AIA Labs at Bridgewater:
 
 ::: {style="font-size: 0.9em;"}
->We've been developing capabilities powered by Claude since 2023 within AIA Labs. 
+::: {.quote-box}
+We've been developing capabilities powered by Claude since 2023 within AIA Labs.
 
->Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
+Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
+:::
 :::
 
 ## Yeyati, Brookings, 2025:
 
 ::: {style="font-size: 0.9em;"}
-> As AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.
+::: {.quote-box}
+As AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.
 
-> As job descriptions evolve, so does the definition of financial talent. <span class="highlight">Excel is no longer a differentiator. Python is fast becoming the new Excel. </span>
+As job descriptions evolve, so does the definition of financial talent. <span class="highlight">Excel is no longer a differentiator. Python is fast becoming the new Excel. </span>
 
->But technical skills alone will not cut it. The <span class="highlight">most in demand profiles today are those that speak both AI and finance</span>, and can move between legal, operational, and data contexts without losing the plot.
+But technical skills alone will not cut it. The <span class="highlight">most in demand profiles today are those that speak both AI and finance</span>, and can move between legal, operational, and data contexts without losing the plot.
+:::
 :::
 
 
@@ -123,29 +127,35 @@ Microsoft Excel introduced for Windows in 1987
 
 ## Prompt Example 1 (Claude)
 
->Read the uploaded case.  Ignore the valuation method described in the case.  Instead, generate pro forma statements and perform a two-stage DCF analysis.  
+::: {.quote-box}
+Read the uploaded case.  Ignore the valuation method described in the case.  Instead, generate pro forma statements and perform a two-stage DCF analysis.
 
->Document your assumptions and your reasons for them.  Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.  
+Document your assumptions and your reasons for them.  Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.
+:::
 
 
 ## Prompt Example 2 (Julius)
 
 ::: {style="font-size: 0.9em;"}
->Using the latest version of yfinance, get closing prices for SPY, IEF, and GLD at a monthly frequency since 1990.  
+::: {.quote-box}
+Using the latest version of yfinance, get closing prices for SPY, IEF, and GLD at a monthly frequency since 1990.
 
->Compute returns as percent changes.  Compute the sample means and covariance matrix.  Compute the mean-variance frontier.  
+Compute returns as percent changes.  Compute the sample means and covariance matrix.  Compute the mean-variance frontier.
 
->Assuming a monthly risk-free rate of 0.04/12, calculate the tangency portfolio.  Plot the mean-variance frontier, SPY, IEF, and GLD, the tangency portfolio, and the capital allocation line.
+Assuming a monthly risk-free rate of 0.04/12, calculate the tangency portfolio.  Plot the mean-variance frontier, SPY, IEF, and GLD, the tangency portfolio, and the capital allocation line.
+:::
 :::
 
 ## Prompt Example 3 (Google Colab)
 
 ::: {style="font-size: 0.8em;"}
->Using the latest version of yfinance, get closing prices for WMT since January 2020.  Compute returns as percent changes.  
+::: {.quote-box}
+Using the latest version of yfinance, get closing prices for WMT since January 2020.  Compute returns as percent changes.
 
->Get monthly Fama-French factors from French's data library using pandas datareader.  Divide the Fama-French data by 100 to put it in decimal format.  Reconcile the date formats of the Fama-French and Yahoo data and merge them.
+Get monthly Fama-French factors from French's data library using pandas datareader.  Divide the Fama-French data by 100 to put it in decimal format.  Reconcile the date formats of the Fama-French and Yahoo data and merge them.
 
->Compute excess returns for WMT using RF from the Fama-French data.  Regress the excess returns on Mkt-RF.  Create a scatter plot with regression line.  
+Compute excess returns for WMT using RF from the Fama-French data.  Regress the excess returns on Mkt-RF.  Create a scatter plot with regression line.
+:::
 :::
 
 ## How to grade?
@@ -156,20 +166,26 @@ Microsoft Excel introduced for Windows in 1987
 
 ## MIT/Media Labs State of AI in Business 2025
 
->Workers from over 90% of the companies we surveyed reported regular use of 
+::: {.quote-box}
+Workers from over 90% of the companies we surveyed reported regular use of
 personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.
+:::
 
 # teaching ai 
 
 ## Tools vs Concepts 
 
->We use tools to teach concepts
+::: {.quote-box}
+We use tools to teach concepts
+:::
 
 - It's easier to explain NPV in a spreadsheet than with words alone 
 - It's easier to explain AI-assisted financial analysis using AI tools than with words alone
 
 
->But we can't just teach tools: tomorrow's AI tools will be different from today's.
+::: {.quote-box}
+But we can't just teach tools: tomorrow's AI tools will be different from today's.
+:::
 
 ## An overview case
 
@@ -203,7 +219,9 @@ In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman st
 
 :::: {.columns style="display: flex; align-items: center;"}
 ::: {.column style="width: 1280%; display: flex; align-items: center;"}
->for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI.
+::: {.quote-box}
+for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI.
+:::
 :::
 ::: {.column style="width: 1280%; display: flex; align-items: center; justify-content: center;"}
 ::: {.fragment}
@@ -216,7 +234,9 @@ In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman st
 
 ## 
 
->Apps automate routine tasks
+::: {.quote-box}
+Apps automate routine tasks
+:::
 
 Browser-based apps can be deployed:
 
@@ -227,26 +247,32 @@ Browser-based apps can be deployed:
 
 ## Prompt example 4 (Replit)
 
->Create a retirement planning app that allows a user to enter (i) current account balance, (ii) annual savings (constant), (iii) years to retirement, (iv) mean and standard deviation of annual returns.
+::: {.quote-box}
+Create a retirement planning app that allows a user to enter (i) current account balance, (ii) annual savings (constant), (iii) years to retirement, (iv) mean and standard deviation of annual returns.
 
->Simulate normally distributed annual returns for 1,000 lifetimes and present an analysis, including a density plot of final balances and percentiles.  Highlight the mean and median on the density plot.
+Simulate normally distributed annual returns for 1,000 lifetimes and present an analysis, including a density plot of final balances and percentiles.  Highlight the mean and median on the density plot.
+:::
 
 ## Prompt example 5 (colab)
 
->Create a streamlit app in which the user inputs a ticker, and the app calculates a beta for the stock and produces the scatterplot as done for WMT before and also implements the following:
+::: {.quote-box}
+Create a streamlit app in which the user inputs a ticker, and the app calculates a beta for the stock and produces the scatterplot as done for WMT before and also implements the following:
 
->My ngrok access key is stored as a secret key.  Use it to deploy the app.
+My ngrok access key is stored as a secret key.  Use it to deploy the app.
+:::
 
 
 ## prompt example 6 (colab)
 
 
 ::: {style="font-size: 0.9em;"}
-> Add the following functionality to the streamlit app:
+::: {.quote-box}
+Add the following functionality to the streamlit app:
 
-> Use pandas datareader to get the most recent three-month T-bill rate from FRED. Assume a 6% market risk premium.  Use the risk-free rate and the estimated beta to compute the cost of equity capital.
+Use pandas datareader to get the most recent three-month T-bill rate from FRED. Assume a 6% market risk premium.  Use the risk-free rate and the estimated beta to compute the cost of equity capital.
 
->Create a Word doc containing the scatterplot and a table displaying the cost of capital calculation.  Provide a download link. Deploy on ngrok.
+Create a Word doc containing the scatterplot and a table displaying the cost of capital calculation.  Provide a download link. Deploy on ngrok.
+:::
 :::
 
 # AI-Enabled Apps
@@ -259,11 +285,13 @@ Browser-based apps can be deployed:
 ## prompt example 7 (colab)
 
 ::: {style="font-size: 0.9em;"}
->Add the following functionality to the Streamlit app:
+::: {.quote-box}
+Add the following functionality to the Streamlit app:
 
->Use my OpenAI API key stored as a secret key. Send the ticker and all elements of the cost of capital calculation to GPT 4.1 and ask for a discussion of the analysis and its meaning.
+Use my OpenAI API key stored as a secret key. Send the ticker and all elements of the cost of capital calculation to GPT 4.1 and ask for a discussion of the analysis and its meaning.
 
->Include the analysis from GPT 4.1 in the Word doc with the scatterplot and cost-of-capital table. Deploy on ngrok.
+Include the analysis from GPT 4.1 in the Word doc with the scatterplot and cost-of-capital table. Deploy on ngrok.
+:::
 :::
 
 # Custom Chatbots
@@ -281,7 +309,9 @@ Browser-based apps can be deployed:
 - The simplest custom chatbot is an app that passes messages back and forth between a user and an LLM.
 - The basic element that makes it a 'custom chatbot' is its system prompt.
 
->A system prompt is text that is sent to the LLM along with each user prompt. It contains information and instructions for the LLM.
+::: {.quote-box}
+A system prompt is text that is sent to the LLM along with each user prompt. It contains information and instructions for the LLM.
+:::
 
 ## Custom Chatbot structure
 
@@ -289,11 +319,13 @@ Browser-based apps can be deployed:
 
 ## prompt example 8 (colab)
 
->Create a custom chatbot as a streamlit app.  The app should accept a user prompt and display a response.
+::: {.quote-box}
+Create a custom chatbot as a streamlit app.  The app should accept a user prompt and display a response.
 
->Use my OpenAI API key that is stored as a secret key.  Route prompts to GPT 4.1.
+Use my OpenAI API key that is stored as a secret key.  Route prompts to GPT 4.1.
 
->For the system prompt, use "Reply in pig Latin."  Deploy on ngrok.
+For the system prompt, use "Reply in pig Latin."  Deploy on ngrok.
+:::
 
 ## RAG (Retrieval Augmented Generation) chatbots 
 
@@ -349,9 +381,11 @@ Fortune, 9-14-2025:
 
 ::: {style="font-size: 0.9em;"}
 
->PromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out <span class="highlight">$900-per-hour</span> wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).
+::: {.quote-box}
+PromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out <span class="highlight">$900-per-hour</span> wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).
 
->Tanmai Gopal, PromptQL’s cofounder and CEO, said "<span class="highlight">MBA types</span> ... are very strategic thinkers, and they're smart people, but they <span class="highlight">don’t have an intuition for what AI can do</span>."
+Tanmai Gopal, PromptQL's cofounder and CEO, said "<span class="highlight">MBA types</span> ... are very strategic thinkers, and they're smart people, but they <span class="highlight">don't have an intuition for what AI can do</span>."
+:::
 :::
 
 # Structure of Database Agents
@@ -445,7 +479,9 @@ Quarto docs for web pages and html slides
 
 Create a LaTeX doc in the article style with Hello World as the title.  Compile to pdf.
 
->It's even more helpful  when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)
+::: {.quote-box}
+It's even more helpful  when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)
+:::
 
 Do this analysis and generate a figure or LaTeX table and insert it into the document ... Read this paragraph and suggest improvements ... Make these global edits ...
 
