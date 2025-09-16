@@ -1,0 +1,10 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "FMA 2025 AI Presentation"
+
+format:
+  html:
+    theme: default
