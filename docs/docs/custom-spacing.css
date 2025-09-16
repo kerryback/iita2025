@@ -104,10 +104,10 @@ body.light-theme .reveal .slides section > *:last-child {
   margin-bottom: 0 !important;
 }
 
-/* Dark mode - subtle light background */
+/* Dark mode - slightly lighter background than main */
 [data-theme="dark"] .reveal .quote-box {
-  background: rgba(255, 255, 255, 0.08);
-  border-left: 4px solid #666;
+  background: rgba(255, 255, 255, 0.12);
+  border-left: 4px solid #777;
   padding: 10px 20px;
   color: inherit;
 }
