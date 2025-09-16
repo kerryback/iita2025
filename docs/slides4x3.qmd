@@ -497,8 +497,6 @@ Create a LaTeX doc in the article style with Hello World as the title.  Compile 
 - It's even more helpful  when used in VS Code etc. (which are full-featured LaTeX/Python IDEs)
 - Do this analysis and generate a figure or LaTeX table and insert it into the document ... Read this paragraph and suggest improvements ... Make these global edits ...
 
-- 
-
 ## {#final-slide}
 
 ::: {#questions-text style="text-align: center; font-size: 4em; font-weight: bold; color: #00FFFF; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); opacity: 0; transition: opacity 2s ease-in-out; margin-top: 200px;"}
