@@ -46,20 +46,20 @@ Microsoft Excel introduced for Windows in 1987
 
 ::: {.fragment}
 ::: {style="text-align: center; margin-top: 50px;"}
-![](ducks-sinking.png){style="max-height: 500px; width: auto;"}
+![](ducks-sinking.png){style="max-height: 400px; width: auto;"}
 :::
 :::
 
 ## It's hard to keep up!
 
 ::: {.fragment data-fragment-index="0"}
-::: {style="text-align: center; margin-top: 50px; position: relative; height: 600px;"}
+::: {style="text-align: center; margin-top: 50px; position: relative; height: 500px;"}
 ::: {.fade-out data-fragment-index="1"}
-![](coyote11.png){style="max-height:500px; width: auto;"}
+![](coyote11.png){style="max-height:400px; width: auto;"}
 :::
 
 ::: {.fragment .fade-in data-fragment-index="1" style="position: absolute; top: 0; left: 0; right: 0; margin-top: 0;"}
-![](coyote21.png){style="max-height: 500px; width: auto;"}
+![](coyote21.png){style="max-height: 400px; width: auto;"}
 :::
 :::
 :::
@@ -151,9 +151,14 @@ Microsoft Excel introduced for Windows in 1987
 
 ## How to grade?
 
-- We must graduate students who can prompt chatbots and who can evaluate and refine the work of chatbots.
+- Our graduates must be able to prompt chatbots and evaluate and refine the work of chatbots.
 - Replace "turn in an Excel workbook" with "turn in a chat, what was produced by the chat, and your evaluation of the product."
 - Assign what used to be a group project as an in-class exam with AI assistance allowed.
+
+## MIT/Media Labs State of AI in Business 2025
+
+>Workers from over 90% of the companies we surveyed reported regular use of 
+personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.
 
 # teaching ai 
 
@@ -180,7 +185,7 @@ Microsoft Excel introduced for Windows in 1987
 
 :::: {.columns}
 ::: {.column width="70%"}
-![](ai_learning_progression_with_prompt.png)
+![](ai_learning_progression_with_prompt.png){style="max-height: 400px; width: auto;"}
 :::
 
 ::: {.column width="30%"}
@@ -198,10 +203,10 @@ Microsoft Excel introduced for Windows in 1987
 In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that 
 
 :::: {.columns style="display: flex; align-items: center;"}
-::: {.column width="40%" style="display: flex; align-items: center;"}
+::: {.column style="width: 40%; display: flex; align-items: center;"}
 >for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI.
 :::
-::: {.column width="60%" style="display: flex; align-items: center; justify-content: center;"}
+::: {.column style="width: 60%; display: flex; align-items: center; justify-content: center;"}
 ::: {.fragment}
 ![](bugs-bunny.png){style="max-height: 400px; width: auto;"}
 :::
@@ -281,7 +286,7 @@ Browser-based apps can be deployed:
 
 ## Custom Chatbot structure
 
-![](chatbot.png)
+![](chatbot.png){style="max-height: 400px; width: auto;"}
 
 ## prompt example 8 (colab)
 
@@ -356,7 +361,7 @@ Fortune, 9-14-2025:
 
 :::: {.columns}
 ::: {.column width="80%"}
-![](agent_v1.png)
+![](agent_v1.png){style="max-height: 400px; width: auto;"}
 :::
 
 ::: {.column width="20%"}
@@ -368,13 +373,19 @@ May require chatting at this stage to clarify user's request
 
 ## agent passes SQL from LLM to data warehouse
 
-![](agent_v2.png)
+:::: {.columns}
+::: {.column width="80%"}
+![](agent_v2.png){style="max-height: 400px; width: auto;"}
+:::
+::: {.column width="20%"}
+:::
+::::
 
 ## Data Warehouse passes response to agent
 
 :::: {.columns}
 ::: {.column width="80%"}
-![](agent_v3.png)
+![](agent_v3.png){style="max-height: 400px; width: auto;"}
 :::
 
 ::: {.column width="20%"}
@@ -388,7 +399,13 @@ If so, agent should send to LLM for new SQL code
 
 ## agent passes data from warehouse to user
 
-![](agent_v4.png)
+:::: {.columns}
+::: {.column width="80%"}
+![](agent_v4.png){style="max-height: 400px; width: auto;"}
+:::
+::: {.column width="20%"}
+:::
+::::
 
 # Adding Functionality 
 

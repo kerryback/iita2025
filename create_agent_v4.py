@@ -79,7 +79,10 @@ def draw_curved_arrow(ax, start, end, color, curve_height=0.5, above=True):
     # Create curved arrow using FancyArrowPatch with connectionstyle
     # Note: For horizontal arrows, negative rad curves upward, positive curves downward
     if abs(x1 - x2) > abs(y1 - y2):  # Horizontal arrow
-        connectionstyle = f"arc3,rad={-0.3 if above else 0.3}"  # Fixed: negative for upward
+        if x1 < x2:  # Left to right
+            connectionstyle = f"arc3,rad={-0.4 if above else 0.4}"
+        else:  # Right to left
+            connectionstyle = f"arc3,rad={0.4 if above else -0.4}"
     else:  # Vertical arrow
         connectionstyle = f"arc3,rad={0.3 if curve_height > 0 else -0.3}"
 
@@ -95,13 +98,13 @@ def draw_curved_arrow(ax, start, end, color, curve_height=0.5, above=True):
 
 
 # 3. LLM -> Agent (below)
-draw_curved_arrow(ax, (nodes['LLM'][0] - 1, nodes['LLM'][1] - 0.2),
-                 (nodes['Agent'][0] + 0.9, nodes['Agent'][1] - 0.2),
-                 color2, curve_height=0.6, above=False)
+draw_curved_arrow(ax, (nodes['LLM'][0] - 1.1, nodes['LLM'][1] - 0.2),
+                 (nodes['Agent'][0] + 1, nodes['Agent'][1] - 0.2),
+                 color2, curve_height=0.5, above=False)
 
 # 4. Agent -> DW (now curves right, was position 5)
-start_4 = (nodes['Agent'][0] + 0.5, nodes['Agent'][1] - 0.35)
-end_4 = (nodes['DW'][0] + 0.5, nodes['DW'][1] + 0.4)
+start_4 = (nodes['Agent'][0] + 0.5, nodes['Agent'][1] - 0.55)
+end_4 = (nodes['DW'][0] + 0.5, nodes['DW'][1] + 0.6)
 arrow_4 = FancyArrowPatch(start_4, end_4,
                          connectionstyle="arc3,rad=-0.3",
                          arrowstyle='->',
@@ -109,8 +112,8 @@ arrow_4 = FancyArrowPatch(start_4, end_4,
 ax.add_patch(arrow_4)
 
 # 5. DW -> Agent (now curves left, was position 4)
-start_5 = (nodes['DW'][0] - 0.5, nodes['DW'][1] + 0.4)
-end_5 = (nodes['Agent'][0] - 0.5, nodes['Agent'][1] - 0.35)
+start_5 = (nodes['DW'][0] - 0.5, nodes['DW'][1] + 0.65)
+end_5 = (nodes['Agent'][0] - 0.5, nodes['Agent'][1] - 0.5)
 arrow_5 = FancyArrowPatch(start_5, end_5,
                          connectionstyle="arc3,rad=-0.3",
                          arrowstyle='->',
@@ -118,8 +121,8 @@ arrow_5 = FancyArrowPatch(start_5, end_5,
 ax.add_patch(arrow_5)
 
 # 6. Agent -> User (below)
-draw_curved_arrow(ax, (nodes['Agent'][0] - 0.9, nodes['Agent'][1] - 0.2),
-                 (nodes['User'][0] + 1, nodes['User'][1] - 0.2),
+draw_curved_arrow(ax, (nodes['Agent'][0] - 1, nodes['Agent'][1] - 0.2),
+                 (nodes['User'][0] + 1.1, nodes['User'][1] - 0.2),
                  color3, curve_height=0.5, above=False)
 
 # Draw blue arrows (User -> Agent and Agent -> LLM)
@@ -151,8 +154,7 @@ ax.legend(handles=legend_elements, loc='upper right', fontsize=10, frameon=True,
 
 # Save the figure
 plt.tight_layout()
-plt.savefig('agent_v4'
-'.png', dpi=300, bbox_inches='tight',
+plt.savefig('agent_v4.png', dpi=300, bbox_inches='tight',
             facecolor='lightgray', edgecolor='none')
-print("Diagram created as ai_agent_dataflow_matplotlib.png")
+print("Diagram created as agent_v4.png")
 plt.close()

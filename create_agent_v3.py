@@ -109,13 +109,13 @@ ax.add_patch(arrow_app_llm)
 
 # Add green arrows (LLM -> Agent and Agent -> DW)
 # LLM -> Agent (below)
-draw_curved_arrow(ax, (nodes['LLM'][0] - 1, nodes['LLM'][1] - 0.2),
-                 (nodes['Agent'][0] + 0.9, nodes['Agent'][1] - 0.2),
-                 color2, curve_height=0.6, above=False)
+draw_curved_arrow(ax, (nodes['LLM'][0] - 1.1, nodes['LLM'][1] - 0.2),
+                 (nodes['Agent'][0] + 1, nodes['Agent'][1] - 0.2),
+                 color2, curve_height=0.5, above=False)
 
 # Agent -> DW (now curves right, was position 5)
-start_4 = (nodes['Agent'][0] + 0.5, nodes['Agent'][1] - 0.35)
-end_4 = (nodes['DW'][0] + 0.5, nodes['DW'][1] + 0.4)
+start_4 = (nodes['Agent'][0] + 0.5, nodes['Agent'][1] - 0.55)
+end_4 = (nodes['DW'][0] + 0.5, nodes['DW'][1] + 0.6)
 arrow_4 = FancyArrowPatch(start_4, end_4,
                          connectionstyle="arc3,rad=-0.3",
                          arrowstyle='->',
@@ -124,8 +124,8 @@ ax.add_patch(arrow_4)
 
 # Add red arrow (DW -> Agent, but NOT Agent -> User)
 # DW -> Agent (now curves left, was position 4)
-start_5 = (nodes['DW'][0] - 0.5, nodes['DW'][1] + 0.4)
-end_5 = (nodes['Agent'][0] - 0.5, nodes['Agent'][1] - 0.35)
+start_5 = (nodes['DW'][0] - 0.5, nodes['DW'][1] + 0.65)
+end_5 = (nodes['Agent'][0] - 0.5, nodes['Agent'][1] - 0.5)
 arrow_5 = FancyArrowPatch(start_5, end_5,
                          connectionstyle="arc3,rad=-0.3",
                          arrowstyle='->',
@@ -144,5 +144,5 @@ ax.legend(handles=legend_elements, loc='upper right', fontsize=10, frameon=True,
 plt.tight_layout()
 plt.savefig('agent_v3.png', dpi=300, bbox_inches='tight',
             facecolor='lightgray', edgecolor='none')
-print("Third version created as ai_agent_dataflow_matplotlib_v3.png")
+print("Third version created as agent_v3.png")
 plt.close()
