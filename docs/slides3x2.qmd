@@ -360,11 +360,11 @@ Fortune, 9-14-2025:
 ## agent passes prompt from user to LLM
 
 :::: {.columns}
-::: {.column width="80%"}
+::: {.column width="70%"}
 ![](agent_v1.png){style="max-height: 400px; width: auto;"}
 :::
 
-::: {.column width="20%"}
+::: {.column width="30%"}
 ::: {style="font-size: 0.9em;"}
 May require chatting at this stage to clarify user's request
 :::
@@ -374,21 +374,21 @@ May require chatting at this stage to clarify user's request
 ## agent passes SQL from LLM to data warehouse
 
 :::: {.columns}
-::: {.column width="80%"}
+::: {.column width="70%"}
 ![](agent_v2.png){style="max-height: 400px; width: auto;"}
 :::
-::: {.column width="20%"}
+::: {.column width="30%"}
 :::
 ::::
 
 ## Data Warehouse passes response to agent
 
 :::: {.columns}
-::: {.column width="80%"}
+::: {.column width="70%"}
 ![](agent_v3.png){style="max-height: 400px; width: auto;"}
 :::
 
-::: {.column width="20%"}
+::: {.column width="30%"}
 ::: {style="font-size: 0.9em;"}
 Response could be error message 
 
@@ -400,10 +400,10 @@ If so, agent should send to LLM for new SQL code
 ## agent passes data from warehouse to user
 
 :::: {.columns}
-::: {.column width="80%"}
+::: {.column width="70%"}
 ![](agent_v4.png){style="max-height: 400px; width: auto;"}
 :::
-::: {.column width="20%"}
+::: {.column width="30%"}
 :::
 ::::
 
