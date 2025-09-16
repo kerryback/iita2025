@@ -599,7 +599,7 @@
     "href": "docs/slides16x9.html#claude-code",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Claude Code",
-    "text": "Claude Code\n\nProbably not for students, but for research and teaching prep\nUses standard Anthropic models, but must have great system prompt\nRuns in terminal or can use as chat assistant in VS Code, Cursor, or Windsurf."
+    "text": "Claude Code\n\nProbably not for students, but for research and teaching prep\nUses standard Anthropic models, but seems to have a great system prompt\nRuns in terminal or can use as chat assistant in VS Code, Cursor, or Windsurf."
   },
   {
     "objectID": "docs/slides16x9.html#claude-code-capabilities",
@@ -1222,7 +1222,7 @@
     "href": "docs/slides4x3.html#claude-code",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Claude Code",
-    "text": "Claude Code\n\nProbably not for students, but for research and teaching prep\nUses standard Anthropic models, but must have great system prompt\nRuns in terminal or can use as chat assistant in VS Code, Cursor, or Windsurf."
+    "text": "Claude Code\n\nProbably not for students, but for research and teaching prep\nUses standard Anthropic models, but seems to have a great system prompt\nRuns in terminal or can use as chat assistant in VS Code, Cursor, or Windsurf."
   },
   {
     "objectID": "docs/slides4x3.html#claude-code-capabilities",

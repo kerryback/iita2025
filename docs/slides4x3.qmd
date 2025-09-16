@@ -123,7 +123,7 @@ But technical skills alone will not cut it. The <span class="highlight">most in 
 ## Live demos are risky
 
 ::: {.fragment}
-::: {style="font-size: 0.8em;"}
+::: {style="font-size: 0.9em;"}
 I want to set expectations before trying them.  Mine may fail, but they won't be the worst ever.
 :::
 :::
@@ -477,7 +477,7 @@ If so, agent should send to LLM for new SQL code
 ## Claude Code
 
 - Probably not for students, but for research and teaching prep
-- Uses standard Anthropic models, but must have great system prompt 
+- Uses standard Anthropic models, but seems to have a great system prompt 
 - Runs in terminal or can use as chat assistant in VS Code, Cursor, or Windsurf.
 
 ## Claude Code capabilities
