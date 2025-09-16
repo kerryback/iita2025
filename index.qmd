@@ -16,17 +16,11 @@ Select the version that matches your projector's aspect ratio for the best viewi
 ::: {.version-card}
 ### Standard Version (4:3)
 
-Optimized for traditional projectors and most conference rooms.
-Best compatibility with older projection systems.
-
 [View Presentation](docs/slides4x3.html){.btn}
 :::
 
 ::: {.version-card}
 ### Widescreen Version (16:9)
-
-Perfect for modern widescreen projectors and displays.
-Enhanced viewing experience on newer systems.
 
 [View Presentation](docs/slides16x9.html){.btn}
 :::
