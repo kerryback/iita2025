@@ -10,7 +10,8 @@
       "Bash(gh repo create:*)",
       "Bash(curl:*)",
       "Bash(start index.html)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git pull:*)"
     ],
     "deny": [],
     "ask": []
