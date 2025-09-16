@@ -1,16 +1,19 @@
-/* Reduce paragraph spacing in light mode to match dark mode */
+/* Reduce paragraph spacing and tighten line height */
 .reveal p {
   margin-bottom: 0.5em !important;
   margin-top: 0 !important;
+  line-height: 1.4 !important;
 }
 
 .reveal ul, .reveal ol {
   margin-bottom: 0.5em !important;
   margin-top: 0.5em !important;
+  line-height: 1.4 !important;
 }
 
 .reveal li {
   margin-bottom: 0.3em !important;
+  line-height: 1.4 !important;
 }
 
 .reveal blockquote {
@@ -92,7 +95,7 @@ body.light-theme .reveal .slides section > *:last-child {
   margin-bottom: 0.3em !important;
   margin-top: 0.3em !important;
   color: inherit;
-  font-style: italic;
+  line-height: 1.4 !important;
 }
 
 .reveal .quote-box p {
@@ -104,9 +107,9 @@ body.light-theme .reveal .slides section > *:last-child {
   margin-bottom: 0 !important;
 }
 
-/* Dark mode - slightly lighter background than main */
-[data-theme="dark"] .reveal .quote-box {
-  background: rgba(255, 255, 255, 0.12);
+/* Dark mode - subtly lighter background than main */
+body:not(.light-theme) .reveal .quote-box {
+  background: rgba(255, 255, 255, 0.08);
   border-left: 4px solid #777;
   padding: 10px 20px;
   color: inherit;

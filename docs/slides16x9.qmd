@@ -160,7 +160,8 @@ Using the latest version of yfinance, get closing prices for WMT since January 2
 :::
 ::: {.quote-box}
 Get monthly Fama-French factors from French's data library using pandas datareader.  Divide the Fama-French data by 100 to put it in decimal format.  Reconcile the date formats of the Fama-French and Yahoo data and merge them.
-
+:::
+::: {.quote-box}
 Compute excess returns for WMT using RF from the Fama-French data.  Regress the excess returns on Mkt-RF.  Create a scatter plot with regression line.
 :::
 :::

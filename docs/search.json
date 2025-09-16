@@ -403,7 +403,7 @@
     "href": "docs/slides16x9.html#prompt-example-3-google-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt Example 3 (Google Colab)",
-    "text": "Prompt Example 3 (Google Colab)\n\n\nUsing the latest version of yfinance, get closing prices for WMT since January 2020. Compute returns as percent changes.\n\n\nGet monthly Fama-French factors from French’s data library using pandas datareader. Divide the Fama-French data by 100 to put it in decimal format. Reconcile the date formats of the Fama-French and Yahoo data and merge them.\nCompute excess returns for WMT using RF from the Fama-French data. Regress the excess returns on Mkt-RF. Create a scatter plot with regression line."
+    "text": "Prompt Example 3 (Google Colab)\n\n\nUsing the latest version of yfinance, get closing prices for WMT since January 2020. Compute returns as percent changes.\n\n\nGet monthly Fama-French factors from French’s data library using pandas datareader. Divide the Fama-French data by 100 to put it in decimal format. Reconcile the date formats of the Fama-French and Yahoo data and merge them.\n\n\nCompute excess returns for WMT using RF from the Fama-French data. Regress the excess returns on Mkt-RF. Create a scatter plot with regression line."
   },
   {
     "objectID": "docs/slides16x9.html#how-to-grade",
@@ -1026,7 +1026,7 @@
     "href": "docs/slides4x3.html#prompt-example-3-google-colab",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Prompt Example 3 (Google Colab)",
-    "text": "Prompt Example 3 (Google Colab)\n\n\nUsing the latest version of yfinance, get closing prices for WMT since January 2020. Compute returns as percent changes.\n\n\nGet monthly Fama-French factors from French’s data library using pandas datareader. Divide the Fama-French data by 100 to put it in decimal format. Reconcile the date formats of the Fama-French and Yahoo data and merge them.\nCompute excess returns for WMT using RF from the Fama-French data. Regress the excess returns on Mkt-RF. Create a scatter plot with regression line."
+    "text": "Prompt Example 3 (Google Colab)\n\n\nUsing the latest version of yfinance, get closing prices for WMT since January 2020. Compute returns as percent changes.\n\n\nGet monthly Fama-French factors from French’s data library using pandas datareader. Divide the Fama-French data by 100 to put it in decimal format. Reconcile the date formats of the Fama-French and Yahoo data and merge them.\n\n\nCompute excess returns for WMT using RF from the Fama-French data. Regress the excess returns on Mkt-RF. Create a scatter plot with regression line."
   },
   {
     "objectID": "docs/slides4x3.html#how-to-grade",
