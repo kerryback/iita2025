@@ -452,7 +452,7 @@
     "href": "docs/slides16x9.html#section-1",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "",
-    "text": "Apps automate routine tasks\n\nBrowser-based apps can be deployed:\n\nLocally (install Python + Streamlit)\nIn the cloud for demonstration (ngrok, get free access key)\nPermanently in the cloud (Koyeb, Render, Heroku, …)"
+    "text": "Create and edit Word docs and PowerPoint decks\nCreate, edit, and render q Quarto docs for web pages and html slides\nCreate GitHub repos and push and launch apps on hosts (Koyeb, Render, …)\nAnd you can chat with it about anything"
   },
   {
     "objectID": "docs/slides16x9.html#prompt-example-4-replit",
@@ -620,7 +620,7 @@
     "href": "docs/slides16x9.html#demo-claude-code-prompt",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Demo claude code prompt",
-    "text": "Demo claude code prompt\nCreate a LaTeX doc in the article style with Hello World as the title. Compile to pdf.\n\nIt’s even more helpful when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)\n\nDo this analysis and generate a figure or LaTeX table and insert it into the document … Read this paragraph and suggest improvements … Make these global edits …"
+    "text": "Demo claude code prompt\n\nCreate a LaTeX doc in the article style with Hello World as the title. Compile to pdf.\n\n\nIt’s even more helpful when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)\n\n\nDo this analysis and generate a figure or LaTeX table and insert it into the document … Read this paragraph and suggest improvements … Make these global edits …"
   },
   {
     "objectID": "docs/slides16x9.html#final-slide",
@@ -1075,7 +1075,7 @@
     "href": "docs/slides4x3.html#section-1",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "",
-    "text": "Apps automate routine tasks\n\nBrowser-based apps can be deployed:\n\nLocally (install Python + Streamlit)\nIn the cloud for demonstration (ngrok, get free access key)\nPermanently in the cloud (Koyeb, Render, Heroku, …)"
+    "text": "Create and edit Word docs and PowerPoint decks\nCreate, edit, and render q Quarto docs for web pages and html slides\nCreate GitHub repos and push and launch apps on hosts (Koyeb, Render, …)\nAnd you can chat with it about anything"
   },
   {
     "objectID": "docs/slides4x3.html#prompt-example-4-replit",
@@ -1243,7 +1243,7 @@
     "href": "docs/slides4x3.html#demo-claude-code-prompt",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Demo claude code prompt",
-    "text": "Demo claude code prompt\nCreate a LaTeX doc in the article style with Hello World as the title. Compile to pdf.\n\nIt’s even more helpful when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)\n\nDo this analysis and generate a figure or LaTeX table and insert it into the document … Read this paragraph and suggest improvements … Make these global edits …"
+    "text": "Demo claude code prompt\n\nCreate a LaTeX doc in the article style with Hello World as the title. Compile to pdf.\n\n\nIt’s even more helpful when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)\n\n\nDo this analysis and generate a figure or LaTeX table and insert it into the document … Read this paragraph and suggest improvements … Make these global edits …"
   },
   {
     "objectID": "docs/slides4x3.html#final-slide",
@@ -1251,5 +1251,19 @@
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "",
     "text": "QUESTIONS?"
+  },
+  {
+    "objectID": "docs/slides4x3.html#apps-automate-routine-tasks",
+    "href": "docs/slides4x3.html#apps-automate-routine-tasks",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Apps automate routine tasks",
+    "text": "Apps automate routine tasks\nBrowser-based apps can be deployed:\n\nLocally (install Python + Streamlit)\nIn the cloud for demonstration (ngrok, get free access key)\nPermanently in the cloud (Koyeb, Render, Heroku, …)"
+  },
+  {
+    "objectID": "docs/slides16x9.html#apps-automate-routine-tasks",
+    "href": "docs/slides16x9.html#apps-automate-routine-tasks",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Apps automate routine tasks",
+    "text": "Apps automate routine tasks\nBrowser-based apps can be deployed:\n\nLocally (install Python + Streamlit)\nIn the cloud for demonstration (ngrok, get free access key)\nPermanently in the cloud (Koyeb, Render, Heroku, …)"
   }
 ]

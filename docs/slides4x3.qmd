@@ -240,11 +240,7 @@ for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the co
 
 # Building apps
 
-## 
-
-::: {.quote-box}
-Apps automate routine tasks
-:::
+## Apps automate routine tasks
 
 Browser-based apps can be deployed:
 
@@ -494,13 +490,13 @@ Quarto docs for web pages and html slides
 
 ## Demo claude code prompt
 
-Create a LaTeX doc in the article style with Hello World as the title.  Compile to pdf.
+- Create a LaTeX doc in the article style with Hello World as the title.  Compile to pdf.
 
 ::: {.quote-box}
 It's even more helpful  when used in VS Code etc. (which are full-featured LaTeX editors/compilers and Python editors/interpreters)
 :::
 
-Do this analysis and generate a figure or LaTeX table and insert it into the document ... Read this paragraph and suggest improvements ... Make these global edits ...
+- Do this analysis and generate a figure or LaTeX table and insert it into the document ... Read this paragraph and suggest improvements ... Make these global edits ...
 
 ## {#final-slide}
 
