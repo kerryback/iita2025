@@ -4,10 +4,11 @@ author: "Kerry Back<br>Rice University<br>FMA 2025"
 format:
   revealjs:
     theme: moon
-    css: docs/custom-spacing.css
+    css: custom-spacing.css
     include-after-body:
-      - docs/theme-toggle.html
+      - theme-toggle.html
     scrollable: true
+    output-file: slides4x3.html
 
 ---
 
@@ -45,54 +46,299 @@ Microsoft Excel introduced for Windows in 1987
 
 ::: {.fragment}
 ::: {style="text-align: center; margin-top: 50px;"}
-![](ducks-sinking.png){style="max-height: 400px; width: auto;"}
+![](ducks-sinking.png){style="max-height: 500px; width: auto;"}
 :::
 :::
 
 ## It's hard to keep up!
 
 ::: {.fragment data-fragment-index="0"}
-::: {style="text-align: center; margin-top: 50px; position: relative; height: 400px;"}
+::: {style="text-align: center; margin-top: 50px; position: relative; height: 500px;"}
 ::: {.fade-out data-fragment-index="1"}
-![](coyote11.png){style="max-height:400px; width: auto;"}
+![](coyote11.png){style="max-height:500px; width: auto;"}
 :::
 
 ::: {.fragment .fade-in data-fragment-index="1" style="position: absolute; top: 0; left: 0; right: 0; margin-top: 0;"}
-![](coyote21.png){style="max-height: 400px; width: auto;"}
+![](coyote21.png){style="max-height: 500px; width: auto;"}
 :::
 :::
 :::
 
 
+## Plan 
+
+1. Example of what AI can do today - new Claude skill from September
+2. Historical analogues?
+3. Courses on AI
+4. Updating existing courses to use AI
+5. Assessing students
+
+## 1. Example
+
+::: {.quote-box}
+Read the uploaded case (Valuing Walmart 2010).  Ignore the valuation method described in the case.  Instead, generate pro forma statements and perform a two-stage DCF analysis.
+:::
+::: {.quote-box}
+Document your assumptions and your reasons for them.  Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.
+:::
+
+## 2. Historical analogues
+
+1. Handheld calculators
+2. Personal computers
+
+>How did teaching and learning change? Are there lessons for today?
+
+## Calculators
+
+- Much worry that students wouldn't learn addition, subtraction, ... 
+   - Studies haven't found an effect 
+   - But there are still assessments in primary schools where calculators are not allowed
+- Some hoped that schools could move beyond calculation and teach deeper math 
+  - That didn't seem to happen either
+
+## Personal computers & spreadsheets
+
+1. We added courses on how to use spreadsheets 
+2. We updated existing courses to use spreadsheets
+3. We assess how well students can use spreadsheets (no pencil and paper valuation analyses)
+
+## Why did we do that?
+
+- Spreadsheets are used in business
+- Spreadsheets are ideal for teaching the logic of some things (valuation/capital budgeting)
+- Spreadsheets don't automatically do the things we were teaching before (financial calculators $\rightarrow$ spreadsheets)
+
+## What about AI?
+
+✓ AI is used in business
+
+✓ AI is useful for teaching/tutoring
+
+✗ AI can automatically do many things we were teaching before
+
+- Like calculators and students learning to calculate
+- Need to have some assessments where AI is not allowed
+
+## AI is used in Business
+
+MIT/Media Labs State of AI in Business 2025:
+
+::: {.quote-box}
+Workers from over 90% of the companies we surveyed reported regular use of
+personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.
+:::
+ 
+## Plan 
+
+✓ Example of what AI can do today (new Claude skill from September)
+
+✓ Historical analogues?
+
+3. Courses on AI
+4. Updating existing courses to use AI
+5. Assessing students
+
+## 3. Courses on AI
+
+a. Cases on corporate implementation
+b. Prompt engineering
+c. Vibe coding for financial analysis 
+d. Building apps, custom chatbots, agents
+
+## a. An overview case
+
+[Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada](https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO), 2024.
+
+- Describes creation of a custom chatbot
+- Discusses reliability, bias, compliance, data privacy, trust of customers
 
 
-# Incorporating AI into Teaching
+## b. Prompt Engineering
 
-## Chatbots 
+- Iterate, adding and revising, until we get what we want
+- Clean up and save
+- Fresh try using saved prompt, iterate more if needed
+- Try on a new example, iterate more if needed 
+- Something we can assess: "turn in your prompt"
 
-- Obviously, students already use chatbots
-- <span class="highlight">We should encourage them to use chatbots even more</span> - for idea generation, planning work, and doing work (for which they are responsible, of course)
-- ChatGPT, Claude, etc. write and run Python code to do numerical calculations, so hallucinations are not really a problem.* 
+## c. Vibe Coding
 
+In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that 
+
+:::: {.columns style="display: flex; align-items: center;"}
+::: {.column style="width: 40%; display: flex; align-items: center;"}
+::: {.quote-box}
+for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI.
+:::
+:::
+::: {.column style="width: 60%; display: flex; align-items: center; justify-content: center;"}
+::: {.fragment}
+![](bugs-bunny.png){style="max-height: 500px; width: auto;"}
+:::
+:::
+::::
+
+## Vibe coding for financial analysis 
+
+- Chatbots with python can easily do many types of financial analyses
+- Running python in the cloud:
+  - ChatGPT, Claude, Google Colab with Gemini, Julius.ai
+- Running python locally:
+  - VS Code, Cursor, Windsurf, Claude Code 
+
+## d. Building stuff
+
+:::: {.columns}
+::: {.column width="70%"}
+![](ai_learning_progression_with_prompt.png){style="max-height: 500px; width: auto;"}
+:::
+
+::: {.column width="30%"}
 ::: {style="font-size: 0.8em;"}
-*Except that they sometimes think it's OK to use <span class="highlight">synthetic data</span> without telling us, instead of the data they are instructed to use.
+- Apps can use AI
+- Chatbots are apps
+- Agents are chatbots with tools
+- Agents include database agents
 :::
-## sequence of instruction 
+:::
+::::
 
-- We generally teach concepts first with slides (or board)
-- Then show in tools (usually Excel)
-- Now, there is a next step: chatbots 
+## custom chatbot is an app consisting of
 
-## Aaron Linsky, CTO, AIA Labs at Bridgewater:
+- User interface
+- API connection to an LLM, which has possibly been fine-tuned
+- System prompt
+- Possible retrieval of documents
+- Possible use of tools
+
+## System prompt is fundamental
+
+- The simplest custom chatbot is an app that passes messages back and forth between a user and an LLM.
+- The basic element that makes it a 'custom chatbot' is its system prompt.
+
+::: {.quote-box}
+A system prompt is text that is sent to the LLM along with each user prompt. It contains information and instructions for the LLM.
+:::
+
+## Custom Chatbot structure
+
+![](chatbot.png){style="max-height: 500px; width: auto;"}
+
+## Agent = Chatbot + Tools
+
+- An AI agent is a chatbot equipped with tools to do things.
+- Claude and ChatGPT are agents - they can send code to Python environments.
+- Database tools are very useful for chatbots
+
+## Claude for Financial Services
+
+From [Anthropic](https://www.anthropic.com/news/claude-for-financial-services):
+
+Through data providers, Claude has real-time access to comprehensive financial information:
+
+:::: {.columns}
+::: {.column width="33%"}
+- Box
+- Daloopa
+- Databricks
+:::
+
+::: {.column width="33%"}
+- FactSet
+- Morningstar
+- Palantir
+:::
+
+::: {.column width="33%"}
+- PitchBook
+- S&P Global
+- Snowflake
+:::
+::::
+
+## Why mba students should learn about agents
+
+Fortune, 9-14-2025:
 
 ::: {style="font-size: 0.9em;"}
+
 ::: {.quote-box}
-We've been developing capabilities powered by Claude since 2023 within AIA Labs.
+PromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out <span class="highlight">$900-per-hour</span> wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).
 :::
 ::: {.quote-box}
-Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
+Tanmai Gopal, PromptQL's cofounder and CEO, said "<span class="highlight">MBA types</span> ... are very strategic thinkers, and they're smart people, but they <span class="highlight">don't have an intuition for what AI can do</span>."
 :::
 :::
+
+# Structure of Database Agents
+
+## agent passes prompt from user to LLM
+
+:::: {.columns}
+::: {.column width="60%"}
+![](agent_v1.png){style="max-height: 500px; width: auto;"}
+:::
+
+::: {.column width="40%"}
+::: {style="font-size: 0.9em;"}
+May require chatting at this stage to clarify user's request
+:::
+:::
+::::
+
+## agent passes SQL from LLM to data warehouse
+
+:::: {.columns}
+::: {.column width="60%"}
+![](agent_v2.png){style="max-height: 500px; width: auto;"}
+:::
+::: {.column width="40%"}
+:::
+::::
+
+## Data Warehouse passes response to agent
+
+:::: {.columns}
+::: {.column width="60%"}
+![](agent_v3.png){style="max-height: 500px; width: auto;"}
+:::
+
+::: {.column width="40%"}
+::: {style="font-size: 0.9em;"}
+Response could be error message 
+
+If so, agent should send to LLM for new SQL code
+:::
+:::
+::::
+
+## agent passes data from warehouse to user
+
+:::: {.columns}
+::: {.column width="60%"}
+![](agent_v4.png){style="max-height: 500px; width: auto;"}
+:::
+::: {.column width="40%"}
+:::
+::::
+
+## Adding python to database agent
+
+Need to connect to a Python environment
+
+>Or configure the database agent to make it a tool for a chatbot that is already connected to a Python environment
+
+- OpenAI's Assistants API
+- Anthropic's Model Context Protocol (MCP)
+
+## What can we teach about this?
+
+- Can teach how to vibe code apps for mean-variance analysis, cost of capital calculations, binomial-tree option pricing, ...
+- Apps can include API connections to OpenAI, Claude, ...
+- Apps can produce Word docs or PowerPoint decks with tables, figures, and written analysis from LLM
+- Apps can include chat with LLM
+
 
 ## Yeyati, Brookings, 2025:
 
@@ -109,67 +355,10 @@ But technical skills alone will not cut it. The <span class="highlight">most in 
 :::
 
 
-## example 1 (after Excel)
+## Demos (all vibe coded) 
 
-<span class="highlight">In class, iteratively develop a prompt to get the best performance from a chatbot on a valuation case</span> 
-
-- Start simple, evaluate answer
-- Get class to help build prompt to avoid errors, get better answer. Try new prompt, evaluate again, write better one
-- Save prompt, <span class="highlight">try prompt on a different case</span>
-- Can use any chatbot that codes, but <span class="highlight">Claude is best</span> (today) because it can produce Excel workbooks
-
-
-## Live demos are risky
-
-::: {.fragment}
-::: {style="font-size: 0.9em;"}
-I want to set expectations before trying them.  Mine may fail, but they won't be the worst ever.
-:::
-:::
-
-::: {.fragment}
-::: {style="text-align: center;"}
-<iframe width="640" height="400" src="https://www.youtube-nocookie.com/embed/udxR5rBq_Vg?rel=0&autoplay=0&end=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-:::
-:::
-
-## Prompt Example 1 (Claude)
-
-::: {.quote-box}
-Read the uploaded case.  Ignore the valuation method described in the case.  Instead, generate pro forma statements and perform a two-stage DCF analysis.
-:::
-::: {.quote-box}
-Document your assumptions and your reasons for them.  Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.
-:::
-
-
-## Prompt Example 2 (Julius)
-
-::: {style="font-size: 0.9em;"}
-::: {.quote-box}
-Using the latest version of yfinance, get closing prices for SPY, IEF, and GLD at a monthly frequency since 1990.
-:::
-::: {.quote-box}
-Compute returns as percent changes.  Compute the sample means and covariance matrix.  Compute the mean-variance frontier.
-:::
-::: {.quote-box}
-Assuming a monthly risk-free rate of 0.04/12, calculate the tangency portfolio.  Plot the mean-variance frontier, SPY, IEF, and GLD, the tangency portfolio, and the capital allocation line.
-:::
-:::
-
-## Prompt Example 3 (Google Colab)
-
-::: {style="font-size: 0.8em;"}
-::: {.quote-box}
-Using the latest version of yfinance, get closing prices for WMT since January 2020.  Compute returns as percent changes.
-:::
-::: {.quote-box}
-Get monthly Fama-French factors from French's data library using pandas datareader.  Divide the Fama-French data by 100 to put it in decimal format.  Reconcile the date formats of the Fama-French and Yahoo data and merge them.
-:::
-::: {.quote-box}
-Compute excess returns for WMT using RF from the Fama-French data.  Regress the excess returns on Mkt-RF.  Create a scatter plot with regression line.
-:::
-:::
+- [Rice Business Stock Market Data Portal](https://-portal.rice-business.org)
+- Claude MCP server for the data portal
 
 ## How to grade?
 
@@ -177,81 +366,15 @@ Compute excess returns for WMT using RF from the Fama-French data.  Regress the 
 - Replace "turn in an Excel workbook" with "turn in a chat, what was produced by the chat, and your evaluation of the product."
 - Assign what used to be a group project as an in-class exam with AI assistance allowed.
 
-## MIT/Media Labs State of AI in Business 2025
 
-::: {.quote-box}
-Workers from over 90% of the companies we surveyed reported regular use of
-personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.
-:::
 
 # teaching ai 
 
-## Tools vs Concepts 
-
-::: {.quote-box}
-We use tools to teach concepts
-:::
-
-- It's easier to explain NPV in a spreadsheet than with words alone 
-- It's easier to explain AI-assisted financial analysis using AI tools than with words alone
-
-
-::: {.quote-box}
-But we can't just teach tools: tomorrow's AI tools will be different from today's.
-:::
-
-## An overview case
-
-[Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada](https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO), 2024.
-
-- Describes creation of a custom chatbot
-- Discusses reliability, bias, compliance, data privacy, trust of customers
 
 
 
-## The AI landscape
 
-:::: {.columns}
-::: {.column width="60%"}
-![](ai_learning_progression_with_prompt.png){style="max-height: 400px; width: auto;"}
-:::
 
-::: {.column width="40%"}
-::: {style="font-size: 0.9em;"}
-- Apps can use AI
-- Chatbots are apps
-- Agents are chatbots with tools
-- Agents include database agents
-:::
-:::
-::::
-
-##
-
-In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that 
-
-:::: {.columns style="display: flex; align-items: center;"}
-::: {.column style="width: 40%; display: flex; align-items: center;"}
-::: {.quote-box}
-for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI.
-:::
-:::
-::: {.column style="width: 60%; display: flex; align-items: center; justify-content: center;"}
-::: {.fragment}
-![](bugs-bunny.png){style="max-height: 400px; width: auto;"}
-:::
-:::
-::::
-
-# Building apps
-
-## Apps automate routine tasks
-
-Browser-based apps can be deployed:
-
-- Locally (install Python + Streamlit)
-- In the cloud for demonstration (ngrok, get free access key)
-- Permanently in the cloud (Koyeb, Render, Heroku, ...)
 
 
 ## Prompt example 4 (Replit)
@@ -311,26 +434,7 @@ Include the analysis from GPT 4.1 in the Word doc with the scatterplot and cost-
 
 # Custom Chatbots
 
-## A custom chatbot is an app consisting of
 
-- User interface
-- API connection to an LLM, which has possibly been fine-tuned
-- System prompt
-- Possible retrieval of documents
-- Possible use of tools
-
-## System prompt is fundamental
-
-- The simplest custom chatbot is an app that passes messages back and forth between a user and an LLM.
-- The basic element that makes it a 'custom chatbot' is its system prompt.
-
-::: {.quote-box}
-A system prompt is text that is sent to the LLM along with each user prompt. It contains information and instructions for the LLM.
-:::
-
-## Custom Chatbot structure
-
-![](chatbot.png){style="max-height: 400px; width: auto;"}
 
 ## prompt example 8 (colab)
 
@@ -360,126 +464,68 @@ For the system prompt, use "Reply in pig Latin."  Deploy on ngrok.
 
 # AI Agents
 
-## Agent = Chatbot + Tools
 
-- An AI agent is a chatbot equipped with tools to do things.
-- Claude and ChatGPT are agents - they can send code to Python environments.
-- Database tools are very useful for chatbots
 
-## Claude for Financial Services
+# Incorporating AI into Teaching
 
-From [Anthropic](https://www.anthropic.com/news/claude-for-financial-services):
+## Chatbots 
 
-Through data providers, Claude has real-time access to comprehensive financial information:
+- Obviously, students already use chatbots
+- <span class="highlight">We should encourage them to use chatbots even more</span> - for idea generation, planning work, and doing work (for which they are responsible, of course)
+- ChatGPT, Claude, etc. write and run Python code to do numerical calculations, so hallucinations are not really a problem.* 
 
-:::: {.columns}
-::: {.column width="33%"}
-- Box
-- Daloopa
-- Databricks
+::: {style="font-size: 0.8em;"}
+*Except that they sometimes think it's OK to use <span class="highlight">synthetic data</span> without telling us, instead of the data they are instructed to use.
 :::
+## sequence of instruction 
 
-::: {.column width="33%"}
-- FactSet
-- Morningstar
-- Palantir
-:::
+- We generally teach concepts first with slides (or board)
+- Then show in tools (usually Excel)
+- Now, there is a next step: chatbots 
 
-::: {.column width="33%"}
-- PitchBook
-- S&P Global
-- Snowflake
-:::
-::::
-
-## Why mba students should learn about agents
-
-Fortune, 9-14-2025:
+## Aaron Linsky, CTO, AIA Labs at Bridgewater:
 
 ::: {style="font-size: 0.9em;"}
-
 ::: {.quote-box}
-PromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out <span class="highlight">$900-per-hour</span> wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).
+We've been developing capabilities powered by Claude since 2023 within AIA Labs.
 :::
 ::: {.quote-box}
-Tanmai Gopal, PromptQL's cofounder and CEO, said "<span class="highlight">MBA types</span> ... are very strategic thinkers, and they're smart people, but they <span class="highlight">don't have an intuition for what AI can do</span>."
+Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
 :::
 :::
 
-# Structure of Database Agents
 
-## agent passes prompt from user to LLM
+so
+## Live demos are risky
 
-:::: {.columns}
-::: {.column width="60%"}
-![](agent_v1.png){style="max-height: 400px; width: auto;"}
-:::
-
-::: {.column width="40%"}
+::: {.fragment}
 ::: {style="font-size: 0.9em;"}
-May require chatting at this stage to clarify user's request
+I want to set expectations before trying them.  Mine may fail, but they won't be the worst ever.
 :::
 :::
-::::
 
-## agent passes SQL from LLM to data warehouse
-
-:::: {.columns}
-::: {.column width="60%"}
-![](agent_v2.png){style="max-height: 400px; width: auto;"}
-:::
-::: {.column width="40%"}
-:::
-::::
-
-## Data Warehouse passes response to agent
-
-:::: {.columns}
-::: {.column width="60%"}
-![](agent_v3.png){style="max-height: 400px; width: auto;"}
-:::
-
-::: {.column width="40%"}
-::: {style="font-size: 0.9em;"}
-Response could be error message 
-
-If so, agent should send to LLM for new SQL code
+::: {.fragment}
+::: {style="text-align: center;"}
+<iframe width="640" height="500" src="https://www.youtube-nocookie.com/embed/udxR5rBq_Vg?rel=0&autoplay=0&end=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 :::
 :::
-::::
 
-## agent passes data from warehouse to user
 
-:::: {.columns}
-::: {.column width="60%"}
-![](agent_v4.png){style="max-height: 400px; width: auto;"}
-:::
-::: {.column width="40%"}
-:::
-::::
+# 
 
-# Adding Functionality 
-
-## Database Agent $\mapsto$ Tool
-
-- Configure the database agent as a tool for an existing chatbot with Python capabilities
-- OpenAI's Assistants API
-- Anthropic's Model Context Protocol (MCP)
-
-## Demos (all vibe coded) 
-
-- [Rice Business Stock Market Data Portal](https://-portal.rice-business.org)
-- Claude MCP server for the data portal
-
-# One More Thing
-
-<div style="text-align: center; margin-top: 50px;">
-<video width="100%" height="auto" loop preload="auto" style="max-width: 100%; max-height: 80vh;" controls>
+::: {style="text-align: center; margin-top: 50px;"}
+**Video version:**
+<video width="640" height="360" controls preload="metadata">
   <source src="columbo_final.webm" type="video/webm">
   <source src="columbo_final_with_poster.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-</div>
+:::
+
+::: {style="text-align: center; margin-top: 30px;"}
+**GIF version:**
+![](columbo_final.gif){width="640" height="360"}
+:::
 
 ## Claude Code
 
@@ -508,6 +554,7 @@ Create a LaTeX doc in the article style with Hello World as the title.  Compile 
 
 - It's even more helpful  when used in VS Code etc. (which are full-featured LaTeX/Python IDEs)
 - Do this analysis and generate a figure or LaTeX table and insert it into the document ... Read this paragraph and suggest improvements ... Make these global edits ...
+
 
 ## {#final-slide}
 

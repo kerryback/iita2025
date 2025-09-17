@@ -4,11 +4,10 @@ author: "Kerry Back<br>Rice University<br>FMA 2025"
 format:
   revealjs:
     theme: moon
-    css: custom-spacing.css
+    css: docs/custom-spacing.css
     include-after-body:
-      - theme-toggle.html
+      - docs/theme-toggle.html
     scrollable: true
-    output-file: slides4x3.html
 
 ---
 
@@ -65,91 +64,83 @@ Microsoft Excel introduced for Windows in 1987
 :::
 
 
-## Plan 
 
-1. Example of what AI can do today (new Claude skill from September)
-2. Historical analogues?
-3. Teaching about AI 
-  - Prompt engineering
-  - Vibe coding
-4. Incorporating AI into teaching
-5. Assessing students
 
-# Example
+# Incorporating AI into Teaching
 
-## 
+## Chatbots 
+
+- Obviously, students already use chatbots
+- <span class="highlight">We should encourage them to use chatbots even more</span> - for idea generation, planning work, and doing work (for which they are responsible, of course)
+- ChatGPT, Claude, etc. write and run Python code to do numerical calculations, so hallucinations are not really a problem.* 
+
+::: {style="font-size: 0.8em;"}
+*Except that they sometimes think it's OK to use <span class="highlight">synthetic data</span> without telling us, instead of the data they are instructed to use.
+:::
+## sequence of instruction 
+
+- We generally teach concepts first with slides (or board)
+- Then show in tools (usually Excel)
+- Now, there is a next step: chatbots 
+
+## Aaron Linsky, CTO, AIA Labs at Bridgewater:
+
+::: {style="font-size: 0.9em;"}
 ::: {.quote-box}
-Read the uploaded case (Valuing Walmart 2010).  Ignore the valuation method described in the case.  Instead, generate pro forma statements and perform a two-stage DCF analysis.
+We've been developing capabilities powered by Claude since 2023 within AIA Labs.
+:::
+::: {.quote-box}
+Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
+:::
+:::
+
+## Yeyati, Brookings, 2025:
+
+::: {style="font-size: 0.9em;"}
+::: {.quote-box}
+As AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.
+:::
+::: {.quote-box}
+As job descriptions evolve, so does the definition of financial talent. <span class="highlight">Excel is no longer a differentiator. Python is fast becoming the new Excel. </span>
+:::
+::: {.quote-box}
+But technical skills alone will not cut it. The <span class="highlight">most in demand profiles today are those that speak both AI and finance</span>, and can move between legal, operational, and data contexts without losing the plot.
+:::
+:::
+
+
+## example 1 (after Excel)
+
+<span class="highlight">In class, iteratively develop a prompt to get the best performance from a chatbot on a valuation case</span> 
+
+- Start simple, evaluate answer
+- Get class to help build prompt to avoid errors, get better answer. Try new prompt, evaluate again, write better one
+- Save prompt, <span class="highlight">try prompt on a different case</span>
+- Can use any chatbot that codes, but <span class="highlight">Claude is best</span> (today) because it can produce Excel workbooks
+
+
+## Live demos are risky
+
+::: {.fragment}
+::: {style="font-size: 0.9em;"}
+I want to set expectations before trying them.  Mine may fail, but they won't be the worst ever.
+:::
+:::
+
+::: {.fragment}
+::: {style="text-align: center;"}
+<iframe width="640" height="400" src="https://www.youtube-nocookie.com/embed/udxR5rBq_Vg?rel=0&autoplay=0&end=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+:::
+:::
+
+## Prompt Example 1 (Claude)
+
+::: {.quote-box}
+Read the uploaded case.  Ignore the valuation method described in the case.  Instead, generate pro forma statements and perform a two-stage DCF analysis.
 :::
 ::: {.quote-box}
 Document your assumptions and your reasons for them.  Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.
 :::
-
-# Historical analogues
-
-##
-
-1. Handheld calculators
-2. Personal computers
-
->How did teaching and learning change? Are there lessons for today?
-
-## Calculators
-
-- Much worry that students wouldn't learn addition, subtraction, ... 
-- Nothing much seemed to change 
-   - But there are still assessments in primary schools where calculators are not allowed
-- Some hoped that schools could move beyond calculation and teach deeper math 
-  - That didn't seem to happen either
-
-## Personal computers (spreadsheets)
-
-1. Added courses teaching how to use them 
-2. Revised existing courses to use them
-3. We assess how well students can use spreadsheets (no pencil and paper valuation analyses)
-
-Why?
-
-- Spreadsheets are used in business
-- Spreadsheets are ideal for teaching the logic of some things (valuation/capital budgeting)
-
-## Is AI the same?
-
-- It's used in business
-- We're adding (and should add) courses in how to use it 
-- Are we revising existing courses to use it?
-- Can we assess how well students use it?
-- Do we need to continue having assessments where AI is not allowed?
-
-## MIT/Media Labs State of AI in Business 2025
-
-::: {.quote-box}
-Workers from over 90% of the companies we surveyed reported regular use of
-personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.
-:::
-
-# Courses in the use of AI
-
-## An overview case
-
-[Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada](https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO), 2024.
-
-- Describes creation of a custom chatbot
-- Discusses reliability, bias, compliance, data privacy, trust of customers
-
-
-## Prompt Engineering
-
-- Iterate, adding and revising, until we get what we want
-- Clean up and save
-- Fresh try using saved prompt, iterate more if needed
-- Try on a new example, iterate more if needed 
-- Something we can assess: "turn in your prompt"
-
-## Vibe Coding
-
-
-
 
 
 ## Prompt Example 2 (Julius)
@@ -186,10 +177,35 @@ Compute excess returns for WMT using RF from the Fama-French data.  Regress the 
 - Replace "turn in an Excel workbook" with "turn in a chat, what was produced by the chat, and your evaluation of the product."
 - Assign what used to be a group project as an in-class exam with AI assistance allowed.
 
+## MIT/Media Labs State of AI in Business 2025
 
+::: {.quote-box}
+Workers from over 90% of the companies we surveyed reported regular use of
+personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.
+:::
 
 # teaching ai 
 
+## Tools vs Concepts 
+
+::: {.quote-box}
+We use tools to teach concepts
+:::
+
+- It's easier to explain NPV in a spreadsheet than with words alone 
+- It's easier to explain AI-assisted financial analysis using AI tools than with words alone
+
+
+::: {.quote-box}
+But we can't just teach tools: tomorrow's AI tools will be different from today's.
+:::
+
+## An overview case
+
+[Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada](https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO), 2024.
+
+- Describes creation of a custom chatbot
+- Discusses reliability, bias, compliance, data privacy, trust of customers
 
 
 
@@ -455,79 +471,15 @@ If so, agent should send to LLM for new SQL code
 - [Rice Business Stock Market Data Portal](https://-portal.rice-business.org)
 - Claude MCP server for the data portal
 
-# Incorporating AI into Teaching
+# One More Thing
 
-## Chatbots 
-
-- Obviously, students already use chatbots
-- <span class="highlight">We should encourage them to use chatbots even more</span> - for idea generation, planning work, and doing work (for which they are responsible, of course)
-- ChatGPT, Claude, etc. write and run Python code to do numerical calculations, so hallucinations are not really a problem.* 
-
-::: {style="font-size: 0.8em;"}
-*Except that they sometimes think it's OK to use <span class="highlight">synthetic data</span> without telling us, instead of the data they are instructed to use.
-:::
-## sequence of instruction 
-
-- We generally teach concepts first with slides (or board)
-- Then show in tools (usually Excel)
-- Now, there is a next step: chatbots 
-
-## Aaron Linsky, CTO, AIA Labs at Bridgewater:
-
-::: {style="font-size: 0.9em;"}
-::: {.quote-box}
-We've been developing capabilities powered by Claude since 2023 within AIA Labs.
-:::
-::: {.quote-box}
-Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
-:::
-:::
-
-## Yeyati, Brookings, 2025:
-
-::: {style="font-size: 0.9em;"}
-::: {.quote-box}
-As AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.
-:::
-::: {.quote-box}
-As job descriptions evolve, so does the definition of financial talent. <span class="highlight">Excel is no longer a differentiator. Python is fast becoming the new Excel. </span>
-:::
-::: {.quote-box}
-But technical skills alone will not cut it. The <span class="highlight">most in demand profiles today are those that speak both AI and finance</span>, and can move between legal, operational, and data contexts without losing the plot.
-:::
-:::
-
-so
-## Live demos are risky
-
-::: {.fragment}
-::: {style="font-size: 0.9em;"}
-I want to set expectations before trying them.  Mine may fail, but they won't be the worst ever.
-:::
-:::
-
-::: {.fragment}
-::: {style="text-align: center;"}
-<iframe width="640" height="400" src="https://www.youtube-nocookie.com/embed/udxR5rBq_Vg?rel=0&autoplay=0&end=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-:::
-:::
-
-
-# 
-
-::: {style="text-align: center; margin-top: 50px;"}
-**Video version:**
-<video width="640" height="360" controls preload="metadata">
+<div style="text-align: center; margin-top: 50px;">
+<video width="100%" height="auto" loop preload="auto" style="max-width: 100%; max-height: 80vh;" controls>
   <source src="columbo_final.webm" type="video/webm">
   <source src="columbo_final_with_poster.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-:::
-
-::: {style="text-align: center; margin-top: 30px;"}
-**GIF version:**
-![](columbo_final.gif){width="640" height="360"}
-:::
+</div>
 
 ## Claude Code
 
@@ -556,7 +508,6 @@ Create a LaTeX doc in the article style with Hello World as the title.  Compile 
 
 - It's even more helpful  when used in VS Code etc. (which are full-featured LaTeX/Python IDEs)
 - Do this analysis and generate a figure or LaTeX table and insert it into the document ... Read this paragraph and suggest improvements ... Make these global edits ...
-
 
 ## {#final-slide}
 

@@ -1306,7 +1306,7 @@
     "href": "slides4x3.html#aaron-linsky-cto-aia-labs-at-bridgewater",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "Aaron Linsky, CTO, AIA Labs at Bridgewater:",
-    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst."
+    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.\n\n\nso ## Live demos are risky\n\n\nI want to set expectations before trying them. Mine may fail, but they won’t be the worst ever."
   },
   {
     "objectID": "slides4x3.html#yeyati-brookings-2025",
@@ -1390,7 +1390,7 @@
     "href": "slides4x3.html#section",
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "",
-    "text": "In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that\n\n\n\nfor roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI."
+    "text": "Read the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely."
   },
   {
     "objectID": "slides4x3.html#apps-automate-routine-tasks",
@@ -1881,5 +1881,173 @@
     "title": "Incorporating AI into Teaching andTeaching about AI",
     "section": "",
     "text": "QUESTIONS?"
+  },
+  {
+    "objectID": "slides4x3.html#plan",
+    "href": "slides4x3.html#plan",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Plan",
+    "text": "Plan\n\nExample of what AI can do today - new Claude skill from September\nHistorical analogues?\nCourses on AI\nUpdating existing courses to use AI\nAssessing students"
+  },
+  {
+    "objectID": "slides4x3.html#historical-analogues",
+    "href": "slides4x3.html#historical-analogues",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "2. Historical analogues",
+    "text": "2. Historical analogues\n\nHandheld calculators\nPersonal computers\n\n\nHow did teaching and learning change? Are there lessons for today?"
+  },
+  {
+    "objectID": "slides4x3.html#calculators",
+    "href": "slides4x3.html#calculators",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Calculators",
+    "text": "Calculators\n\nMuch worry that students wouldn’t learn addition, subtraction, …\n\nStudies haven’t found an effect\nBut there are still assessments in primary schools where calculators are not allowed\n\nSome hoped that schools could move beyond calculation and teach deeper math\n\nThat didn’t seem to happen either"
+  },
+  {
+    "objectID": "slides4x3.html#personal-computers-spreadsheet",
+    "href": "slides4x3.html#personal-computers-spreadsheet",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Personal computers & spreadsheet",
+    "text": "Personal computers & spreadsheet\n\nWe added courses on how to use them\nWe updated existing courses to use them\nWe assess how well students can use them (no pencil and paper valuation analyses)"
+  },
+  {
+    "objectID": "slides4x3.html#why-did-we-do-that",
+    "href": "slides4x3.html#why-did-we-do-that",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Why did we do that?",
+    "text": "Why did we do that?\n\nSpreadsheets are used in business\nSpreadsheets are ideal for teaching the logic of some things (valuation/capital budgeting)\nSpreadsheets don’t automatically do the things we were teaching before (financial calculators \\(\\rightarrow\\) spreadsheets)"
+  },
+  {
+    "objectID": "slides4x3.html#how-is-ai-the-same-or-different",
+    "href": "slides4x3.html#how-is-ai-the-same-or-different",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "How is AI the same or different",
+    "text": "How is AI the same or different\n\n✓ AI is also used in business\n✓ AI is useful for teaching/tutoring\n✗ AI can automatically do many things we were teaching before\n\nParallel is with calculators and students learning to calculate\nNeed to have some assessments where AI is not allowed"
+  },
+  {
+    "objectID": "slides4x3.html#ai-is-used-in-business",
+    "href": "slides4x3.html#ai-is-used-in-business",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "AI is used in Business",
+    "text": "AI is used in Business\nMIT/Media Labs State of AI in Business 2025:\n\nWorkers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work."
+  },
+  {
+    "objectID": "slides4x3.html#plan-1",
+    "href": "slides4x3.html#plan-1",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Plan",
+    "text": "Plan\n✓ Example of what AI can do today (new Claude skill from September)\n✓ Historical analogues?\n\nCourses on AI\nUpdating existing courses to use AI\nAssessing students"
+  },
+  {
+    "objectID": "slides4x3.html#courses-on-ai",
+    "href": "slides4x3.html#courses-on-ai",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "3. Courses on AI",
+    "text": "3. Courses on AI\n\nCases on corporate implementation\nPrompt engineering\nVibe coding for financial analysis\nBuilding apps, custom chatbots, agents"
+  },
+  {
+    "objectID": "slides4x3.html#prompt-engineering",
+    "href": "slides4x3.html#prompt-engineering",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Prompt Engineering",
+    "text": "Prompt Engineering\n\nIterate, adding and revising, until we get what we want\nClean up and save\nFresh try using saved prompt, iterate more if needed\nTry on a new example, iterate more if needed\nSomething we can assess: “turn in your prompt”"
+  },
+  {
+    "objectID": "slides4x3.html#vibe-coding",
+    "href": "slides4x3.html#vibe-coding",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Vibe Coding",
+    "text": "Vibe Coding\nIn March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that\n\n\n\nfor roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI."
+  },
+  {
+    "objectID": "slides4x3.html#vibe-coding-for-financial-analysis",
+    "href": "slides4x3.html#vibe-coding-for-financial-analysis",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Vibe coding for financial analysis",
+    "text": "Vibe coding for financial analysis\n\nChatbots with python can easily do many types of financial analyses\nRunning python in the cloud:\n\nChatGPT, Claude, Google Colab with Gemini, Julius.ai\n\nRunning python locally:\n\nVS Code, Cursor, Windsurf, Claude Code"
+  },
+  {
+    "objectID": "slides4x3.html#building-stuff",
+    "href": "slides4x3.html#building-stuff",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Building stuff",
+    "text": "Building stuff\n\n\n\n\n\n\nApps can use AI\nChatbots are apps\nAgents are chatbots with tools\nAgents include database agents"
+  },
+  {
+    "objectID": "slides4x3.html#adding-python-to-database-agent",
+    "href": "slides4x3.html#adding-python-to-database-agent",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Adding python to database agent",
+    "text": "Adding python to database agent\nNeed to connect to a Python environment\n\nOr configure the database agent to make it a tool for a chatbot that is already connected to a Python environment\n\n\nOpenAI’s Assistants API\nAnthropic’s Model Context Protocol (MCP)"
+  },
+  {
+    "objectID": "slides4x3.html#what-can-we-teach-about-this",
+    "href": "slides4x3.html#what-can-we-teach-about-this",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "What can we teach about this?",
+    "text": "What can we teach about this?\n\nCan teach how to vibe code apps for mean-variance analysis, cost of capital calculations, binomial-tree option pricing, …\nApps can include API connections to OpenAI, Claude, …\nApps can produce Word docs or PowerPoint decks with tables, figures, and written analysis from LLM\nApps can include chat with LLM"
+  },
+  {
+    "objectID": "slides4x3.html#section-2",
+    "href": "slides4x3.html#section-2",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "",
+    "text": "Create and edit Word docs and PowerPoint decks\nCreate, edit, and render Quarto docs for web pages and html slides\nCreate GitHub repos and push and launch apps on hosts (Koyeb, Render, …)\nAnd you can chat with it about anything"
+  },
+  {
+    "objectID": "slides4x3.html#what-about-ai",
+    "href": "slides4x3.html#what-about-ai",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "What about AI?",
+    "text": "What about AI?\n✓ AI is used in business\n✓ AI is useful for teaching/tutoring\n✗ AI can automatically do many things we were teaching before\n\nLike calculators and students learning to calculate\nNeed to have some assessments where AI is not allowed"
+  },
+  {
+    "objectID": "slides4x3.html#example",
+    "href": "slides4x3.html#example",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "1. Example",
+    "text": "1. Example\n\nRead the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely."
+  },
+  {
+    "objectID": "slides4x3.html#personal-computers-spreadsheets",
+    "href": "slides4x3.html#personal-computers-spreadsheets",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "Personal computers & spreadsheets",
+    "text": "Personal computers & spreadsheets\n\nWe added courses on how to use spreadsheets\nWe updated existing courses to use spreadsheets\nWe assess how well students can use spreadsheets (no pencil and paper valuation analyses)"
+  },
+  {
+    "objectID": "slides4x3.html#a.-an-overview-case",
+    "href": "slides4x3.html#a.-an-overview-case",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "a. An overview case",
+    "text": "a. An overview case\nBlazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada, 2024.\n\nDescribes creation of a custom chatbot\nDiscusses reliability, bias, compliance, data privacy, trust of customers"
+  },
+  {
+    "objectID": "slides4x3.html#b.-prompt-engineering",
+    "href": "slides4x3.html#b.-prompt-engineering",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "b. Prompt Engineering",
+    "text": "b. Prompt Engineering\n\nIterate, adding and revising, until we get what we want\nClean up and save\nFresh try using saved prompt, iterate more if needed\nTry on a new example, iterate more if needed\nSomething we can assess: “turn in your prompt”"
+  },
+  {
+    "objectID": "slides4x3.html#c.-vibe-coding",
+    "href": "slides4x3.html#c.-vibe-coding",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "c. Vibe Coding",
+    "text": "c. Vibe Coding\nIn March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that\n\n\n\nfor roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI."
+  },
+  {
+    "objectID": "slides4x3.html#d.-building-stuff",
+    "href": "slides4x3.html#d.-building-stuff",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "d. Building stuff",
+    "text": "d. Building stuff\n\n\n\n\n\n\nApps can use AI\nChatbots are apps\nAgents are chatbots with tools\nAgents include database agents"
+  },
+  {
+    "objectID": "slides4x3.html#custom-chatbot-is-an-app-consisting-of",
+    "href": "slides4x3.html#custom-chatbot-is-an-app-consisting-of",
+    "title": "Incorporating AI into Teaching andTeaching about AI",
+    "section": "custom chatbot is an app consisting of",
+    "text": "custom chatbot is an app consisting of\n\nUser interface\nAPI connection to an LLM, which has possibly been fine-tuned\nSystem prompt\nPossible retrieval of documents\nPossible use of tools"
   }
 ]
