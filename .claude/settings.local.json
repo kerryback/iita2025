@@ -39,7 +39,8 @@
       "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -i columbo_final_with_poster.mp4 -c:v libvpx-vp9 -crf 30 -b:v 0 -c:a libopus -y columbo_final.webm)",
       "Bash(copy columbo_final.gif docs)",
       "Bash(start docsslides4x3.html)",
-      "Bash(start:*)"
+      "Bash(start:*)",
+      "WebFetch(domain:fma2025.kerryback.com)"
     ],
     "deny": [],
     "ask": []
