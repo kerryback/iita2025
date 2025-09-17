@@ -36,7 +36,8 @@
       "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -f concat -safe 0 -i concat_list.txt -c copy -y columbo_final_with_poster.mp4)",
       "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -i columbo_final_with_poster.mp4 -vf \"fps=15,scale=640:-1:flags=lanczos,palettegen\" -y palette.png)",
       "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -i columbo_final_with_poster.mp4 -i palette.png -filter_complex \"fps=15,scale=640:-1:flags=lanczos[x];[x][1:v]paletteuse\" -y columbo_final.gif)",
-      "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -i columbo_final_with_poster.mp4 -c:v libvpx-vp9 -crf 30 -b:v 0 -c:a libopus -y columbo_final.webm)"
+      "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -i columbo_final_with_poster.mp4 -c:v libvpx-vp9 -crf 30 -b:v 0 -c:a libopus -y columbo_final.webm)",
+      "Bash(copy columbo_final.gif docs)"
     ],
     "deny": [],
     "ask": []
