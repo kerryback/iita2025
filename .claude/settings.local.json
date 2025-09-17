@@ -33,7 +33,10 @@
       "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -i columbo_clip_2p8sec.mp4 -vf \"subtitles=columbo_2p8sec_captions.srt:force_style=''Fontsize=24''\" -c:a copy -y columbo_2p8sec_with_captions.mp4)",
       "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -i columbo_clip_2p5sec.mp4 -vf \"subtitles=columbo_2p5sec_captions.srt:force_style=''Fontsize=24''\" -c:a copy -y columbo_2p5sec_with_captions.mp4)",
       "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -i columbo_clip_2p5sec.mp4 -ss 2.4 -t 0.1 -c:v libx264 -c:a aac -y poster_frame.mp4)",
-      "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -f concat -safe 0 -i concat_list.txt -c copy -y columbo_final_with_poster.mp4)"
+      "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -f concat -safe 0 -i concat_list.txt -c copy -y columbo_final_with_poster.mp4)",
+      "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -i columbo_final_with_poster.mp4 -vf \"fps=15,scale=640:-1:flags=lanczos,palettegen\" -y palette.png)",
+      "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -i columbo_final_with_poster.mp4 -i palette.png -filter_complex \"fps=15,scale=640:-1:flags=lanczos[x];[x][1:v]paletteuse\" -y columbo_final.gif)",
+      "Bash(\"C:\\Users\\kerry\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.0-full_build\\bin\\ffmpeg.exe\" -i columbo_final_with_poster.mp4 -c:v libvpx-vp9 -crf 30 -b:v 0 -c:a libopus -y columbo_final.webm)"
     ],
     "deny": [],
     "ask": []

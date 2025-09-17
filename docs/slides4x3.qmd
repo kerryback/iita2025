@@ -7,7 +7,6 @@ format:
     css: custom-spacing.css
     include-after-body:
       - theme-toggle.html
-      - fireworks-setup.html
     scrollable: true
 
 ---
@@ -475,10 +474,17 @@ If so, agent should send to LLM for new SQL code
 # One More Thing
 
 ::: {style="text-align: center; margin-top: 50px;"}
+**Video version:**
 <video width="640" height="360" controls preload="metadata">
+  <source src="../columbo_final.webm" type="video/webm">
   <source src="../columbo_final_with_poster.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+:::
+
+::: {style="text-align: center; margin-top: 30px;"}
+**GIF version:**
+![](../columbo_final.gif){width="640" height="360"}
 :::
 
 ## Claude Code
@@ -511,7 +517,7 @@ Create a LaTeX doc in the article style with Hello World as the title.  Compile 
 
 ## {#final-slide}
 
-::: {#questions-text style="text-align: center; font-size: 4em; font-weight: bold; color: #00FFFF; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); opacity: 0; transition: opacity 2s ease-in-out; margin-top: 200px;"}
+::: {style="text-align: center; font-size: 4em; font-weight: bold; margin-top: 200px;"}
 QUESTIONS?
 :::
 
