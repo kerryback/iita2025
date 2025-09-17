@@ -12,6 +12,17 @@ __pycache__/
 env/
 venv/
 .venv
+.env/
+
+# Downloads folder for videos
+downloads/
+
+# Video and GIF files
+*.mp4
+*.avi
+*.mov
+*.gif
+*.webm
 
 # IDE
 .vscode/

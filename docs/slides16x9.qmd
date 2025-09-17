@@ -472,12 +472,19 @@ If so, agent should send to LLM for new SQL code
 - [Rice Business Stock Market Data Portal](https://-portal.rice-business.org)
 - Claude MCP server for the data portal
 
-# One more tool 
+# One More Thing
+
+::: {style="text-align: center; margin-top: 50px;"}
+<video width="640" height="360" controls preload="metadata">
+  <source src="../columbo_final_with_poster.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+:::
 
 ## Claude Code
 
 - Probably not for students, but for research and teaching prep
-- Uses standard Anthropic models, but seems to have a great system prompt 
+- Uses standard Anthropic models, but seems to have a great system prompt
 - Runs in terminal or can use as chat assistant in VS Code, Cursor, or Windsurf.
 
 ## Claude Code capabilities
@@ -489,8 +496,7 @@ If so, agent should send to LLM for new SQL code
 ##
 
 - Create and edit Word docs and PowerPoint decks
-- Create, edit, and render q
-Quarto docs for web pages and html slides 
+- Create, edit, and render Quarto docs for web pages and html slides
 - Create GitHub repos and push and launch apps on hosts (Koyeb, Render, ...)
 - And you can chat with it about anything
 
