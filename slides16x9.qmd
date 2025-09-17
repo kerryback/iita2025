@@ -474,7 +474,7 @@ If so, agent should send to LLM for new SQL code
 # One More Thing
 
 <div style="text-align: center; margin-top: 50px;">
-<video width="100%" height="auto" autoplay muted loop preload="auto" style="max-width: 100%; max-height: 80vh;">
+<video width="100%" height="auto" loop preload="auto" style="max-width: 100%; max-height: 80vh;" controls>
   <source src="columbo_final.webm" type="video/webm">
   <source src="columbo_final_with_poster.mp4" type="video/mp4">
   Your browser does not support the video tag.

@@ -68,11 +68,12 @@ Microsoft Excel introduced for Windows in 1987
 ## Plan 
 
 1. Example of what AI can do today (new Claude skill from September)
-2. Teaching about AI 
+2. Historical analogues?
+3. Teaching about AI 
   - Prompt engineering
   - Vibe coding
-3. Incorporating AI into teaching
-4. Assessments
+4. Incorporating AI into teaching
+5. Assessing students
 
 # Example
 
@@ -84,7 +85,50 @@ Read the uploaded case (Valuing Walmart 2010).  Ignore the valuation method desc
 Document your assumptions and your reasons for them.  Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.
 :::
 
-# Teaching about AI 
+# Historical analogues
+
+##
+
+1. Handheld calculators
+2. Personal computers
+
+>How did teaching and learning change? Are there lessons for today?
+
+## Calculators
+
+- Much worry that students wouldn't learn addition, subtraction, ... 
+- Nothing much seemed to change 
+   - But there are still assessments in primary schools where calculators are not allowed
+- Some hoped that schools could move beyond calculation and teach deeper math 
+  - That didn't seem to happen either
+
+## Personal computers (spreadsheets)
+
+1. Added courses teaching how to use them 
+2. Revised existing courses to use them
+3. We assess how well students can use spreadsheets (no pencil and paper valuation analyses)
+
+Why?
+
+- Spreadsheets are used in business
+- Spreadsheets are ideal for teaching the logic of some things (valuation/capital budgeting)
+
+## Is AI the same?
+
+- It's used in business
+- We're adding (and should add) courses in how to use it 
+- Are we revising existing courses to use it?
+- Can we assess how well students use it?
+- Do we need to continue having assessments where AI is not allowed?
+
+## MIT/Media Labs State of AI in Business 2025
+
+::: {.quote-box}
+Workers from over 90% of the companies we surveyed reported regular use of
+personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.
+:::
+
+# Courses in the use of AI
 
 ## An overview case
 
@@ -142,12 +186,7 @@ Compute excess returns for WMT using RF from the Fama-French data.  Regress the 
 - Replace "turn in an Excel workbook" with "turn in a chat, what was produced by the chat, and your evaluation of the product."
 - Assign what used to be a group project as an in-class exam with AI assistance allowed.
 
-## MIT/Media Labs State of AI in Business 2025
 
-::: {.quote-box}
-Workers from over 90% of the companies we surveyed reported regular use of
-personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.
-:::
 
 # teaching ai 
 
