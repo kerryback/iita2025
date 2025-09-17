@@ -4,9 +4,9 @@ author: "Kerry Back<br>Rice University<br>FMA 2025"
 format:
   revealjs:
     theme: moon
-    css: custom-spacing.css
+    css: docs/custom-spacing.css
     include-after-body:
-      - theme-toggle.html
+      - docs/theme-toggle.html
     scrollable: true
 
 ---
@@ -476,15 +476,15 @@ If so, agent should send to LLM for new SQL code
 ::: {style="text-align: center; margin-top: 50px;"}
 **Video version:**
 <video width="640" height="360" controls preload="metadata">
-  <source src="columbo_final.webm" type="video/webm">
-  <source src="columbo_final_with_poster.mp4" type="video/mp4">
+  <source src="docs/columbo_final.webm" type="video/webm">
+  <source src="docs/columbo_final_with_poster.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 :::
 
 ::: {style="text-align: center; margin-top: 30px;"}
 **GIF version:**
-![](columbo_final.gif){width="640" height="360"}
+![](docs/columbo_final.gif){width="640" height="360"}
 :::
 
 ## Claude Code

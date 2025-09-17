@@ -14,8 +14,8 @@ def create_16x9_version():
     """Create 16:9 version from the 4:3 presentation"""
 
     # Source and target files
-    source_file = Path("docs/slides4x3.qmd")
-    target_file = Path("docs/slides16x9.qmd")
+    source_file = Path("slides4x3.qmd")
+    target_file = Path("slides16x9.qmd")
 
     if not source_file.exists():
         print(f"Error: {source_file} not found!")
@@ -53,8 +53,8 @@ def render_presentations():
 
     files_to_render = [
         ("index.qmd", "Landing page"),
-        ("docs/slides4x3.qmd", "4:3 presentation"),
-        ("docs/slides16x9.qmd", "16:9 presentation")
+        ("slides4x3.qmd", "4:3 presentation"),
+        ("slides16x9.qmd", "16:9 presentation")
     ]
 
     for qmd_file, description in files_to_render:
@@ -111,14 +111,12 @@ def commit_and_push():
         )
 
         # Commit
-        commit_message = """Create clean GitHub Pages structure with proper landing page
+        commit_message = """Update slides and render to GitHub Pages
 
-- Move presentation to docs/slides4x3.qmd
-- Create index.qmd as landing page that renders to docs/
-- Add _quarto.yml for project configuration
+- Move presentation files to root directory for easier rendering
 - Generate slides16x9.qmd with 16:9 dimensions
 - Render all files properly with correct dependency paths
-- Add CNAME for custom domain
+- Update CNAME for custom domain
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
 
@@ -181,8 +179,8 @@ def main():
     print("   * docs/CNAME              - Custom domain configuration")
     print("\nStructure:")
     print("   * index.qmd               - Landing page source")
-    print("   * docs/slides4x3.qmd      - 4:3 presentation source")
-    print("   * docs/slides16x9.qmd     - 16:9 presentation source")
+    print("   * slides4x3.qmd           - 4:3 presentation source")
+    print("   * slides16x9.qmd          - 16:9 presentation source")
     print("   * _quarto.yml             - Project configuration")
     print("\nYour site should be live at: https://fma2025.kerryback.com")
 
