@@ -1,19 +1,16 @@
-/* Reduce paragraph spacing and tighten line height */
+/* Reduce paragraph spacing in light mode to match dark mode */
 .reveal p {
   margin-bottom: 0.5em !important;
   margin-top: 0 !important;
-  line-height: 1.4 !important;
 }
 
 .reveal ul, .reveal ol {
   margin-bottom: 0.5em !important;
   margin-top: 0.5em !important;
-  line-height: 1.4 !important;
 }
 
 .reveal li {
   margin-bottom: 0.3em !important;
-  line-height: 1.4 !important;
 }
 
 .reveal blockquote {
@@ -87,13 +84,12 @@ body.light-theme .reveal .slides section > *:last-child {
 }
 
 /* Custom quote-box styling for both light and dark modes */
-/* Light mode - same as default blockquote */
 .reveal .quote-box {
   background: rgba(0, 0, 0, 0.05);
   border-left: 4px solid #ccc;
   padding: 10px 20px;
-  margin-bottom: 0.3em !important;
-  margin-top: 0.3em !important;
+  margin-bottom: 0.5em !important;
+  margin-top: 0.5em !important;
   color: inherit;
   line-height: 1.4 !important;
 }

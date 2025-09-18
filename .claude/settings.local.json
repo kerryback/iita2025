@@ -40,7 +40,8 @@
       "Bash(copy columbo_final.gif docs)",
       "Bash(start docsslides4x3.html)",
       "Bash(start:*)",
-      "WebFetch(domain:fma2025.kerryback.com)"
+      "WebFetch(domain:fma2025.kerryback.com)",
+      "Bash(git log:*)"
     ],
     "deny": [],
     "ask": []

@@ -3,7 +3,7 @@ project:
   output-dir: docs
   render:
     - index.qmd
-    - slides3x4.qmd
+    - slides4x3.qmd
     - slides16x9.qmd
 
 website:

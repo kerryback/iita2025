@@ -79,13 +79,15 @@ def draw_curved_arrow_with_label(ax, start, end, label, color, curve_height=0.5,
 
     if stacked and isinstance(label, list):
         # For stacked labels, increase spacing to prevent overlap
-        # Start RAG Chunks at base position, then stack others above with increasing spacing
+        # Stack from top to bottom: Prompt, System Prompt, Chat History, RAG Chunks
         for i, line in enumerate(label):
             if i == 0:  # First item (Prompt) - highest
+                offset_y = 1.35
+            elif i == 1:  # Second item (System Prompt) - second
                 offset_y = 0.9
-            elif i == 1:  # Second item (System Prompt) - middle
+            elif i == 2:  # Third item (Chat History) - third
                 offset_y = 0.45
-            else:  # Third item (RAG Chunks) - lowest (at base position)
+            else:  # Fourth item (RAG Chunks) - lowest (at base position)
                 offset_y = 0
             ax.text(label_x, label_y + offset_y, line, ha='center', va='center',
                     fontsize=14, color='black', fontweight='bold',
@@ -104,7 +106,7 @@ draw_curved_arrow_with_label(ax, (nodes['User'][0] + 1.1, nodes['User'][1] + 0.2
 # 2. App -> LLM (above) - stacked labels
 draw_curved_arrow_with_label(ax, (nodes['App'][0] + 1.0, nodes['App'][1] + 0.2),
                             (nodes['LLM'][0] - 1.1, nodes['LLM'][1] + 0.2),
-                            ['Prompt', 'System Prompt', 'RAG Chunks'], color_blue, curve_height=0.4, above=True, stacked=True)
+                            ['Prompt', 'System Prompt', 'Chat History', 'RAG Chunks'], color_blue, curve_height=0.4, above=True, stacked=True)
 
 # 3. LLM -> App (below) - "Response"
 draw_curved_arrow_with_label(ax, (nodes['LLM'][0] - 1.1, nodes['LLM'][1] - 0.2),

@@ -82,3 +82,31 @@ body.light-theme .reveal .slides section > *:first-child {
 body.light-theme .reveal .slides section > *:last-child {
   margin-block-end: 0 !important;
 }
+
+/* Custom quote-box styling for both light and dark modes */
+.reveal .quote-box {
+  background: rgba(0, 0, 0, 0.05);
+  border-left: 4px solid #ccc;
+  padding: 10px 20px;
+  margin-bottom: 0.5em !important;
+  margin-top: 0.5em !important;
+  color: inherit;
+  line-height: 1.4 !important;
+}
+
+.reveal .quote-box p {
+  margin-bottom: 0.3em !important;
+  margin-top: 0 !important;
+}
+
+.reveal .quote-box p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Dark mode - subtly lighter background than main */
+body:not(.light-theme) .reveal .quote-box {
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 4px solid #777;
+  padding: 10px 20px;
+  color: inherit;
+}

@@ -30,7 +30,7 @@
     }
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-b17fa0af1ad93c2b7802af2443afaf9b.css">
-  <link rel="stylesheet" href="docs/custom-spacing.css">
+  <link rel="stylesheet" href="custom-spacing.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -164,7 +164,7 @@ Kerry Back<br>Rice University<br>FMA 2025
 <h2>Now, with AI, we’re all in the same boat</h2>
 <div class="fragment">
 <div style="text-align: center; margin-top: 50px;">
-<p><img data-src="ducks-sinking.png" style="max-height: 400px; width: auto;"></p>
+<p><img data-src="ducks-sinking.png" style="max-height: 500px; width: auto;"></p>
 </div>
 </div>
 </section>
@@ -173,37 +173,227 @@ Kerry Back<br>Rice University<br>FMA 2025
 <div class="fragment" data-fragment-index="0">
 <div style="text-align: center; margin-top: 50px; position: relative; height: 400px;">
 <div class="fade-out" data-fragment-index="1">
-<p><img data-src="coyote11.png" style="max-height:400px; width: auto;"></p>
+<p><img data-src="coyote11.png" style="max-height:500px; width: auto;"></p>
 </div>
 <div class="fragment fade-in" data-fragment-index="1" style="position: absolute; top: 0; left: 0; right: 0; margin-top: 0;">
-<p><img data-src="coyote21.png" style="max-height: 400px; width: auto;"></p>
+<p><img data-src="coyote21.png" style="max-height: 500px; width: auto;"></p>
 </div>
 </div>
 </div>
 </section>
-<section>
-<section id="incorporating-ai-into-teaching" class="title-slide slide level1 center">
-<h1>Incorporating AI into Teaching</h1>
-
+<section id="plan" class="slide level2 scrollable">
+<h2>Plan</h2>
+<ol type="1">
+<li>Example of what AI can do today - new Claude skill from September</li>
+<li>Historical analogues?</li>
+<li>Courses on AI</li>
+<li>Updating existing courses to use AI</li>
+<li>Assessing students</li>
+</ol>
 </section>
-<section id="chatbots" class="slide level2">
-<h2>Chatbots</h2>
+<section id="example" class="slide level2">
+<h2>1. Example</h2>
+<div class="quote-box">
+<p>Read the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.</p>
+</div>
+<div class="quote-box">
+<p>Document your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.</p>
+</div>
+</section>
+<section id="historical-analogues" class="slide level2 scrollable">
+<h2>2. Historical analogues</h2>
+<ol type="1">
+<li>Handheld calculators</li>
+<li>Personal computers</li>
+</ol>
+<blockquote>
+<p>How did teaching and learning change? Are there lessons for today?</p>
+</blockquote>
+</section>
+<section id="calculators" class="slide level2">
+<h2>Calculators</h2>
 <ul>
-<li>Obviously, students already use chatbots</li>
-<li><span class="highlight">We should encourage them to use chatbots even more</span> - for idea generation, planning work, and doing work (for which they are responsible, of course)</li>
-<li>ChatGPT, Claude, etc. write and run Python code to do numerical calculations, so hallucinations are not really a problem.*</li>
+<li>Much worry that students wouldn’t learn addition, subtraction, …
+<ul>
+<li>Studies haven’t found an effect</li>
+<li>But there are still assessments in primary schools where calculators are not allowed</li>
+</ul></li>
+<li>Some hoped that schools could move beyond calculation and teach deeper math
+<ul>
+<li>That didn’t seem to happen either</li>
+</ul></li>
 </ul>
+</section>
+<section id="personal-computers-spreadsheets" class="slide level2 scrollable">
+<h2>Personal computers &amp; spreadsheets</h2>
+<ol type="1">
+<li>We added courses on how to use spreadsheets</li>
+<li>We updated existing courses to use spreadsheets</li>
+<li>We assess how well students can use spreadsheets (no pencil and paper valuation analyses)</li>
+</ol>
+</section>
+<section id="why-did-we-do-that" class="slide level2">
+<h2>Why did we do that?</h2>
+<ul>
+<li>Spreadsheets are used in business</li>
+<li>Spreadsheets are ideal for teaching the logic of some things (valuation/capital budgeting)</li>
+<li>Spreadsheets don’t automatically do the things we were teaching before (financial calculators <span class="math inline">\(\rightarrow\)</span> spreadsheets)</li>
+</ul>
+</section>
+<section id="what-about-ai" class="slide level2">
+<h2>What about AI?</h2>
+<p>✓ AI is used in business</p>
+<p>✓ AI is useful for teaching/tutoring</p>
+<p>✗ AI can automatically do many things we were teaching before</p>
+<ul>
+<li>Like calculators and students learning to calculate</li>
+<li>Need to have some assessments where AI is not allowed</li>
+</ul>
+</section>
+<section id="ai-is-used-in-business" class="slide level2">
+<h2>AI is used in Business</h2>
+<p>MIT/Media Labs State of AI in Business 2025:</p>
+<div class="quote-box">
+<p>Workers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.</p>
+</div>
+</section>
+<section id="plan-1" class="slide level2 scrollable">
+<h2>Plan</h2>
+<p>✓ Example of what AI can do today (new Claude skill from September)</p>
+<p>✓ Historical analogues?</p>
+<ol start="3" type="1">
+<li>Courses on AI</li>
+<li>Updating existing courses to use AI</li>
+<li>Assessing students</li>
+</ol>
+</section>
+<section id="courses-on-ai" class="slide level2 scrollable">
+<h2>3. Courses on AI</h2>
+<ol type="a">
+<li>Cases on corporate implementation</li>
+<li>Prompt engineering</li>
+<li>Vibe coding for financial analysis</li>
+<li>Building apps, custom chatbots, agents</li>
+</ol>
+</section>
+<section id="a.-an-overview-case" class="slide level2">
+<h2>a. An overview case</h2>
+<p><a href="https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO">Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada</a>, 2024.</p>
+<ul>
+<li>Describes creation of a custom chatbot</li>
+<li>Discusses reliability, bias, compliance, data privacy, trust of customers</li>
+</ul>
+</section>
+<section id="b.-prompt-engineering" class="slide level2">
+<h2>b. Prompt Engineering</h2>
+<ul>
+<li>Iterate, adding and revising, until we get what we want</li>
+<li>Clean up and save</li>
+<li>Fresh try using saved prompt, iterate more if needed</li>
+<li>Try on a new example, iterate more if needed</li>
+<li>Something we can assess: “turn in your prompt”</li>
+</ul>
+</section>
+<section id="c.-vibe-coding" class="slide level2">
+<h2>c.&nbsp;Vibe Coding</h2>
+<p>In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that</p>
+<div class="columns" style="display: flex; align-items: center;">
+<div class="column" style="width: 1280%; display: flex; align-items: center;">
+<div class="quote-box">
+<p>for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI.</p>
+</div>
+</div><div class="column" style="width: 1280%; display: flex; align-items: center; justify-content: center;">
+<div class="fragment">
+<p><img data-src="bugs-bunny.png" style="max-height: 500px; width: auto;"></p>
+</div>
+</div></div>
+</section>
+<section id="vibe-coding-for-financial-analysis" class="slide level2">
+<h2>Vibe coding for financial analysis</h2>
+<ul>
+<li>Chatbots with python can easily do many types of financial analyses</li>
+<li>Running python in the cloud:
+<ul>
+<li>ChatGPT, Claude, Google Colab with Gemini, Julius.ai</li>
+</ul></li>
+<li>Running python locally:
+<ul>
+<li>VS Code, Cursor, Windsurf, Claude Code</li>
+</ul></li>
+</ul>
+</section>
+<section id="d.-building-stuff" class="slide level2">
+<h2>d.&nbsp;Building stuff</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><img data-src="ai_learning_progression_with_prompt.png" style="max-height: 500px; width: auto;"></p>
+</div><div class="column" style="width:30%;">
 <div style="font-size: 0.8em;">
-<p>*Except that they sometimes think it’s OK to use <span class="highlight">synthetic data</span> without telling us, instead of the data they are instructed to use.</p>
+<ul>
+<li>Apps can use AI</li>
+<li>Chatbots are apps</li>
+<li>Agents are chatbots with tools</li>
+<li>Agents include database agents</li>
+</ul>
+</div>
+</div></div>
+</section>
+<section id="custom-chatbot-is-an-app-consisting-of" class="slide level2">
+<h2>custom chatbot is an app consisting of</h2>
+<ul>
+<li>User interface</li>
+<li>API connection to an LLM, which has possibly been fine-tuned</li>
+<li>System prompt</li>
+<li>Possible retrieval of documents</li>
+<li>Possible use of tools</li>
+</ul>
+</section>
+<section id="system-prompt-is-fundamental" class="slide level2">
+<h2>System prompt is fundamental</h2>
+<ul>
+<li>The simplest custom chatbot is an app that passes messages back and forth between a user and an LLM.</li>
+<li>The basic element that makes it a ‘custom chatbot’ is its system prompt.</li>
+</ul>
+<div class="quote-box">
+<p>A system prompt is text that is sent to the LLM along with each user prompt. It contains information and instructions for the LLM.</p>
 </div>
 </section>
-<section id="sequence-of-instruction" class="slide level2">
-<h2>sequence of instruction</h2>
+<section id="custom-chatbot-structure" class="slide level2">
+<h2>Custom Chatbot structure</h2>
+<p><img data-src="chatbot.png" style="max-height: 500px; width: auto;"></p>
+</section>
+<section id="agent-chatbot-tools" class="slide level2">
+<h2>Agent = Chatbot + Tools</h2>
 <ul>
-<li>We generally teach concepts first with slides (or board)</li>
-<li>Then show in tools (usually Excel)</li>
-<li>Now, there is a next step: chatbots</li>
+<li>AI agent is a chatbot equipped with tools to do things</li>
+<li>Claude and ChatGPT are agents - they can send code to Python environments</li>
+<li>Database tools are very useful for chatbots</li>
 </ul>
+</section>
+<section id="claude-for-financial-services" class="slide level2">
+<h2>Claude for Financial Services</h2>
+<p>From <a href="https://www.anthropic.com/news/claude-for-financial-services">Anthropic</a>:</p>
+<p>Through data providers, Claude has real-time access to comprehensive financial information:</p>
+<div class="columns">
+<div class="column" style="width:33%;">
+<ul>
+<li>Box</li>
+<li>Daloopa</li>
+<li>Databricks</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<ul>
+<li>FactSet</li>
+<li>Morningstar</li>
+<li>Palantir</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<ul>
+<li>PitchBook</li>
+<li>S&amp;P Global</li>
+<li>Snowflake</li>
+</ul>
+</div></div>
 </section>
 <section id="aaron-linsky-cto-aia-labs-at-bridgewater" class="slide level2">
 <h2>Aaron Linsky, CTO, AIA Labs at Bridgewater:</h2>
@@ -215,6 +405,73 @@ Kerry Back<br>Rice University<br>FMA 2025
 <p>Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.</p>
 </div>
 </div>
+</section>
+<section id="why-mba-students-should-learn-about-agents" class="slide level2">
+<h2>Why mba students should learn about agents</h2>
+<p>Fortune, 9-14-2025:</p>
+<div style="font-size: 0.9em;">
+<div class="quote-box">
+<p>PromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out <span class="highlight">$900-per-hour</span> wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).</p>
+</div>
+<div class="quote-box">
+<p>Tanmai Gopal, PromptQL’s cofounder and CEO, said “<span class="highlight">MBA types</span> … are very strategic thinkers, and they’re smart people, but they <span class="highlight">don’t have an intuition for what AI can do</span>.”</p>
+</div>
+</div>
+</section>
+<section>
+<section id="structure-of-database-agents" class="title-slide slide level1 center">
+<h1>Structure of Database Agents</h1>
+
+</section>
+<section id="agent-passes-prompt-from-user-to-llm" class="slide level2">
+<h2>agent passes prompt from user to LLM</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="agent_v1.png" style="max-height: 500px; width: auto;"></p>
+</div><div class="column" style="width:40%;">
+<div style="font-size: 0.9em;">
+<p>May require chatting at this stage to clarify user’s request</p>
+</div>
+</div></div>
+</section>
+<section id="agent-passes-sql-from-llm-to-data-warehouse" class="slide level2">
+<h2>agent passes SQL from LLM to data warehouse</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="agent_v2.png" style="max-height: 500px; width: auto;"></p>
+</div><div class="column" style="width:40%;">
+
+</div></div>
+</section>
+<section id="data-warehouse-passes-response-to-agent" class="slide level2">
+<h2>Data Warehouse passes response to agent</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="agent_v3.png" style="max-height: 500px; width: auto;"></p>
+</div><div class="column" style="width:40%;">
+<div style="font-size: 0.9em;">
+<p>Response could be error message</p>
+<p>If so, agent should send to LLM for new SQL code</p>
+</div>
+</div></div>
+</section>
+<section id="agent-passes-data-from-warehouse-to-user" class="slide level2">
+<h2>agent passes data from warehouse to user</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="agent_v4.png" style="max-height: 500px; width: auto;"></p>
+</div><div class="column" style="width:40%;">
+
+</div></div>
+</section>
+<section id="what-can-we-do-in-the-classroom" class="slide level2">
+<h2>What can we do in the classroom?</h2>
+<ul>
+<li>Can have students vibe code apps for mean-variance analysis, cost of capital calculations, binomial-tree option pricing, …</li>
+<li>Apps can include API connections to OpenAI, Claude, …</li>
+<li>Apps can produce Word docs or PowerPoint decks with tables, figures, and written analysis from LLM</li>
+<li>Apps can include chat with LLM</li>
+</ul>
 </section>
 <section id="yeyati-brookings-2025" class="slide level2">
 <h2>Yeyati, Brookings, 2025:</h2>
@@ -230,66 +487,34 @@ Kerry Back<br>Rice University<br>FMA 2025
 </div>
 </div>
 </section>
-<section id="example-1-after-excel" class="slide level2">
-<h2>example 1 (after Excel)</h2>
-<p><span class="highlight">In class, iteratively develop a prompt to get the best performance from a chatbot on a valuation case</span></p>
+<section id="how-do-we-teach-it" class="slide level2">
+<h2>How do we teach it?</h2>
 <ul>
-<li>Start simple, evaluate answer</li>
-<li>Get class to help build prompt to avoid errors, get better answer. Try new prompt, evaluate again, write better one</li>
-<li>Save prompt, <span class="highlight">try prompt on a different case</span></li>
-<li>Can use any chatbot that codes, but <span class="highlight">Claude is best</span> (today) because it can produce Excel workbooks</li>
+<li>We just need to expose students to what is possible</li>
+<li>AI can do the rest</li>
+<li>Example: ask ChatGPT or Claude to
+<ul>
+<li>create an example Streamlit app</li>
+<li>explain how to deploy it (for free) on Hugging Face Spaces.</li>
+</ul></li>
 </ul>
 </section>
-<section id="live-demos-are-risky" class="slide level2">
-<h2>Live demos are risky</h2>
-<div class="fragment">
-<div style="font-size: 0.9em;">
-<p>I want to set expectations before trying them. Mine may fail, but they won’t be the worst ever.</p>
-</div>
-</div>
-<div class="fragment">
-<div style="text-align: center;">
-<iframe width="640" height="400" src="https://www.youtube-nocookie.com/embed/udxR5rBq_Vg?rel=0&amp;autoplay=0&amp;end=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-</iframe>
-</div>
-</div>
+<section id="plan-2" class="slide level2 scrollable">
+<h2>Plan</h2>
+<p>✓ Example of what AI can do today (new Claude skill from September)</p>
+<p>✓ Historical analogues?</p>
+<p>✓ Courses on AI</p>
+<ol start="4" type="1">
+<li>Updating existing courses to use AI</li>
+<li>Assessing students</li>
+</ol>
 </section>
-<section id="prompt-example-1-claude" class="slide level2">
-<h2>Prompt Example 1 (Claude)</h2>
-<div class="quote-box">
-<p>Read the uploaded case. Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.</p>
-</div>
-<div class="quote-box">
-<p>Document your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.</p>
-</div>
-</section>
-<section id="prompt-example-2-julius" class="slide level2">
-<h2>Prompt Example 2 (Julius)</h2>
-<div style="font-size: 0.9em;">
-<div class="quote-box">
-<p>Using the latest version of yfinance, get closing prices for SPY, IEF, and GLD at a monthly frequency since 1990.</p>
-</div>
-<div class="quote-box">
-<p>Compute returns as percent changes. Compute the sample means and covariance matrix. Compute the mean-variance frontier.</p>
-</div>
-<div class="quote-box">
-<p>Assuming a monthly risk-free rate of 0.04/12, calculate the tangency portfolio. Plot the mean-variance frontier, SPY, IEF, and GLD, the tangency portfolio, and the capital allocation line.</p>
-</div>
-</div>
-</section>
-<section id="prompt-example-3-google-colab" class="slide level2">
-<h2>Prompt Example 3 (Google Colab)</h2>
-<div style="font-size: 0.8em;">
-<div class="quote-box">
-<p>Using the latest version of yfinance, get closing prices for WMT since January 2020. Compute returns as percent changes.</p>
-</div>
-<div class="quote-box">
-<p>Get monthly Fama-French factors from French’s data library using pandas datareader. Divide the Fama-French data by 100 to put it in decimal format. Reconcile the date formats of the Fama-French and Yahoo data and merge them.</p>
-</div>
-<div class="quote-box">
-<p>Compute excess returns for WMT using RF from the Fama-French data. Regress the excess returns on Mkt-RF. Create a scatter plot with regression line.</p>
-</div>
-</div>
+<section id="demos-all-vibe-coded" class="slide level2">
+<h2>Demos (all vibe coded)</h2>
+<ul>
+<li><a href="https://-portal.rice-business.org">Rice Business Stock Market Data Portal</a></li>
+<li>Claude MCP server for the data portal</li>
+</ul>
 </section>
 <section id="how-to-grade" class="slide level2">
 <h2>How to grade?</h2>
@@ -298,82 +523,11 @@ Kerry Back<br>Rice University<br>FMA 2025
 <li>Replace “turn in an Excel workbook” with “turn in a chat, what was produced by the chat, and your evaluation of the product.”</li>
 <li>Assign what used to be a group project as an in-class exam with AI assistance allowed.</li>
 </ul>
-</section>
-<section id="mitmedia-labs-state-of-ai-in-business-2025" class="slide level2">
-<h2>MIT/Media Labs State of AI in Business 2025</h2>
-<div class="quote-box">
-<p>Workers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.</p>
-</div>
 </section></section>
 <section>
 <section id="teaching-ai" class="title-slide slide level1 center">
 <h1>teaching ai</h1>
 
-</section>
-<section id="tools-vs-concepts" class="slide level2">
-<h2>Tools vs Concepts</h2>
-<div class="quote-box">
-<p>We use tools to teach concepts</p>
-</div>
-<ul>
-<li>It’s easier to explain NPV in a spreadsheet than with words alone</li>
-<li>It’s easier to explain AI-assisted financial analysis using AI tools than with words alone</li>
-</ul>
-<div class="quote-box">
-<p>But we can’t just teach tools: tomorrow’s AI tools will be different from today’s.</p>
-</div>
-</section>
-<section id="an-overview-case" class="slide level2">
-<h2>An overview case</h2>
-<p><a href="https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO">Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada</a>, 2024.</p>
-<ul>
-<li>Describes creation of a custom chatbot</li>
-<li>Discusses reliability, bias, compliance, data privacy, trust of customers</li>
-</ul>
-</section>
-<section id="the-ai-landscape" class="slide level2">
-<h2>The AI landscape</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><img data-src="ai_learning_progression_with_prompt.png" style="max-height: 400px; width: auto;"></p>
-</div><div class="column" style="width:40%;">
-<div style="font-size: 0.9em;">
-<ul>
-<li>Apps can use AI</li>
-<li>Chatbots are apps</li>
-<li>Agents are chatbots with tools</li>
-<li>Agents include database agents</li>
-</ul>
-</div>
-</div></div>
-</section>
-<section id="section" class="slide level2">
-<h2></h2>
-<p>In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that</p>
-<div class="columns" style="display: flex; align-items: center;">
-<div class="column" style="width: 1280%; display: flex; align-items: center;">
-<div class="quote-box">
-<p>for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI.</p>
-</div>
-</div><div class="column" style="width: 1280%; display: flex; align-items: center; justify-content: center;">
-<div class="fragment">
-<p><img data-src="bugs-bunny.png" style="max-height: 400px; width: auto;"></p>
-</div>
-</div></div>
-</section></section>
-<section>
-<section id="building-apps" class="title-slide slide level1 center">
-<h1>Building apps</h1>
-
-</section>
-<section id="apps-automate-routine-tasks" class="slide level2">
-<h2>Apps automate routine tasks</h2>
-<p>Browser-based apps can be deployed:</p>
-<ul>
-<li>Locally (install Python + Streamlit)</li>
-<li>In the cloud for demonstration (ngrok, get free access key)</li>
-<li>Permanently in the cloud (Koyeb, Render, Heroku, …)</li>
-</ul>
 </section>
 <section id="prompt-example-4-replit" class="slide level2">
 <h2>Prompt example 4 (Replit)</h2>
@@ -438,30 +592,6 @@ Kerry Back<br>Rice University<br>FMA 2025
 <h1>Custom Chatbots</h1>
 
 </section>
-<section id="a-custom-chatbot-is-an-app-consisting-of" class="slide level2">
-<h2>A custom chatbot is an app consisting of</h2>
-<ul>
-<li>User interface</li>
-<li>API connection to an LLM, which has possibly been fine-tuned</li>
-<li>System prompt</li>
-<li>Possible retrieval of documents</li>
-<li>Possible use of tools</li>
-</ul>
-</section>
-<section id="system-prompt-is-fundamental" class="slide level2">
-<h2>System prompt is fundamental</h2>
-<ul>
-<li>The simplest custom chatbot is an app that passes messages back and forth between a user and an LLM.</li>
-<li>The basic element that makes it a ‘custom chatbot’ is its system prompt.</li>
-</ul>
-<div class="quote-box">
-<p>A system prompt is text that is sent to the LLM along with each user prompt. It contains information and instructions for the LLM.</p>
-</div>
-</section>
-<section id="custom-chatbot-structure" class="slide level2">
-<h2>Custom Chatbot structure</h2>
-<p><img data-src="chatbot.png" style="max-height: 400px; width: auto;"></p>
-</section>
 <section id="prompt-example-8-colab" class="slide level2">
 <h2>prompt example 8 (colab)</h2>
 <div class="quote-box">
@@ -491,133 +621,57 @@ Kerry Back<br>Rice University<br>FMA 2025
 <li>Can vibe code your own from class materials or <a href="https://book.derivative-securities.org">textbook</a></li>
 </ul>
 </section></section>
-<section>
 <section id="ai-agents" class="title-slide slide level1 center">
 <h1>AI Agents</h1>
 
 </section>
-<section id="agent-chatbot-tools" class="slide level2">
-<h2>Agent = Chatbot + Tools</h2>
-<ul>
-<li>An AI agent is a chatbot equipped with tools to do things.</li>
-<li>Claude and ChatGPT are agents - they can send code to Python environments.</li>
-<li>Database tools are very useful for chatbots</li>
-</ul>
+
+<section>
+<section id="incorporating-ai-into-teaching" class="title-slide slide level1 center">
+<h1>Incorporating AI into Teaching</h1>
+
 </section>
-<section id="claude-for-financial-services" class="slide level2">
-<h2>Claude for Financial Services</h2>
-<p>From <a href="https://www.anthropic.com/news/claude-for-financial-services">Anthropic</a>:</p>
-<p>Through data providers, Claude has real-time access to comprehensive financial information:</p>
-<div class="columns">
-<div class="column" style="width:33%;">
+<section id="chatbots" class="slide level2">
+<h2>Chatbots</h2>
 <ul>
-<li>Box</li>
-<li>Daloopa</li>
-<li>Databricks</li>
+<li>Obviously, students already use chatbots</li>
+<li><span class="highlight">We should encourage them to use chatbots even more</span> - for idea generation, planning work, and doing work (for which they are responsible, of course)</li>
+<li>ChatGPT, Claude, etc. write and run Python code to do numerical calculations, so hallucinations are not really a problem.*</li>
 </ul>
-</div><div class="column" style="width:33%;">
-<ul>
-<li>FactSet</li>
-<li>Morningstar</li>
-<li>Palantir</li>
-</ul>
-</div><div class="column" style="width:33%;">
-<ul>
-<li>PitchBook</li>
-<li>S&amp;P Global</li>
-<li>Snowflake</li>
-</ul>
-</div></div>
-</section>
-<section id="why-mba-students-should-learn-about-agents" class="slide level2">
-<h2>Why mba students should learn about agents</h2>
-<p>Fortune, 9-14-2025:</p>
-<div style="font-size: 0.9em;">
-<div class="quote-box">
-<p>PromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out <span class="highlight">$900-per-hour</span> wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).</p>
+<div style="font-size: 0.8em;">
+<p>*Except that they sometimes think it’s OK to use <span class="highlight">synthetic data</span> without telling us, instead of the data they are instructed to use.</p>
 </div>
-<div class="quote-box">
-<p>Tanmai Gopal, PromptQL’s cofounder and CEO, said “<span class="highlight">MBA types</span> … are very strategic thinkers, and they’re smart people, but they <span class="highlight">don’t have an intuition for what AI can do</span>.”</p>
+</section>
+<section id="sequence-of-instruction" class="slide level2">
+<h2>sequence of instruction</h2>
+<ul>
+<li>We generally teach concepts first with slides (or board)</li>
+<li>Then show in tools (usually Excel)</li>
+<li>Now, there is a next step: chatbots</li>
+</ul>
+<p>so ## Live demos are risky</p>
+<div class="fragment">
+<div style="font-size: 0.9em;">
+<p>I want to set expectations before trying them. Mine may fail, but they won’t be the worst ever.</p>
+</div>
+</div>
+<div class="fragment">
+<div style="text-align: center;">
+<iframe width="640" height="500" src="https://www.youtube-nocookie.com/embed/udxR5rBq_Vg?rel=0&amp;autoplay=0&amp;end=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
 </div>
 </div>
 </section></section>
 <section>
-<section id="structure-of-database-agents" class="title-slide slide level1 center">
-<h1>Structure of Database Agents</h1>
-
-</section>
-<section id="agent-passes-prompt-from-user-to-llm" class="slide level2">
-<h2>agent passes prompt from user to LLM</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><img data-src="agent_v1.png" style="max-height: 400px; width: auto;"></p>
-</div><div class="column" style="width:40%;">
-<div style="font-size: 0.9em;">
-<p>May require chatting at this stage to clarify user’s request</p>
-</div>
-</div></div>
-</section>
-<section id="agent-passes-sql-from-llm-to-data-warehouse" class="slide level2">
-<h2>agent passes SQL from LLM to data warehouse</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><img data-src="agent_v2.png" style="max-height: 400px; width: auto;"></p>
-</div><div class="column" style="width:40%;">
-
-</div></div>
-</section>
-<section id="data-warehouse-passes-response-to-agent" class="slide level2">
-<h2>Data Warehouse passes response to agent</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><img data-src="agent_v3.png" style="max-height: 400px; width: auto;"></p>
-</div><div class="column" style="width:40%;">
-<div style="font-size: 0.9em;">
-<p>Response could be error message</p>
-<p>If so, agent should send to LLM for new SQL code</p>
-</div>
-</div></div>
-</section>
-<section id="agent-passes-data-from-warehouse-to-user" class="slide level2">
-<h2>agent passes data from warehouse to user</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><img data-src="agent_v4.png" style="max-height: 400px; width: auto;"></p>
-</div><div class="column" style="width:40%;">
-
-</div></div>
-</section></section>
-<section>
-<section id="adding-functionality" class="title-slide slide level1 center">
-<h1>Adding Functionality</h1>
-
-</section>
-<section id="database-agent-mapsto-tool" class="slide level2">
-<h2>Database Agent <span class="math inline">\(\mapsto\)</span> Tool</h2>
-<ul>
-<li>Configure the database agent as a tool for an existing chatbot with Python capabilities</li>
-<li>OpenAI’s Assistants API</li>
-<li>Anthropic’s Model Context Protocol (MCP)</li>
-</ul>
-</section>
-<section id="demos-all-vibe-coded" class="slide level2">
-<h2>Demos (all vibe coded)</h2>
-<ul>
-<li><a href="https://-portal.rice-business.org">Rice Business Stock Market Data Portal</a></li>
-<li>Claude MCP server for the data portal</li>
-</ul>
-</section></section>
-<section>
-<section id="one-more-thing" class="title-slide slide level1 center">
-<h1>One More Thing</h1>
-
-</section>
+<section id="section" class="title-slide slide level1 center">
+<h1></h1>
 <div style="text-align: center; margin-top: 50px;">
-<video width="100%" height="auto" loop="" preload="auto" style="max-width: 100%; max-height: 80vh;" controls="">
-<source src="columbo_final.webm" type="video/webm">
-<source src="columbo_final_with_poster.mp4" type="video/mp4">
-Your browser does not support the video tag. </video>
+<p><strong>Video version:</strong> <video width="640" height="360" controls="" preload="metadata"> <source src="columbo_final.webm" type="video/webm"> <source src="columbo_final_with_poster.mp4" type="video/mp4"> Your browser does not support the video tag. </video></p>
 </div>
+<div style="text-align: center; margin-top: 30px;">
+<p><strong>GIF version:</strong> <img data-src="columbo_final.gif" width="640" height="360"></p>
+</div>
+</section>
 <section id="claude-code" class="slide level2">
 <h2>Claude Code</h2>
 <ul>
@@ -660,14 +714,13 @@ Your browser does not support the video tag. </video>
 </div>
 
 
-</section>
-</section></div>
-    <div class="quarto-auto-generated-content" style="display: none;">
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
 
 </div>
 </div></div>
-  
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="site_libs/revealjs/dist/reveal.js"></script>
