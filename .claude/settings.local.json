@@ -45,7 +45,10 @@
       "Bash(sed:*)",
       "Read(//c/**)",
       "Bash(awk:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(if not exist \"docs\\images\" mkdir \"docs\\images\")",
+      "Bash(git checkout:*)",
+      "Bash(git ls-tree:*)"
     ],
     "deny": [],
     "ask": []

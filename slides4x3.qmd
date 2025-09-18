@@ -14,7 +14,7 @@ format:
 
 :::: {.columns}
 ::: {.column width="33%"}
-![](visicalc.png){width="300px" height="200px"}
+![](images/visicalc.png){width="300px" height="200px"}
 
 ::: {style="font-size: 0.8em;"}
 VisiCalc introduced for the Apple II in 1979
@@ -22,7 +22,7 @@ VisiCalc introduced for the Apple II in 1979
 :::
 
 ::: {.column width="33%"}
-![](lotus-123.jpg){width="300px" height="200px"}
+![](images/lotus-123.jpg){width="300px" height="200px"}
 
 ::: {style="font-size: 0.8em;"}
 Lotus-123 introduced for the IBM PC in 1983
@@ -30,7 +30,7 @@ Lotus-123 introduced for the IBM PC in 1983
 :::
 
 ::: {.column width="33%"}
-![](excel20.png){width="300px" height="200px"}
+![](images/excel20.png){width="300px" height="200px"}
 
 ::: {style="font-size: 0.8em;"}
 Microsoft Excel introduced for Windows in 1987
@@ -44,7 +44,7 @@ Microsoft Excel introduced for Windows in 1987
 
 ::: {.fragment}
 ::: {style="text-align: center; margin-top: 50px;"}
-![](ducks-sinking.png){style="max-height: 500px; width: auto;"}
+![](images/ducks-sinking.png){style="max-height: 500px; width: auto;"}
 :::
 :::
 
@@ -53,11 +53,11 @@ Microsoft Excel introduced for Windows in 1987
 ::: {.fragment data-fragment-index="0"}
 ::: {style="text-align: center; margin-top: 50px; position: relative; height: 500px;"}
 ::: {.fade-out data-fragment-index="1"}
-![](coyote11.png){style="max-height:500px; width: auto;"}
+![](images/coyote11.png){style="max-height:500px; width: auto;"}
 :::
 
 ::: {.fragment .fade-in data-fragment-index="1" style="position: absolute; top: 0; left: 0; right: 0; margin-top: 0;"}
-![](coyote21.png){style="max-height: 500px; width: auto;"}
+![](images/coyote21.png){style="max-height: 500px; width: auto;"}
 :::
 :::
 :::
@@ -187,7 +187,7 @@ for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the co
 :::
 ::: {.column style="width: 60%; display: flex; align-items: center; justify-content: center;"}
 ::: {.fragment}
-![](bugs-bunny.png){style="max-height: 400px; width: auto;"}
+![](images/bugs-bunny.png){style="max-height: 400px; width: auto;"}
 :::
 :::
 ::::
@@ -204,7 +204,7 @@ for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the co
 
 :::: {.columns}
 ::: {.column width="70%"}
-![](ai_learning_progression_with_prompt.png){style="max-height: 500px; width: auto;"}
+![](images/ai_learning_progression_with_prompt.png){style="max-height: 500px; width: auto;"}
 :::
 
 ::: {.column width="30%"}
@@ -242,7 +242,7 @@ It contains information and instructions for the LLM.
 
 ## Chatbot structure
 
-![](chatbot.png){style="max-height: 500px; width: auto;"}
+![](images/chatbot.png){style="max-height: 500px; width: auto;"}
 
 ## Agent = Chatbot + Tools
 
@@ -306,7 +306,7 @@ Tanmai Gopal, PromptQL's cofounder and CEO, said "<span class="highlight">MBA ty
 
 :::: {.columns}
 ::: {.column width="60%"}
-![](agent_v1.png){style="max-height: 500px; width: auto;"}
+![](images/agent_v1.png){style="max-height: 500px; width: auto;"}
 :::
 
 ::: {.column width="40%"}
@@ -320,7 +320,7 @@ May require chatting at this stage to clarify user's request
 
 :::: {.columns}
 ::: {.column width="60%"}
-![](agent_v2.png){style="max-height: 500px; width: auto;"}
+![](images/agent_v2.png){style="max-height: 500px; width: auto;"}
 :::
 ::: {.column width="40%"}
 :::
@@ -330,7 +330,7 @@ May require chatting at this stage to clarify user's request
 
 :::: {.columns}
 ::: {.column width="60%"}
-![](agent_v3.png){style="max-height: 500px; width: auto;"}
+![](images/agent_v3.png){style="max-height: 500px; width: auto;"}
 :::
 
 ::: {.column width="40%"}
@@ -346,7 +346,7 @@ If so, agent should send to LLM for new SQL code
 
 :::: {.columns}
 ::: {.column width="60%"}
-![](agent_v4.png){style="max-height: 500px; width: auto;"}
+![](images/agent_v4.png){style="max-height: 500px; width: auto;"}
 :::
 ::: {.column width="40%"}
 :::

@@ -154,7 +154,7 @@ ax.legend(handles=legend_elements, loc='upper right', fontsize=16, frameon=True,
 
 # Save the figure
 plt.tight_layout()
-plt.savefig('docs/agent_v4.png', dpi=300, bbox_inches='tight',
+plt.savefig('docs/images/agent_v4.png', dpi=300, bbox_inches='tight',
             facecolor='lightgray', edgecolor='none')
-print("Diagram created as docs/agent_v4.png")
+print("Diagram created as docs/images/agent_v4.png")
 plt.close()
