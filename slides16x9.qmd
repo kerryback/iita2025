@@ -8,8 +8,6 @@ format:
     include-after-body:
       - theme-toggle.html
     scrollable: true
-    output-file: slides4x3.html
-
 ---
 
 ## Life was the same for 40 years
@@ -227,8 +225,8 @@ A system prompt is text that is sent to the LLM along with each user prompt. It 
 
 ## Agent = Chatbot + Tools
 
-- An AI agent is a chatbot equipped with tools to do things.
-- Claude and ChatGPT are agents - they can send code to Python environments.
+- AI agent is a chatbot equipped with tools to do things
+- Claude and ChatGPT are agents - they can send code to Python environments
 - Database tools are very useful for chatbots
 
 ## Claude for Financial Services
@@ -256,6 +254,17 @@ Through data providers, Claude has real-time access to comprehensive financial i
 - Snowflake
 :::
 ::::
+
+## Aaron Linsky, CTO, AIA Labs at Bridgewater:
+
+::: {style="font-size: 0.9em;"}
+::: {.quote-box}
+We've been developing capabilities powered by Claude since 2023 within AIA Labs.
+:::
+::: {.quote-box}
+Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
+:::
+:::
 
 ## Why mba students should learn about agents
 
@@ -323,18 +332,10 @@ If so, agent should send to LLM for new SQL code
 :::
 ::::
 
-## Adding python to database agent
 
-Need to connect to a Python environment
+## What can we do in the classroom?
 
->Or configure the database agent to make it a tool for a chatbot that is already connected to a Python environment
-
-- OpenAI's Assistants API
-- Anthropic's Model Context Protocol (MCP)
-
-## What can we teach about this?
-
-- Can teach how to vibe code apps for mean-variance analysis, cost of capital calculations, binomial-tree option pricing, ...
+- Can have students vibe code apps for mean-variance analysis, cost of capital calculations, binomial-tree option pricing, ...
 - Apps can include API connections to OpenAI, Claude, ...
 - Apps can produce Word docs or PowerPoint decks with tables, figures, and written analysis from LLM
 - Apps can include chat with LLM
@@ -353,6 +354,25 @@ As job descriptions evolve, so does the definition of financial talent. <span cl
 But technical skills alone will not cut it. The <span class="highlight">most in demand profiles today are those that speak both AI and finance</span>, and can move between legal, operational, and data contexts without losing the plot.
 :::
 :::
+
+## How do we teach it?
+
+- We just need to expose students to what is possible 
+- AI can do the rest
+- Example: ask ChatGPT or Claude to 
+  - create an example Streamlit app
+  - explain how to deploy it (for free) on Hugging Face Spaces.
+
+## Plan 
+
+✓ Example of what AI can do today (new Claude skill from September)
+
+✓ Historical analogues?
+
+✓ Courses on AI
+
+4. Updating existing courses to use AI
+5. Assessing students
 
 
 ## Demos (all vibe coded) 
@@ -483,16 +503,7 @@ For the system prompt, use "Reply in pig Latin."  Deploy on ngrok.
 - Then show in tools (usually Excel)
 - Now, there is a next step: chatbots 
 
-## Aaron Linsky, CTO, AIA Labs at Bridgewater:
 
-::: {style="font-size: 0.9em;"}
-::: {.quote-box}
-We've been developing capabilities powered by Claude since 2023 within AIA Labs.
-:::
-::: {.quote-box}
-Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
-:::
-:::
 
 
 so
