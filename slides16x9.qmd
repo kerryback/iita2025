@@ -413,6 +413,7 @@ Ethan Mollick, Wharton, "Good Enough Prompting:"
 
 ::: {.quote-box}
 Treat AI like an infinitely patient new coworker ... As it is a coworker, you want to work with it, not just give it orders, and you also want to learn out what it is good or bad at ... Working with AI is a dialogue, not an order.
+:::
 
 ## Plan 
 
