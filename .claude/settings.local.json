@@ -41,7 +41,11 @@
       "Bash(start docsslides4x3.html)",
       "Bash(start:*)",
       "WebFetch(domain:fma2025.kerryback.com)",
-      "Bash(git log:*)"
+      "Bash(git log:*)",
+      "Bash(sed:*)",
+      "Read(//c/**)",
+      "Bash(awk:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []
