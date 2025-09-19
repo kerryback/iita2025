@@ -69,7 +69,7 @@ Microsoft Excel introduced for Windows in 1987
 2. Historical analogues?
 3. A course on AI
 4. Updating existing courses to use AI
-5. Assessing students
+5. Deep dive into Claude Code
 
 ## 1. Example (prompt for Claude)
 
@@ -149,7 +149,7 @@ personal AI tools for work tasks. In fact, almost every single person used an LL
 
 4. Updating existing courses to use AI
 
-5. Assessing students
+5. Deep dive into Claude Code
 :::
 
 ## 3. A Course on AI
@@ -380,7 +380,7 @@ If so, agent should send to LLM for new SQL code
 ::: {.quote-box}
 4. Updating existing courses to use AI
 
-5. Assessing students
+5. Deep dive into Claude Code
 :::
 
 
@@ -426,7 +426,7 @@ Treat AI like an infinitely patient new coworker ... As it is a coworker, you wa
 ✓ Updating existing courses to use AI
 
 ::: {.quote-box}
-5. Assessing students
+5. Deep dive into Claude Code
 :::
 
 
