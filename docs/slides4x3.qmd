@@ -474,14 +474,6 @@ But this is probably unnecessary for most topics.  The LLMs are much, much more 
 :::
 
 
-##
-
-::: {style="text-align: center; margin-top: 50px;"}
-<video width="640" height="500" controls preload="metadata">
-  <source src="columbo_final.webm" type="video/webm">
-   Your browser does not support the video tag.
-</video>
-:::
 
 ## Plan 
 
