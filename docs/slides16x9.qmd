@@ -40,7 +40,6 @@ Microsoft Excel introduced for Windows in 1987
 ::::
 
 
-
 ## Now, with AI, we're all in the same boat
 
 ::: {.fragment}
@@ -344,7 +343,7 @@ But technical skills alone will not cut it. The <span class="highlight">most in 
 :::
 
 ::: {.column width="40%"}
-::: {style="font-size: 0.9em;"}
+::: {style="font-size: 1.0em;"}
 May require chatting at this stage to clarify user's request
 :::
 :::
@@ -368,10 +367,9 @@ May require chatting at this stage to clarify user's request
 :::
 
 ::: {.column width="40%"}
-::: {style="font-size: 0.9em;"}
-Response could be error message 
-
-If so, agent should send to LLM for new SQL code
+::: {style="font-size: 1.0em;"}
+- Response could be error message 
+- If so, agent should send to LLM for new SQL code
 :::
 :::
 ::::
@@ -383,6 +381,9 @@ If so, agent should send to LLM for new SQL code
 ![](images/agent_v4.png){style="max-height: 500px; width: auto;"}
 :::
 ::: {.column width="40%"}
+- Could be more things connected
+- E.g., send data to python engine
+- Send python output to user
 :::
 ::::
 
