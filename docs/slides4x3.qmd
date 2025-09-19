@@ -5,8 +5,6 @@ format:
   revealjs:
     theme: moon
     css: custom-spacing.css
-    include-after-body:
-      - theme-toggle.html
     scrollable: true
 ---
 
