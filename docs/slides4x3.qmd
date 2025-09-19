@@ -4,7 +4,8 @@ author: "Kerry Back<br>Rice University<br>FMA 2025"
 format:
   revealjs:
     theme: moon
-    css: custom-spacing.css
+    include-after-body: 
+      - theme-toggle.html
     scrollable: true
 ---
 
