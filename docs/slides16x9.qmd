@@ -1,5 +1,5 @@
 ---
-title: "Incorporating AI <br>into Teaching and<br>Teaching about AI"
+title: "Incorporating AI <br>into Teaching"
 author: "Kerry Back<br>Rice University<br>FMA 2025"
 format:
   revealjs:
@@ -8,6 +8,7 @@ format:
     include-after-body:
       - theme-toggle.html
     scrollable: true
+    self-contained: true
 ---
 
 ## Life was the same for 40 years
@@ -169,11 +170,39 @@ d. Building apps, custom chatbots, agents
 
 ## b. Prompt Engineering
 
-- Iterate, adding and revising, until we get what we want
-- Clean up and save
+- Some students ask for instruction on how to prompt AI
+- Special techniques aren't needed.  Practice is.
+
+Ethan Mollick, Wharton, "Good Enough Prompting:"
+
+::: {.quote-box}
+Treat AI like an infinitely patient new coworker ... As it is a coworker, you want to work with it, not just give it orders, and you also want to learn what it is good or bad at ... Working with AI is a dialogue, not an order.
+:::
+
+## The roles of AI
+
+- Do stuff for us
+- Collaborate with us
+- Advise us
+
+## Building an effective prompt to do stuff
+
+- Have a dialogue with AI until we get what we want
+- Save clean instructions in form of Step 1.  Step 2. ...
 - Fresh try using saved prompt, iterate more if needed
 - Try on a new example, iterate more if needed 
-- Claude valuation example is a good place to start
+- Claude valuation example is a good place to start: build an effective prompt to generate valuation analyses
+
+## Aaron Linsky, CTO, AIA Labs at Bridgewater:
+
+::: {style="font-size: 0.9em;"}
+::: {.quote-box}
+We've been developing capabilities powered by Claude since 2023 within AIA Labs.
+:::
+::: {.quote-box}
+Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
+:::
+:::
 
 ## c. Vibe Coding
 
@@ -204,7 +233,7 @@ for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the co
 
 :::: {.columns}
 ::: {.column width="70%"}
-![](images/ai_learning_progression_with_prompt.png){style="max-height: 500px; width: auto;"}
+![](images/ai_learning_progression.png){style="max-height: 500px; width: auto;"}
 :::
 
 ::: {.column width="30%"}
@@ -232,13 +261,15 @@ A system prompt is text that is sent to the LLM along with each user prompt.
 It contains information and instructions for the LLM.
 :::
 
+[Anthropic's System Prompts](https://docs.claude.com/en/release-notes/system-prompts#august-5-2025)
+
 ## RAG (Retrieval Augmented Generation) chatbots 
 
-- Break documents into chunks (~paragraphs, overlapping)
-- Calculate vector embedding of each chunk based on some embedding scheme
-- Calculate embedding of user prompt.  Find similar chunks.
-- Send prompt and chunks to AI model.
-- <span class="highlight">Key element of many corporate AI implementations</span>
+- Send stored chunks of documents to LLM along with prompt and system prompt
+- Choose chunks most relevant to the prompt
+  - Vector embedding (vector store)
+  - Similarity search
+- Key element of many corporate AI implementations
 
 ## Chatbot structure
 
@@ -276,16 +307,6 @@ Through data providers, Claude has real-time access to comprehensive financial i
 :::
 ::::
 
-## Aaron Linsky, CTO, AIA Labs at Bridgewater:
-
-::: {style="font-size: 0.9em;"}
-::: {.quote-box}
-We've been developing capabilities powered by Claude since 2023 within AIA Labs.
-:::
-::: {.quote-box}
-Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
-:::
-:::
 
 ## Why mba students should learn about agents
 
@@ -301,6 +322,19 @@ Tanmai Gopal, PromptQL's cofounder and CEO, said "<span class="highlight">MBA ty
 :::
 :::
 
+## Yeyati, Brookings, 2025:
+
+::: {style="font-size: 0.9em;"}
+::: {.quote-box}
+As AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.
+:::
+::: {.quote-box}
+As job descriptions evolve, so does the definition of financial talent. <span class="highlight">Excel is no longer a differentiator. Python is fast becoming the new Excel. </span>
+:::
+::: {.quote-box}
+But technical skills alone will not cut it. The <span class="highlight">most in demand profiles today are those that speak both AI and finance</span>, and can move between legal, operational, and data contexts without losing the plot.
+:::
+:::
 
 ## database agent passes prompt from user to LLM
 
@@ -358,16 +392,27 @@ If so, agent should send to LLM for new SQL code
 - We can show students how to vibe code apps to automate things 
   - Getting data
   - Financial analysis
-  - Getting analysis from AI 
+  - Getting written analysis from AI 
   - Producing Excel, Word, PowerPoint
 - App can include chat feature to clarify which data to get, which tools to use, ...
 
+## Tools
 
-## How do we learn how to teach it?
+- Point and click: ChatGPT's Custom GPTs
+- Simplest vibe coding environment: Replit
+- Google Colab for Streamlit app and ngrok deployment
+- Local: VS Code, Cursor, Windsurf, Claude Code
 
-- Ask AI
-- Small example- create an example Streamlit app
-  - explain how to deploy it (for free) on Hugging Face Spaces.
+
+
+## How do we learn this stuff to teach it?
+
+::: {.fragment}
+::: {style="display: flex; align-items: center; justify-content: center; height: 400px;"}
+<span style="font-size: 3em; font-weight: bold;">Ask AI</span>
+:::
+:::
+
 
 ## Plan 
 
@@ -384,35 +429,65 @@ If so, agent should send to LLM for new SQL code
 :::
 
 
-## 4. Updating existing courses to use AI 
+## 4. Updating existing courses: what we should teach 
 
 - We generally teach concepts first with slides (or board)
 - Then show in tools (usually Excel)
-- Now, there is a next step: chatbots 
+- Now, there is a next step: chatbots and agents
 
-## Yeyati, Brookings, 2025:
+::: {.fragment}
+::: {.quote-box}
+Teach about implementation in Excel $\rightarrow$ students build Excel models.
 
-::: {style="font-size: 0.9em;"}
-::: {.quote-box}
-As AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.
-:::
-::: {.quote-box}
-As job descriptions evolve, so does the definition of financial talent. <span class="highlight">Excel is no longer a differentiator. Python is fast becoming the new Excel. </span>
-:::
-::: {.quote-box}
-But technical skills alone will not cut it. The <span class="highlight">most in demand profiles today are those that speak both AI and finance</span>, and can move between legal, operational, and data contexts without losing the plot.
+Teach about implementation in AI $\rightarrow$ students build prompts or apps
 :::
 :::
 
-## Teaching Collaboration with AI
+## How we should teach
 
-- Some students ask for instruction on how to prompt AI
-- Special techniques aren't needed.  Practice is.
+- AI is a very effective tutor
+- We should take advantage of it
+- <span class="highlight">Asking students to chat with chatbots can replace "Do the assigned reading."</span>
+- Can be assigned before class or in class before slides.
 
-Ethan Mollick, Wharton, "Good Enough Prompting:"
+::: {.fragment}
+::: {.quote-box}  
+Ask your chatbot to teach you about ... Be sure to tell it to ask you questions to ensure you are understanding.
+:::
+:::
 
-::: {.quote-box}
-Treat AI like an infinitely patient new coworker ... As it is a coworker, you want to work with it, not just give it orders, and you also want to learn out what it is good or bad at ... Working with AI is a dialogue, not an order.
+## Controlling the sources 
+
+- Build RAG (Google's Notebook LM or Custom GTP or ...)
+- If sources are copyrighted, first ask AI for a complete report on the subject, read and edit the AI report, and add to system prompt "Teach from this report ..."
+
+::: {.fragment}
+But this is probably unnecessary for most topics.  The LLMs are much, much more reliable than they were a couple of years ago when everyone was concerned about hallucinations.
+:::
+
+## How can we assess?
+
+::: {.fragment data-fragment-index="1"}
+- Out-of-class assignments should become "turn in your chat, its output, and your evaluation of the output" or "turn in your app."
+:::
+
+::: {.fragment data-fragment-index="2"}
+- In-class <span class="highlight">exams without AI</span> to ensure students understand concepts
+:::
+
+
+::: {.fragment data-fragment-index="3"}
+- In-class <span class="highlight">exams with AI</span> that are more ambitious than exams today.  Cases can become exams with AI assistance.
+:::
+
+##
+
+::: {style="text-align: center; margin-top: 50px;"}
+<video width="640" height="500" controls preload="metadata">
+  <source src="columbo_final.webm" type="video/webm">
+  <source src="columbo_final_with_poster.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 :::
 
 ## Plan 
@@ -428,9 +503,6 @@ Treat AI like an infinitely patient new coworker ... As it is a coworker, you wa
 ::: {.quote-box}
 5. Deep dive into Claude Code
 :::
-
-
-
 
 
 
@@ -465,9 +537,13 @@ Create a LaTeX doc in the article style with Hello World as the title.  Compile 
 
 ## {#final-slide}
 
-::: {style="text-align: center; font-size: 4em; font-weight: bold; margin-top: 200px;"}
-QUESTIONS?
+::: {style="text-align: center; margin-top: 100px;"}
+![](images/qr_code_slides16x9.png){style="max-height: 400px; width: auto;"}
 :::
+::: {style="font-size: 1.5em; text-align: center; margin-top: 30px;"}
+Scan for slides
+:::
+
 
 
 

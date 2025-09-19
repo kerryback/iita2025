@@ -58,7 +58,7 @@ def draw_curved_arrow_with_label(ax, start, end, label, color, curve_height=0.5,
         connectionstyle = f"arc3,rad={0.3 if curve_height > 0 else -0.3}"
 
     arrow = FancyArrowPatch(start, end,
-                           connectionstyle=connectionstyle,
+                           #connectionstyle=connectionstyle,
                            arrowstyle='->',
                            color=color, linewidth=3.5,
                            mutation_scale=25,
@@ -99,28 +99,28 @@ def draw_curved_arrow_with_label(ax, start, end, label, color, curve_height=0.5,
 
 # Draw arrows with labels
 # 1. User -> App (above) - "Prompt"
-draw_curved_arrow_with_label(ax, (nodes['User'][0] + 1.1, nodes['User'][1] + 0.2),
-                            (nodes['App'][0] - 1, nodes['App'][1] + 0.2),
+draw_curved_arrow_with_label(ax, (nodes['User'][0] + 1.1, nodes['User'][1] + 0.3),
+                            (nodes['App'][0] - 1, nodes['App'][1] + 0.3),
                             'Prompt', color_blue, curve_height=0.6, above=True)
 
 # 2. App -> LLM (above) - stacked labels
-draw_curved_arrow_with_label(ax, (nodes['App'][0] + 1.0, nodes['App'][1] + 0.2),
-                            (nodes['LLM'][0] - 1.1, nodes['LLM'][1] + 0.2),
+draw_curved_arrow_with_label(ax, (nodes['App'][0] + 1.0, nodes['App'][1] + 0.3),
+                            (nodes['LLM'][0] - 1.1, nodes['LLM'][1] + 0.3),
                             ['Prompt', 'System Prompt', 'Chat History', 'RAG Chunks'], color_blue, curve_height=0.4, above=True, stacked=True)
 
 # 3. LLM -> App (below) - "Response"
-draw_curved_arrow_with_label(ax, (nodes['LLM'][0] - 1.1, nodes['LLM'][1] - 0.2),
-                            (nodes['App'][0] + 1, nodes['App'][1] - 0.2),
+draw_curved_arrow_with_label(ax, (nodes['LLM'][0] - 1.1, nodes['LLM'][1] - 0.3),
+                            (nodes['App'][0] + 1, nodes['App'][1] - 0.3),
                             'Response', color_blue, curve_height=0.6, above=False)
 
 # 4. App -> User (below) - "Response"
-draw_curved_arrow_with_label(ax, (nodes['App'][0] - 1, nodes['App'][1] - 0.2),
-                            (nodes['User'][0] + 1.1, nodes['User'][1] - 0.2),
+draw_curved_arrow_with_label(ax, (nodes['App'][0] - 1, nodes['App'][1] - 0.3),
+                            (nodes['User'][0] + 1.1, nodes['User'][1] - 0.3),
                             'Response', color_blue, curve_height=0.5, above=False)
 
 # Save the figure
 plt.tight_layout()
-plt.savefig('chatbot.png', dpi=300, bbox_inches='tight',
+plt.savefig('docs/images/chatbot.png', dpi=300, bbox_inches='tight',
             facecolor='lightgray', edgecolor='none')
 print("Chatbot diagram created as chatbot.png")
 plt.close()

@@ -63,17 +63,17 @@ color3 = '#FF6347'  # Red/Tomato for steps 5 & 6
 
 # Add blue arrows only (User -> Agent and Agent -> LLM)
 # User -> Agent (curved upward blue arrow - negative rad for upward curve)
-arrow_user_app = FancyArrowPatch((nodes['User'][0] + 1, nodes['User'][1]),
-                                 (nodes['Agent'][0] - 1.0, nodes['Agent'][1]),
-                                 connectionstyle="arc3,rad=-0.4",
+arrow_user_app = FancyArrowPatch((nodes['User'][0] + 1, nodes['User'][1]+0.3),
+                                 (nodes['Agent'][0] - 1.0, nodes['Agent'][1]+0.3),
+                                 #connectionstyle="arc3,rad=-0.4",
                                  arrowstyle='->',
                                  color=color1, linewidth=3.5, mutation_scale=25, zorder=0, alpha=0.6)
 ax.add_patch(arrow_user_app)
 
 # Agent -> LLM (curved upward blue arrow - negative rad for upward curve)
-arrow_app_llm = FancyArrowPatch((nodes['Agent'][0] + 1.0, nodes['Agent'][1]),
-                                (nodes['LLM'][0] - 1.1, nodes['LLM'][1]),
-                                connectionstyle="arc3,rad=-0.4",
+arrow_app_llm = FancyArrowPatch((nodes['Agent'][0] + 1.0, nodes['Agent'][1]+0.3),
+                                (nodes['LLM'][0] - 1.1, nodes['LLM'][1]+0.3),
+                                #connectionstyle="arc3,rad=-0.4",
                                 arrowstyle='->',
                                 color=color1, linewidth=3.5, mutation_scale=25, zorder=0, alpha=0.6)
 ax.add_patch(arrow_app_llm)

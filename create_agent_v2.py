@@ -83,7 +83,7 @@ def draw_curved_arrow(ax, start, end, color, curve_height=0.5, above=True):
         connectionstyle = f"arc3,rad={0.3 if curve_height > 0 else -0.3}"
 
     arrow = FancyArrowPatch(start, end,
-                           connectionstyle=connectionstyle,
+                           #connectionstyle=connectionstyle,
                            arrowstyle='->',
                            color=color, linewidth=3.5,
                            mutation_scale=25,
@@ -92,32 +92,32 @@ def draw_curved_arrow(ax, start, end, color, curve_height=0.5, above=True):
 
 # Draw blue arrows (User -> Agent and Agent -> LLM)
 # User -> Agent (curved upward blue arrow - negative rad for upward curve)
-arrow_user_app = FancyArrowPatch((nodes['User'][0] + 1, nodes['User'][1]),
-                                 (nodes['Agent'][0] - 1.0, nodes['Agent'][1]),
-                                 connectionstyle="arc3,rad=-0.4",
+arrow_user_app = FancyArrowPatch((nodes['User'][0] + 1, nodes['User'][1]+0.3),
+                                 (nodes['Agent'][0] - 1.0, nodes['Agent'][1]+0.3),
+                                 #connectionstyle="arc3,rad=-0.4",
                                  arrowstyle='->',
                                  color=color1, linewidth=3.5, mutation_scale=25, zorder=0, alpha=0.6)
 ax.add_patch(arrow_user_app)
 
 # Agent -> LLM (curved upward blue arrow - negative rad for upward curve)
-arrow_app_llm = FancyArrowPatch((nodes['Agent'][0] + 1.0, nodes['Agent'][1]),
-                                (nodes['LLM'][0] - 1.1, nodes['LLM'][1]),
-                                connectionstyle="arc3,rad=-0.4",
+arrow_app_llm = FancyArrowPatch((nodes['Agent'][0] + 1.0, nodes['Agent'][1]+0.3),
+                                (nodes['LLM'][0] - 1.1, nodes['LLM'][1]+0.3),
+                                #connectionstyle="arc3,rad=-0.4",
                                 arrowstyle='->',
                                 color=color1, linewidth=3.5, mutation_scale=25, zorder=0, alpha=0.6)
 ax.add_patch(arrow_app_llm)
 
 # Add green arrows (LLM -> Agent and Agent -> DW)
 # LLM -> Agent (below)
-draw_curved_arrow(ax, (nodes['LLM'][0] - 1.1, nodes['LLM'][1] - 0.2),
-                 (nodes['Agent'][0] + 1, nodes['Agent'][1] - 0.2),
+draw_curved_arrow(ax, (nodes['LLM'][0] - 1.1, nodes['LLM'][1] - 0.3),
+                 (nodes['Agent'][0] + 1, nodes['Agent'][1] - 0.3),
                  color2, curve_height=0.5, above=False)
 
 # Agent -> DW (now curves right, was position 5)
 start_4 = (nodes['Agent'][0] + 0.5, nodes['Agent'][1] - 0.55)
 end_4 = (nodes['DW'][0] + 0.5, nodes['DW'][1] + 0.6)
 arrow_4 = FancyArrowPatch(start_4, end_4,
-                         connectionstyle="arc3,rad=-0.3",
+                         #connectionstyle="arc3,rad=-0.3",
                          arrowstyle='->',
                          color=color2, linewidth=3.5, mutation_scale=25, zorder=1)
 ax.add_patch(arrow_4)

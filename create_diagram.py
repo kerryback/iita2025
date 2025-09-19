@@ -11,21 +11,17 @@ dot.attr('edge', fontname='Arial')
 
 
 # Define positions for main nodes (x,y coordinates)
-# New node above Vibe Coding
-dot.node('PE', 'Prompt Engineering', fillcolor='white', pos='3,12!')
 # Vibe Coding and Financial Analysis horizontally aligned
-dot.node('VC', 'Vibe Coding', fillcolor='lightblue', pos='3,10!')
+dot.node('VC', 'Vibe Coding', fillcolor='#e6f3ff', pos='3,10!')  # Light blue (start of sequence)
 dot.node('FA', 'Financial Analysis', fillcolor='lightgreen', pos='10,10!')
 
-# Other nodes below Vibe Coding
-dot.node('Apps', 'Apps', fillcolor='lightyellow', pos='3,8!')
-dot.node('CC', 'Custom Chatbots', fillcolor='lightcoral', pos='3,6!')
-dot.node('AA', 'AI Agents', fillcolor='lightpink', pos='3,4!')
+# Other nodes below Vibe Coding - sequential blues getting darker
+dot.node('Apps', 'Apps', fillcolor='#b3d9ff', pos='3,8!')  # Medium-light blue
+dot.node('CC', 'Custom Chatbots', fillcolor='#80bfff', pos='3,6!')  # Medium blue
+dot.node('AA', 'AI Agents', fillcolor='#4da6ff', pos='3,4!')  # Darker blue
 
 
 # Main progression arrows
-# New arrow from Prompt Engineering to Vibe Coding
-dot.edge('PE', 'VC', color='blue', penwidth='2.5')
 # Horizontal arrow from Vibe Coding to Financial Analysis
 dot.edge('VC', 'FA', color='black', penwidth='4')
 # Vertical arrow from Vibe Coding to Apps
@@ -52,6 +48,6 @@ dot.edge('AA_right', 'CC_right', color='black', penwidth='4', dir='none')
 dot.edge('CC_right', 'Apps_right', color='black', penwidth='4', dir='none')
 dot.edge('Apps_right', 'FA', color='black', penwidth='4')
 
-# Save the diagram under a new name
-dot.render('ai_learning_progression_with_prompt', directory='.', cleanup=True)
-print("Diagram created as ai_learning_progression_with_prompt.png")
+# Save the diagram
+dot.render('ai_learning_progression', directory='.', cleanup=True)
+print("Diagram created as ai_learning_progression.png")
