@@ -200,7 +200,7 @@ Treat AI like an infinitely patient new coworker ... As it is a coworker, you wa
 We've been developing capabilities powered by Claude since 2023 within AIA Labs.
 :::
 ::: {.quote-box}
-Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
+Claude powered the first versions of our <span class="highlight">Investment Analyst Assistant</span>, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through <span class="highlight"> complex financial analysis tasks with the precision of a junior analyst</span>.
 :::
 :::
 
@@ -458,7 +458,7 @@ Ask your chatbot to teach you about ... Be sure to tell it to ask you questions 
 
 ## Controlling the sources 
 
-- Build RAG (Google's Notebook LM or Custom GTP or ...)
+- Build RAG (Google's Notebook LM or Custom GPT or ...)
 - If sources are copyrighted, first ask AI for a complete report on the subject, read and edit the AI report, and add to system prompt "Teach from this report ..."
 
 ::: {.fragment}
@@ -467,18 +467,12 @@ But this is probably unnecessary for most topics.  The LLMs are much, much more 
 
 ## How can we assess?
 
-::: {.fragment data-fragment-index="1"}
+::: {.incremental}
 - Out-of-class assignments should become "turn in your chat, its output, and your evaluation of the output" or "turn in your app."
-:::
-
-::: {.fragment data-fragment-index="2"}
 - In-class <span class="highlight">exams without AI</span> to ensure students understand concepts
-:::
-
-
-::: {.fragment data-fragment-index="3"}
 - In-class <span class="highlight">exams with AI</span> that are more ambitious than exams today.  Cases can become exams with AI assistance.
 :::
+
 
 ##
 
