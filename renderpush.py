@@ -14,8 +14,8 @@ def create_16x9_version():
     """Create 16:9 version from the 4:3 presentation"""
 
     # Source and target files
-    source_file = Path("slides4x3.qmd")
-    target_file = Path("slides16x9.qmd")
+    source_file = Path("docs/slides4x3.qmd")
+    target_file = Path("docs/slides16x9.qmd")
 
     if not source_file.exists():
         print(f"Error: {source_file} not found!")
@@ -53,8 +53,8 @@ def render_presentations():
 
     files_to_render = [
         ("index.qmd", "Landing page"),
-        ("slides4x3.qmd", "4:3 presentation"),
-        ("slides16x9.qmd", "16:9 presentation")
+        ("docs/slides4x3.qmd", "4:3 presentation"),
+        ("docs/slides16x9.qmd", "16:9 presentation")
     ]
 
     for qmd_file, description in files_to_render:
