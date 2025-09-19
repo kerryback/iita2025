@@ -540,7 +540,7 @@ Create a LaTeX doc in the article style with Hello World as the title.  Compile 
 ::: {style="text-align: center; margin-top: 100px;"}
 ![](images/qr_code_slides16x9.png){style="max-height: 400px; width: auto;"}
 :::
-::: {style="font-size: 1.5em; "text-align: center; margin-top: 30px;"}
+::: {style="font-size: 1.5em; text-align: center; margin-top: 30px;"}
 Scan for slides
 :::
 
