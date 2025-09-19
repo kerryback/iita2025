@@ -1,0 +1,477 @@
+---
+title: "Incorporating AI <br>into Teaching and<br>Teaching about AI"
+author: "Kerry Back<br>Rice University<br>FMA 2025"
+format:
+  revealjs:
+    theme: moon
+    css: custom-spacing.css
+    include-after-body:
+      - theme-toggle.html
+    scrollable: true
+---
+
+## Life was the same for 40 years
+
+:::: {.columns}
+::: {.column width="33%"}
+![](images/visicalc.png){width="300px" height="200px"}
+
+::: {style="font-size: 0.8em;"}
+VisiCalc introduced for the Apple II in 1979
+:::
+:::
+
+::: {.column width="33%"}
+![](images/lotus-123.jpg){width="300px" height="200px"}
+
+::: {style="font-size: 0.8em;"}
+Lotus-123 introduced for the IBM PC in 1983
+:::
+:::
+
+::: {.column width="33%"}
+![](images/excel20.png){width="300px" height="200px"}
+
+::: {style="font-size: 0.8em;"}
+Microsoft Excel introduced for Windows in 1987
+:::
+:::
+::::
+
+
+
+## Now, with AI, we're all in the same boat
+
+::: {.fragment}
+::: {style="text-align: center; margin-top: 50px;"}
+![](images/ducks-sinking.png){style="max-height: 500px; width: auto;"}
+:::
+:::
+
+## It's hard to keep up!
+
+::: {.fragment data-fragment-index="0"}
+::: {style="text-align: center; margin-top: 50px; position: relative; height: 500px;"}
+::: {.fade-out data-fragment-index="1"}
+![](images/coyote11.png){style="max-height:500px; width: auto;"}
+:::
+
+::: {.fragment .fade-in data-fragment-index="1" style="position: absolute; top: 0; left: 0; right: 0; margin-top: 0;"}
+![](images/coyote21.png){style="max-height: 500px; width: auto;"}
+:::
+:::
+:::
+
+
+## Plan 
+
+1. Example of what AI can do today - new Claude skill from September
+2. Historical analogues?
+3. A course on AI
+4. Updating existing courses to use AI
+5. Deep dive into Claude Code
+
+## 1. Example (prompt for Claude)
+
+::: {.quote-box}
+Read the uploaded case (Valuing Walmart 2010).  Ignore the valuation method described in the case.  Instead, generate pro forma statements and perform a two-stage DCF analysis.
+:::
+::: {.quote-box}
+Document your assumptions and your reasons for them.  Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.
+:::
+
+## 2. Historical analogues
+
+1. Handheld calculators
+2. Personal computers
+
+::: {.quote-box}
+How did teaching and learning change? Are there lessons for today?
+:::
+
+## Introduction of Handheld Calculators
+
+- Much worry that students wouldn't learn addition, subtraction, ... 
+   - Studies haven't found an effect 
+   - But primary schools still provide practice and assessments in which calculators are not allowed
+- Some hoped that schools could move beyond calculation and teach deeper math 
+  - That didn't seem to happen 
+
+## Introduction of Personal computers & spreadsheets
+
+1. We added courses on how to use spreadsheets 
+2. We updated existing courses to use spreadsheets
+3. We assess how well students can use spreadsheets (no pencil and paper valuation analyses)
+
+::: {.fragment}
+>Teaching how to do finance in spreadsheets is a main goal.
+:::
+
+## Why?
+
+- Spreadsheets are used in business
+- Spreadsheets are ideal for teaching the logic of some things (valuation/capital budgeting)
+- Spreadsheets don't automatically do the things we were teaching before (financial calculators $\rightarrow$ spreadsheets)
+
+## What about AI?
+
+✓ AI is used in business
+
+✓ AI is useful for teaching/tutoring
+
+✗ AI can automatically do many things we were teaching before
+
+::: {.fragment}
+::: {.quote-box}
+AI is more like calculators than spreadsheets.  We worry that students won't learn skills that they need.  
+
+Like primary schools and arithmetic, we will need to have practice and assessments in which AI is not allowed
+:::
+:::
+
+## AI is used in Business
+
+MIT/Media Labs State of AI in Business 2025:
+
+::: {.quote-box}
+Workers from over 90% of the companies we surveyed reported regular use of
+personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work.
+:::
+ 
+## Plan 
+
+✓ Example of what AI can do today
+
+✓ Historical analogues
+
+::: {.quote-box}
+3. A course on AI
+
+4. Updating existing courses to use AI
+
+5. Deep dive into Claude Code
+:::
+
+## 3. A Course on AI
+
+a. Case on corporate implementation
+b. Prompt engineering
+c. Vibe coding for financial analysis 
+d. Building apps, custom chatbots, agents
+
+## a. case on corporate implementation
+
+[Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada](https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO), 2024.
+
+- Describes creation of a custom chatbot
+- Discusses reliability, bias, compliance, data privacy, trust of customers
+
+
+## b. Prompt Engineering
+
+- Iterate, adding and revising, until we get what we want
+- Clean up and save
+- Fresh try using saved prompt, iterate more if needed
+- Try on a new example, iterate more if needed 
+- Claude valuation example is a good place to start
+
+## c. Vibe Coding
+
+In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that 
+
+:::: {.columns style="display: flex; align-items: center;"}
+::: {.column style="width: 40%; display: flex; align-items: center;"}
+::: {.quote-box}
+for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI.
+:::
+:::
+::: {.column style="width: 60%; display: flex; align-items: center; justify-content: center;"}
+::: {.fragment}
+![](images/bugs-bunny.png){style="max-height: 400px; width: auto;"}
+:::
+:::
+::::
+
+## Vibe coding for finance
+
+- Chatbots with python can easily do many types of financial analyses: regression, mean-variance optimization, binomial-tree option valuation ...
+- Running python in the cloud:
+  - ChatGPT, Claude, Google Colab with Gemini, Julius.ai
+- Running python locally:
+  - VS Code, Cursor, Windsurf, Claude Code 
+
+## d. Building stuff
+
+:::: {.columns}
+::: {.column width="70%"}
+![](images/ai_learning_progression_with_prompt.png){style="max-height: 500px; width: auto;"}
+:::
+
+::: {.column width="30%"}
+::: {style="font-size: 0.8em;"}
+- Apps can use AI
+- Chatbots are apps
+- Agents are chatbots with tools
+:::
+:::
+::::
+
+## chatbot is an app consisting of
+
+- User interface
+- API connection to an LLM, which has possibly been fine-tuned
+- System prompt
+- Possible retrieval of documents
+- Possible use of tools
+
+## System prompt is fundamental
+
+::: {.quote-box}
+A system prompt is text that is sent to the LLM along with each user prompt. 
+
+It contains information and instructions for the LLM.
+:::
+
+## RAG (Retrieval Augmented Generation) chatbots 
+
+- Break documents into chunks (~paragraphs, overlapping)
+- Calculate vector embedding of each chunk based on some embedding scheme
+- Calculate embedding of user prompt.  Find similar chunks.
+- Send prompt and chunks to AI model.
+- <span class="highlight">Key element of many corporate AI implementations</span>
+
+## Chatbot structure
+
+![](images/chatbot.png){style="max-height: 500px; width: auto;"}
+
+## Agent = Chatbot + Tools
+
+- AI agent is a chatbot equipped with tools to do things
+- Claude and ChatGPT are agents - they can send code to Python environments
+- Database tools are very useful for chatbots
+
+## Claude for Financial Services
+
+From [Anthropic](https://www.anthropic.com/news/claude-for-financial-services):
+
+Through data providers, Claude has real-time access to comprehensive financial information:
+
+:::: {.columns}
+::: {.column width="33%"}
+- Box
+- Daloopa
+- Databricks
+:::
+
+::: {.column width="33%"}
+- FactSet
+- Morningstar
+- Palantir
+:::
+
+::: {.column width="33%"}
+- PitchBook
+- S&P Global
+- Snowflake
+:::
+::::
+
+## Aaron Linsky, CTO, AIA Labs at Bridgewater:
+
+::: {style="font-size: 0.9em;"}
+::: {.quote-box}
+We've been developing capabilities powered by Claude since 2023 within AIA Labs.
+:::
+::: {.quote-box}
+Claude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts' workflow by generating Python code, creating data visualizations, and iterating through complex financial analysis tasks with the precision of a junior analyst.
+:::
+:::
+
+## Why mba students should learn about agents
+
+Fortune, 9-14-2025:
+
+::: {style="font-size: 0.9em;"}
+
+::: {.quote-box}
+PromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out <span class="highlight">$900-per-hour</span> wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).
+:::
+::: {.quote-box}
+Tanmai Gopal, PromptQL's cofounder and CEO, said "<span class="highlight">MBA types</span> ... are very strategic thinkers, and they're smart people, but they <span class="highlight">don't have an intuition for what AI can do</span>."
+:::
+:::
+
+
+## database agent passes prompt from user to LLM
+
+:::: {.columns}
+::: {.column width="60%"}
+![](images/agent_v1.png){style="max-height: 500px; width: auto;"}
+:::
+
+::: {.column width="40%"}
+::: {style="font-size: 0.9em;"}
+May require chatting at this stage to clarify user's request
+:::
+:::
+::::
+
+## agent passes SQL from LLM to data warehouse
+
+:::: {.columns}
+::: {.column width="60%"}
+![](images/agent_v2.png){style="max-height: 500px; width: auto;"}
+:::
+::: {.column width="40%"}
+:::
+::::
+
+## Data Warehouse passes response to agent
+
+:::: {.columns}
+::: {.column width="60%"}
+![](images/agent_v3.png){style="max-height: 500px; width: auto;"}
+:::
+
+::: {.column width="40%"}
+::: {style="font-size: 0.9em;"}
+Response could be error message 
+
+If so, agent should send to LLM for new SQL code
+:::
+:::
+::::
+
+## agent passes data from warehouse to user
+
+:::: {.columns}
+::: {.column width="60%"}
+![](images/agent_v4.png){style="max-height: 500px; width: auto;"}
+:::
+::: {.column width="40%"}
+:::
+::::
+
+
+## What can we do in the classroom?
+
+- We can show students how to vibe code apps to automate things 
+  - Getting data
+  - Financial analysis
+  - Getting analysis from AI 
+  - Producing Excel, Word, PowerPoint
+- App can include chat feature to clarify which data to get, which tools to use, ...
+
+
+## How do we learn how to teach it?
+
+- Ask AI
+- Small example- create an example Streamlit app
+  - explain how to deploy it (for free) on Hugging Face Spaces.
+
+## Plan 
+
+✓ Example of what AI can do today 
+
+✓ Historical analogues
+
+✓ A course on AI
+
+::: {.quote-box}
+4. Updating existing courses to use AI
+
+5. Deep dive into Claude Code
+:::
+
+
+## 4. Updating existing courses to use AI 
+
+- We generally teach concepts first with slides (or board)
+- Then show in tools (usually Excel)
+- Now, there is a next step: chatbots 
+
+## Yeyati, Brookings, 2025:
+
+::: {style="font-size: 0.9em;"}
+::: {.quote-box}
+As AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.
+:::
+::: {.quote-box}
+As job descriptions evolve, so does the definition of financial talent. <span class="highlight">Excel is no longer a differentiator. Python is fast becoming the new Excel. </span>
+:::
+::: {.quote-box}
+But technical skills alone will not cut it. The <span class="highlight">most in demand profiles today are those that speak both AI and finance</span>, and can move between legal, operational, and data contexts without losing the plot.
+:::
+:::
+
+## Teaching Collaboration with AI
+
+- Some students ask for instruction on how to prompt AI
+- Special techniques aren't needed.  Practice is.
+
+Ethan Mollick, Wharton, "Good Enough Prompting:"
+
+::: {.quote-box}
+Treat AI like an infinitely patient new coworker ... As it is a coworker, you want to work with it, not just give it orders, and you also want to learn out what it is good or bad at ... Working with AI is a dialogue, not an order.
+:::
+
+## Plan 
+
+✓ Example of what AI can do today 
+
+✓ Historical analogues
+
+✓ A course on AI
+
+✓ Updating existing courses to use AI
+
+::: {.quote-box}
+5. Deep dive into Claude Code
+:::
+
+
+
+
+
+
+## Claude Code
+
+- Probably not for students, but for research and teaching prep
+- Uses standard Anthropic models, but seems to have a great system prompt
+- Runs in terminal or can use as chat assistant in VS Code, Cursor, or Windsurf.
+
+## Claude Code capabilities
+
+- Create, edit, copy, move, delete files
+- Write and run Python scripts and notebooks
+- Write and build Latex documents, including beamer
+
+##
+
+- Create and edit Word docs and PowerPoint decks
+- Create, edit, and render Quarto docs for web pages and html slides
+- Create GitHub repos and push and launch apps on hosts (Koyeb, Render, ...)
+- And you can chat with it about anything
+
+## Demo claude code prompt
+
+::: {.quote-box}
+Create a LaTeX doc in the article style with Hello World as the title.  Compile to pdf.
+:::
+
+- It's even more helpful  when used in VS Code etc. (which are full-featured LaTeX/Python IDEs)
+- Do this analysis and generate a figure or LaTeX table and insert it into the document ... Read this paragraph and suggest improvements ... Make these global edits ...
+
+
+## {#final-slide}
+
+::: {style="text-align: center; font-size: 4em; font-weight: bold; margin-top: 200px;"}
+QUESTIONS?
+:::
+
+
+
+
+
+
+

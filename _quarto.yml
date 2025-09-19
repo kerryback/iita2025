@@ -3,8 +3,7 @@ project:
   output-dir: docs
   render:
     - index.qmd
-    - slides4x3.qmd
-    - slides16x9.qmd
+   
 
 website:
   title: "FMA 2025 AI Presentation"

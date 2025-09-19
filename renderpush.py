@@ -162,7 +162,7 @@ def main():
     # Create CNAME file
     if not create_cname_file():
         return 1
-
+    """
     # Render all presentations
     if not render_presentations():
         return 1
@@ -183,7 +183,7 @@ def main():
     print("   * slides16x9.qmd          - 16:9 presentation source")
     print("   * _quarto.yml             - Project configuration")
     print("\nYour site should be live at: https://fma2025.kerryback.com")
-
+    """
     return 0
 
 if __name__ == "__main__":
