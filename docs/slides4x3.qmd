@@ -494,31 +494,37 @@ But this is probably unnecessary for most topics.  The LLMs are much, much more 
 
 ## Claude Code
 
-- Probably not for students, but for research and teaching prep
+- Terminal based coding agent - also OpenAI Codex, Gemini CLI 
+- Can be used as a plug-in to VS Code, Cursor, Windsurf 
 - Uses standard Anthropic models, but seems to have a great system prompt
-- Runs in terminal or can use as chat assistant in VS Code, Cursor, or Windsurf.
 
-## Claude Code capabilities
+
+## Capabilities
 
 - Create, edit, copy, move, delete files
-- Write and run Python scripts and notebooks
-- Write and build Latex documents, including beamer
-
-##
-
+- Write, edit, and run Python scripts and notebooks
+- Write, edit, and compile LaTeX documents
 - Create and edit Word docs and PowerPoint decks
-- Create, edit, and render Quarto docs for web pages and html slides
 - Create GitHub repos and push and launch apps on hosts (Koyeb, Render, ...)
-- And you can chat with it about anything
 
-## Demo claude code prompt
 
-::: {.quote-box}
-Create a LaTeX doc in the article style with Hello World as the title.  Compile to pdf.
-:::
+## Claude Code Demo 
 
-- It's even more helpful  when used in VS Code etc. (which are full-featured LaTeX/Python IDEs)
-- Do this analysis and generate a figure or LaTeX table and insert it into the document ... Read this paragraph and suggest improvements ... Make these global edits ...
+
+- Create a streamlit app for mean-variance optimization.
+- The user inputs the number of assets, their means, standard deviations, and correlations and the risk-free rate.
+- Compute and display the tangency portfolio if the covaraiance matrix is positive definite and display an error
+message otherwise.
+- Run the app.
+
+## Claude Code in VS Code, etc.
+
+- VS Code, Cursor, Windsurf  are full-featured Python and LaTeX IDEs
+- Claude Code can read and edit Jupyter notebooks 
+- Ask Claude Code:
+  - Read this paragraph and suggest improvements .
+  - Make these global edits ...
+  - Do this analysis and generate a figure or LaTeX table and insert it into the document ... 
 
 
 ## {#final-slide}
@@ -526,9 +532,10 @@ Create a LaTeX doc in the article style with Hello World as the title.  Compile 
 ::: {style="text-align: center; margin-top: 100px;"}
 ![](images/qr_code_slides16x9.png){style="max-height: 400px; width: auto;"}
 :::
-::: {style="font-size: 1.5em; text-align: center; margin-top: 30px;"}
-Scan for slides
+::: {style="font-size: 1.2em; text-align: center; margin-top: 30px;"}
+[fma2025.kerryback.com](https://fma2025.kerryback.com)
 :::
+
 
 
 
