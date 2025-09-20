@@ -32,7 +32,7 @@
     "href": "slides16x9.html#example-prompt-for-claude",
     "title": "Incorporating AI into Teaching",
     "section": "1. Example (prompt for Claude)",
-    "text": "1. Example (prompt for Claude)\n\nRead the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely."
+    "text": "1. Example (prompt for Claude)\n\nRead the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.\n\n\nCurrently requires Claude Max subscription."
   },
   {
     "objectID": "slides16x9.html#historical-analogues",
@@ -119,13 +119,6 @@
     "text": "Building an effective prompt to do stuff\n\nHave a dialogue with AI until we get what we want\nSave clean instructions in form of Step 1. Step 2. …\nFresh try using saved prompt, iterate more if needed\nTry on a new example, iterate more if needed\nClaude valuation example is a good place to start: build an effective prompt to generate valuation analyses"
   },
   {
-    "objectID": "slides16x9.html#aaron-linsky-cto-aia-labs-at-bridgewater",
-    "href": "slides16x9.html#aaron-linsky-cto-aia-labs-at-bridgewater",
-    "title": "Incorporating AI into Teaching",
-    "section": "Aaron Linsky, CTO, AIA Labs at Bridgewater:",
-    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through  complex financial analysis tasks with the precision of a junior analyst."
-  },
-  {
     "objectID": "slides16x9.html#c.-vibe-coding",
     "href": "slides16x9.html#c.-vibe-coding",
     "title": "Incorporating AI into Teaching",
@@ -196,13 +189,6 @@
     "text": "Why mba students should learn about agents\nFortune, 9-14-2025:\n\n\nPromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out $900-per-hour wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).\n\n\nTanmai Gopal, PromptQL’s cofounder and CEO, said “MBA types … are very strategic thinkers, and they’re smart people, but they don’t have an intuition for what AI can do.”"
   },
   {
-    "objectID": "slides16x9.html#yeyati-brookings-2025",
-    "href": "slides16x9.html#yeyati-brookings-2025",
-    "title": "Incorporating AI into Teaching",
-    "section": "Yeyati, Brookings, 2025:",
-    "text": "Yeyati, Brookings, 2025:\n\n\nAs AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.\n\n\nAs job descriptions evolve, so does the definition of financial talent. Excel is no longer a differentiator. Python is fast becoming the new Excel. \n\n\nBut technical skills alone will not cut it. The most in demand profiles today are those that speak both AI and finance, and can move between legal, operational, and data contexts without losing the plot."
-  },
-  {
     "objectID": "slides16x9.html#database-agent-passes-prompt-from-user-to-llm",
     "href": "slides16x9.html#database-agent-passes-prompt-from-user-to-llm",
     "title": "Incorporating AI into Teaching",
@@ -242,14 +228,14 @@
     "href": "slides16x9.html#tools",
     "title": "Incorporating AI into Teaching",
     "section": "Tools",
-    "text": "Tools\n\nPoint and click: ChatGPT’s Custom GPTs\nSimplest vibe coding environment: Replit\nGoogle Colab for Streamlit app and ngrok deployment\nLocal: VS Code, Cursor, Windsurf, Claude Code"
+    "text": "Tools\n\nPoint and click: ChatGPT’s Custom GPTs\nSimplest vibe coding environment: Replit\nGoogle Colab for Streamlit app and ngrok deployment\nLocal: VS Code, Cursor, Windsurf, Claude Code\n\n\n\nHow do we learn this stuff to teach it: Ask AI"
   },
   {
-    "objectID": "slides16x9.html#how-do-we-learn-this-stuff-to-teach-it",
-    "href": "slides16x9.html#how-do-we-learn-this-stuff-to-teach-it",
+    "objectID": "slides16x9.html#custom-chatbot-without-coding-openai",
+    "href": "slides16x9.html#custom-chatbot-without-coding-openai",
     "title": "Incorporating AI into Teaching",
-    "section": "How do we learn this stuff to teach it?",
-    "text": "How do we learn this stuff to teach it?\n\n\nAsk AI"
+    "section": "Custom Chatbot without Coding (OpenAI)",
+    "text": "Custom Chatbot without Coding (OpenAI)\n\nConfigure: Name, description, and system prompt\nAdd capabilities: Web browsing, DALL-E, Code Interpreter\nUpload knowledge: Documents for RAG (PDFs, text files)\nAdd actions: Connect to external APIs (optional)\nTest & publish: Private, link-only, or public to GPT Store\n\n\nRequires ChatGPT Plus subscription"
   },
   {
     "objectID": "slides16x9.html#plan-2",
@@ -298,7 +284,7 @@
     "href": "slides16x9.html#claude-code",
     "title": "Incorporating AI into Teaching",
     "section": "Claude Code",
-    "text": "Claude Code\n\nTerminal based coding agent - also OpenAI Codex, Gemini CLI\nCan be used as a plug-in to VS Code, Cursor, Windsurf\nUses standard Anthropic models, but seems to have a great system prompt"
+    "text": "Claude Code\n\nTerminal based coding agent - also OpenAI Codex, Gemini CLI\nCan be used as a plug-in to VS Code, Cursor, Windsurf\nUses standard Anthropic models, but seems to have a great system prompt\n\n\nRequires Claude Pro subscription."
   },
   {
     "objectID": "slides16x9.html#capabilities",
@@ -312,7 +298,7 @@
     "href": "slides16x9.html#claude-code-demo",
     "title": "Incorporating AI into Teaching",
     "section": "Claude Code Demo",
-    "text": "Claude Code Demo\n\nCreate a streamlit app for mean-variance optimization.\nThe user inputs the number of assets, their means, standard deviations, and correlations and the risk-free rate.\nCompute and display the tangency portfolio if the covaraiance matrix is positive definite and display an error message otherwise.\nRun the app."
+    "text": "Claude Code Demo\n\nCreate a streamlit app for mean-variance optimization. The user will input the number of assets, their means, standard deviations, and correlations and risk-free rate.\nCompute and display the tangency portfolio. Run the app.\n\n\n\nThen: show the code that calculates the tangency portfolio and explain it."
   },
   {
     "objectID": "slides16x9.html#claude-code-in-vs-code-etc.",
@@ -320,6 +306,20 @@
     "title": "Incorporating AI into Teaching",
     "section": "Claude Code in VS Code, etc.",
     "text": "Claude Code in VS Code, etc.\n\nVS Code, Cursor, Windsurf are full-featured Python and LaTeX IDEs\nExamples of Claude Code for LaTeX and Python:\n\nRead this paragraph and suggest improvements .\nMake these global edits …\nDo this analysis and generate a figure or LaTeX table and insert it into the document …"
+  },
+  {
+    "objectID": "slides16x9.html#aaron-linsky-cto-aia-labs-at-bridgewater",
+    "href": "slides16x9.html#aaron-linsky-cto-aia-labs-at-bridgewater",
+    "title": "Incorporating AI into Teaching",
+    "section": "Aaron Linsky, CTO, AIA Labs at Bridgewater:",
+    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through  complex financial analysis tasks with the precision of a junior analyst."
+  },
+  {
+    "objectID": "slides16x9.html#yeyati-brookings-2025",
+    "href": "slides16x9.html#yeyati-brookings-2025",
+    "title": "Incorporating AI into Teaching",
+    "section": "Yeyati, Brookings, 2025:",
+    "text": "Yeyati, Brookings, 2025:\n\n\nAs AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.\n\n\nAs job descriptions evolve, so does the definition of financial talent. Excel is no longer a differentiator. Python is fast becoming the new Excel. \n\n\nBut technical skills alone will not cut it. The most in demand profiles today are those that speak both AI and finance."
   },
   {
     "objectID": "slides16x9.html#final-slide",
@@ -361,7 +361,7 @@
     "href": "index.html#example-prompt-for-claude",
     "title": "Incorporating AI into Teaching",
     "section": "1. Example (prompt for Claude)",
-    "text": "1. Example (prompt for Claude)\n\nRead the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely."
+    "text": "1. Example (prompt for Claude)\n\nRead the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.\n\n\nCurrently requires Claude Max subscription."
   },
   {
     "objectID": "index.html#historical-analogues",
@@ -448,13 +448,6 @@
     "text": "Building an effective prompt to do stuff\n\nHave a dialogue with AI until we get what we want\nSave clean instructions in form of Step 1. Step 2. …\nFresh try using saved prompt, iterate more if needed\nTry on a new example, iterate more if needed\nClaude valuation example is a good place to start: build an effective prompt to generate valuation analyses"
   },
   {
-    "objectID": "index.html#aaron-linsky-cto-aia-labs-at-bridgewater",
-    "href": "index.html#aaron-linsky-cto-aia-labs-at-bridgewater",
-    "title": "Incorporating AI into Teaching",
-    "section": "Aaron Linsky, CTO, AIA Labs at Bridgewater:",
-    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through  complex financial analysis tasks with the precision of a junior analyst."
-  },
-  {
     "objectID": "index.html#c.-vibe-coding",
     "href": "index.html#c.-vibe-coding",
     "title": "Incorporating AI into Teaching",
@@ -523,13 +516,6 @@
     "title": "Incorporating AI into Teaching",
     "section": "Why mba students should learn about agents",
     "text": "Why mba students should learn about agents\nFortune, 9-14-2025:\n\n\nPromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out $900-per-hour wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).\n\n\nTanmai Gopal, PromptQL’s cofounder and CEO, said “MBA types … are very strategic thinkers, and they’re smart people, but they don’t have an intuition for what AI can do.”"
-  },
-  {
-    "objectID": "index.html#yeyati-brookings-2025",
-    "href": "index.html#yeyati-brookings-2025",
-    "title": "Incorporating AI into Teaching",
-    "section": "Yeyati, Brookings, 2025:",
-    "text": "Yeyati, Brookings, 2025:\n\n\nAs AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.\n\n\nAs job descriptions evolve, so does the definition of financial talent. Excel is no longer a differentiator. Python is fast becoming the new Excel. \n\n\nBut technical skills alone will not cut it. The most in demand profiles today are those that speak both AI and finance, and can move between legal, operational, and data contexts without losing the plot."
   },
   {
     "objectID": "index.html#database-agent-passes-prompt-from-user-to-llm",
@@ -627,7 +613,7 @@
     "href": "index.html#claude-code",
     "title": "Incorporating AI into Teaching",
     "section": "Claude Code",
-    "text": "Claude Code\n\nTerminal based coding agent - also OpenAI Codex, Gemini CLI\nCan be used as a plug-in to VS Code, Cursor, Windsurf\nUses standard Anthropic models, but seems to have a great system prompt"
+    "text": "Claude Code\n\nTerminal based coding agent - also OpenAI Codex, Gemini CLI\nCan be used as a plug-in to VS Code, Cursor, Windsurf\nUses standard Anthropic models, but seems to have a great system prompt\n\n\nRequires Claude Pro subscription."
   },
   {
     "objectID": "index.html#capabilities",
@@ -641,7 +627,7 @@
     "href": "index.html#claude-code-demo",
     "title": "Incorporating AI into Teaching",
     "section": "Claude Code Demo",
-    "text": "Claude Code Demo\n\nCreate a streamlit app for mean-variance optimization. The user will input the number of assets, their means, standard deviations, and correlations and risk-free rate.\nCompute and display the tangency portfolio. Run the app.\n\n\n\nThen: Show the code that calculates the tangency portfolio and explain it."
+    "text": "Claude Code Demo\n\nCreate a streamlit app for mean-variance optimization. The user will input the number of assets, their means, standard deviations, and correlations and risk-free rate.\nCompute and display the tangency portfolio. Run the app.\n\n\n\nThen: show the code that calculates the tangency portfolio and explain it."
   },
   {
     "objectID": "index.html#claude-code-in-vs-code-etc.",
@@ -649,6 +635,20 @@
     "title": "Incorporating AI into Teaching",
     "section": "Claude Code in VS Code, etc.",
     "text": "Claude Code in VS Code, etc.\n\nVS Code, Cursor, Windsurf are full-featured Python and LaTeX IDEs\nExamples of Claude Code for LaTeX and Python:\n\nRead this paragraph and suggest improvements .\nMake these global edits …\nDo this analysis and generate a figure or LaTeX table and insert it into the document …"
+  },
+  {
+    "objectID": "index.html#aaron-linsky-cto-aia-labs-at-bridgewater",
+    "href": "index.html#aaron-linsky-cto-aia-labs-at-bridgewater",
+    "title": "Incorporating AI into Teaching",
+    "section": "Aaron Linsky, CTO, AIA Labs at Bridgewater:",
+    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through  complex financial analysis tasks with the precision of a junior analyst."
+  },
+  {
+    "objectID": "index.html#yeyati-brookings-2025",
+    "href": "index.html#yeyati-brookings-2025",
+    "title": "Incorporating AI into Teaching",
+    "section": "Yeyati, Brookings, 2025:",
+    "text": "Yeyati, Brookings, 2025:\n\n\nAs AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.\n\n\nAs job descriptions evolve, so does the definition of financial talent. Excel is no longer a differentiator. Python is fast becoming the new Excel. \n\n\nBut technical skills alone will not cut it. The most in demand profiles today are those that speak both AI and finance."
   },
   {
     "objectID": "index.html#final-slide",
