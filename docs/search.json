@@ -571,14 +571,14 @@
     "href": "index.html#tools",
     "title": "Incorporating AI into Teaching",
     "section": "Tools",
-    "text": "Tools\n\nPoint and click: ChatGPT’s Custom GPTs\nSimplest vibe coding environment: Replit\nGoogle Colab for Streamlit app and ngrok deployment\nLocal: VS Code, Cursor, Windsurf, Claude Code"
+    "text": "Tools\n\nPoint and click: ChatGPT’s Custom GPTs\nSimplest vibe coding environment: Replit\nGoogle Colab for Streamlit app and ngrok deployment\nLocal: VS Code, Cursor, Windsurf, Claude Code\n\n\n\nHow do we learn this stuff to teach it: Ask AI"
   },
   {
-    "objectID": "index.html#how-do-we-learn-this-stuff-to-teach-it",
-    "href": "index.html#how-do-we-learn-this-stuff-to-teach-it",
+    "objectID": "index.html#custom-chatbot-without-coding-openai",
+    "href": "index.html#custom-chatbot-without-coding-openai",
     "title": "Incorporating AI into Teaching",
-    "section": "How do we learn this stuff to teach it?",
-    "text": "How do we learn this stuff to teach it?\n\n\nAsk AI"
+    "section": "Custom Chatbot without Coding (OpenAI)",
+    "text": "Custom Chatbot without Coding (OpenAI)\n\nConfigure: Name, description, and system prompt\nAdd capabilities: Web browsing, DALL-E, Code Interpreter\nUpload knowledge: Documents for RAG (PDFs, text files)\nAdd actions: Connect to external APIs (optional)\nTest & publish: Private, link-only, or public to GPT Store\n\n\nRequires ChatGPT Plus subscription"
   },
   {
     "objectID": "index.html#plan-2",
@@ -641,7 +641,7 @@
     "href": "index.html#claude-code-demo",
     "title": "Incorporating AI into Teaching",
     "section": "Claude Code Demo",
-    "text": "Claude Code Demo\n\nCreate a streamlit app for mean-variance optimization.\nThe user inputs the number of assets, their means, standard deviations, and correlations and the risk-free rate.\nCompute and display the tangency portfolio if the covaraiance matrix is positive definite and display an error message otherwise.\nRun the app."
+    "text": "Claude Code Demo\n\nCreate a streamlit app for mean-variance optimization. The user will input the number of assets, their means, standard deviations, and correlations and risk-free rate.\nCompute and display the tangency portfolio. Run the app.\n\n\n\nThen: Show the code that calculates the tangency portfolio and explain it."
   },
   {
     "objectID": "index.html#claude-code-in-vs-code-etc.",
