@@ -3,6 +3,10 @@ project:
   output-dir: docs
   render:
     - index.qmd
+    - slides16x9.qmd
+  resources:
+    - CNAME
+    - .nojekyll
    
 
 website:
