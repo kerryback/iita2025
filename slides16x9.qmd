@@ -99,7 +99,7 @@ How did teaching and learning change? Are there lessons for today?
    - Studies haven't found an effect 
    - But primary schools still provide practice and assessments in which calculators are not allowed
 - Some hoped that schools could move beyond calculation and teach deeper math 
-  - That didn't seem to happen 
+  - That didn't seem to happen either
 
 ## Introduction of Personal computers & spreadsheets
 
@@ -156,22 +156,15 @@ personal AI tools for work tasks. In fact, almost every single person used an LL
 5. Deep dive into Claude Code
 :::
 
-## 3. A Course on AI
-
-a. Case on corporate implementation
-b. Prompt engineering
-c. Vibe coding for financial analysis 
-d. Building apps, custom chatbots, agents
-
-## a. case on corporate implementation
-
-[Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada](https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO), 2024.
-
-- Describes creation of a custom chatbot
-- Discusses reliability, bias, compliance, data privacy, trust of customers
+## 3. Course on AI: principles
 
 
-## b. Prompt Engineering
+- <span class="highlight">Treat AI as a colleague:</span> Collaborate, evaluate, iterate
+- <span class="highlight">LLMs are not trustworthy for arithmetic:</span> Coding (Python) is essential
+- <span class="highlight">Create apps:</span> For critical operations, test code and save as app
+- <span class="highlight">Create tools:</span> To use chatbot for critical operations, create app and provide as tool
+
+## Prompt Engineering
 
 - Some students ask for instruction on how to prompt AI
 - Special techniques aren't needed.  Practice is.
@@ -182,22 +175,39 @@ Ethan Mollick, Wharton, "Good Enough Prompting:"
 Treat AI like an infinitely patient new coworker ... As it is a coworker, you want to work with it, not just give it orders, and you also want to learn what it is good or bad at ... Working with AI is a dialogue, not an order.
 :::
 
-## The roles of AI
+## Course structure 
 
-- Do stuff for us
-- Collaborate with us
-- Advise us
+A. Introduction
 
-## Building an effective prompt to do stuff
+B. Coding with AI 
 
-- Have a dialogue with AI until we get what we want
-- Save clean instructions in form of Step 1.  Step 2. ...
-- Fresh try using saved prompt, iterate more if needed
-- Try on a new example, iterate more if needed 
-- Claude valuation example is a good place to start: build an effective prompt to generate valuation analyses
+C. Apps, Chatbots, and Agents
+
+## A. Course Introduction
+
+- Example of working with AI on valuation: Claude/Excel example
+- Case on corporate implementation of AI 
+
+## Example of working with AI 
+
+::: {.quote-box}
+Claude/Excel example
+:::
+
+- Explain the calculations 
+- What did you assume for ... and why?
+- How does the value change if we assume ... instead?
 
 
-## c. Vibe Coding
+
+## Case on corporate implementation
+
+[Blazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada](https://store.hbr.org/product/blazing-new-trails-responsible-generative-ai-and-the-creative-adoption-of-a-large-language-model-at-deloitte-canada/HEC382?srsltid=AfmBOoo8whYuCV6aPeMolvqA2FNyJJz0-l8D3oFSoKKObmqppQ_Y_QcO), 2024.
+
+- Describes creation of a custom chatbot
+- Discusses reliability, bias, compliance, data privacy, trust of customers
+
+## B. Coding with AI
 
 In March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that 
 
@@ -222,7 +232,8 @@ for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the co
 - Running python locally:
   - VS Code, Cursor, Windsurf, Claude Code 
 
-## d. Building stuff
+## C. Apps, Chatbots, and Agents
+
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -237,6 +248,11 @@ for roughly a quarter of the startups in their Winter 2025 cohort, 95% of the co
 :::
 :::
 ::::
+
+## Building apps, chatbots, and agents 
+
+- Point and click to build Custom GPTs at chat.openai.com 
+- Vibe code 
 
 ## chatbot is an app consisting of
 
@@ -379,14 +395,15 @@ May require chatting at this stage to clarify user's request
   - Financial analysis
   - Getting written analysis from AI 
   - Producing Excel, Word, PowerPoint
-- App can include chat feature to clarify which data to get, which tools to use, ...
+- And convert app to chatbot tool
 
 ## Tools
 
 - Point and click: ChatGPT's Custom GPTs
 - Simplest vibe coding environment: Replit
-- Google Colab for Streamlit app and ngrok deployment
-- Local: VS Code, Cursor, Windsurf, Claude Code
+- Julius.ai can build but not run Streamlit apps
+- Google Colab can build  Streamlit apps and deploy via ngrok
+- Permanent deployment: Koyeb, Render, ...
 
 ::: {.fragment}
 ::: {.quote-box}
@@ -395,7 +412,7 @@ How do we learn this stuff to teach it: Ask AI
 :::
 
 
-## Custom Chatbot without Coding (OpenAI)
+## Creating openai custom gpt (No Code)
 
 - **Configure**: Name, description, and system prompt
 - **Add capabilities**: Web browsing, DALL-E, Code Interpreter

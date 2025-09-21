@@ -48,7 +48,10 @@
       "Bash(cat:*)",
       "Bash(if not exist \"docs\\images\" mkdir \"docs\\images\")",
       "Bash(git checkout:*)",
-      "Bash(git ls-tree:*)"
+      "Bash(git ls-tree:*)",
+      "Bash(copy:*)",
+      "Bash(cp:*)",
+      "Bash(findstr:*)"
     ],
     "deny": [],
     "ask": []
