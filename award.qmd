@@ -1,7 +1,7 @@
 ---
 title: Generative AI for Finance
 subtitle: FMA 2025
-author: Kerry Back<br>Jones Graduate School of Business MGMT 675<br>Rice University
+author: Kerry Back<br>MGMT 675<br>Jones Graduate School of Business MGMT 675<br>Rice University
 format:
   revealjs:
     theme: moon
