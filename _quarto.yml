@@ -4,6 +4,7 @@ project:
   render:
     - index.qmd
     - slides16x9.qmd
+    - award.qmd
   resources:
     - CNAME
     - .nojekyll

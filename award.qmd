@@ -1,0 +1,15 @@
+---
+title: Generative AI for Finance
+subtitle: FMA 2025
+author: Kerry Back<br>Jones Graduate School of Business MGMT 675<br>Rice University
+format:
+  revealjs:
+    theme: moon
+    css: custom-spacing.css
+    include-after-body:
+      - theme-toggle.html
+    scrollable: true
+    self-contained: true
+---
+
+## Slides Coming Soon
