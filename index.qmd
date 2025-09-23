@@ -160,8 +160,9 @@ personal AI tools for work tasks. In fact, almost every single person used an LL
 
 
 - <span class="highlight">Treat AI as a colleague:</span> Collaborate, evaluate, iterate
-- <span class="highlight">LLMs are not trustworthy for arithmetic:</span> Coding (Python) is essential
+- <span class="highlight">Vibe code financial analyses: LLMs are not trustworthy for arithmetic:</span> Coding (Python) is essential
 - <span class="highlight">Create apps:</span> For critical operations, test code and save as app
+- <span class="hightlight">Create custom chatbots:<\span> Chatbots can be customized through the system prompt, RAG, or fine tuning
 - <span class="highlight">Create tools:</span> To use chatbot for critical operations, create app and provide as tool
 
 ## Prompt Engineering

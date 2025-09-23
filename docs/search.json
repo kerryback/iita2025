@@ -1,355 +1,5 @@
 [
   {
-    "objectID": "award.html#slides-coming-soon",
-    "href": "award.html#slides-coming-soon",
-    "title": "Generative AI for Finance",
-    "section": "Slides Coming Soon",
-    "text": "Slides Coming Soon"
-  },
-  {
-    "objectID": "index.html#life-was-the-same-for-40-years",
-    "href": "index.html#life-was-the-same-for-40-years",
-    "title": "Incorporating AI into Teaching",
-    "section": "Life was the same for 40 years",
-    "text": "Life was the same for 40 years\n\n\n\n\nVisiCalc introduced for the Apple II in 1979\n\n\n\n\nLotus-123 introduced for the IBM PC in 1983\n\n\n\n\nMicrosoft Excel introduced for Windows in 1987"
-  },
-  {
-    "objectID": "index.html#now-with-ai-were-all-in-the-same-boat",
-    "href": "index.html#now-with-ai-were-all-in-the-same-boat",
-    "title": "Incorporating AI into Teaching",
-    "section": "Now, with AI, we’re all in the same boat",
-    "text": "Now, with AI, we’re all in the same boat"
-  },
-  {
-    "objectID": "index.html#its-hard-to-keep-up",
-    "href": "index.html#its-hard-to-keep-up",
-    "title": "Incorporating AI into Teaching",
-    "section": "It’s hard to keep up!",
-    "text": "It’s hard to keep up!"
-  },
-  {
-    "objectID": "index.html#plan",
-    "href": "index.html#plan",
-    "title": "Incorporating AI into Teaching",
-    "section": "Plan",
-    "text": "Plan\n\nExample of what AI can do today - new Claude skill from September\nHistorical analogues?\nA course on AI\nUpdating existing courses to use AI\nDeep dive into Claude Code"
-  },
-  {
-    "objectID": "index.html#example-prompt-for-claude",
-    "href": "index.html#example-prompt-for-claude",
-    "title": "Incorporating AI into Teaching",
-    "section": "1. Example (prompt for Claude)",
-    "text": "1. Example (prompt for Claude)\n\nRead the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.\n\n\nCurrently requires Claude Max subscription."
-  },
-  {
-    "objectID": "index.html#historical-analogues",
-    "href": "index.html#historical-analogues",
-    "title": "Incorporating AI into Teaching",
-    "section": "2. Historical analogues",
-    "text": "2. Historical analogues\n\nHandheld calculators\nPersonal computers\n\n\nHow did teaching and learning change? Are there lessons for today?"
-  },
-  {
-    "objectID": "index.html#introduction-of-handheld-calculators",
-    "href": "index.html#introduction-of-handheld-calculators",
-    "title": "Incorporating AI into Teaching",
-    "section": "Introduction of Handheld Calculators",
-    "text": "Introduction of Handheld Calculators\n\nMuch worry that students wouldn’t learn addition, subtraction, …\n\nStudies haven’t found an effect\nBut primary schools still provide practice and assessments in which calculators are not allowed\n\nSome hoped that schools could move beyond calculation and teach deeper math\n\nThat didn’t seem to happen either"
-  },
-  {
-    "objectID": "index.html#introduction-of-personal-computers-spreadsheets",
-    "href": "index.html#introduction-of-personal-computers-spreadsheets",
-    "title": "Incorporating AI into Teaching",
-    "section": "Introduction of Personal computers & spreadsheets",
-    "text": "Introduction of Personal computers & spreadsheets\n\nWe added courses on how to use spreadsheets\nWe updated existing courses to use spreadsheets\nWe assess how well students can use spreadsheets (no pencil and paper valuation analyses)\n\n\n\nTeaching how to do finance in spreadsheets is a main goal."
-  },
-  {
-    "objectID": "index.html#why",
-    "href": "index.html#why",
-    "title": "Incorporating AI into Teaching",
-    "section": "Why?",
-    "text": "Why?\n\nSpreadsheets are used in business\nSpreadsheets are ideal for teaching the logic of some things (valuation/capital budgeting)\nSpreadsheets don’t automatically do the things we were teaching before (financial calculators \\(\\rightarrow\\) spreadsheets)"
-  },
-  {
-    "objectID": "index.html#what-about-ai",
-    "href": "index.html#what-about-ai",
-    "title": "Incorporating AI into Teaching",
-    "section": "What about AI?",
-    "text": "What about AI?\n✓ AI is used in business\n✓ AI is useful for teaching/tutoring\n✗ AI can automatically do many things we were teaching before\n\n\nAI is more like calculators than spreadsheets. We worry that students won’t learn skills that they need.\nLike primary schools and arithmetic, we will need to have practice and assessments in which AI is not allowed"
-  },
-  {
-    "objectID": "index.html#ai-is-used-in-business",
-    "href": "index.html#ai-is-used-in-business",
-    "title": "Incorporating AI into Teaching",
-    "section": "AI is used in Business",
-    "text": "AI is used in Business\nMIT/Media Labs State of AI in Business 2025:\n\nWorkers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work."
-  },
-  {
-    "objectID": "index.html#plan-1",
-    "href": "index.html#plan-1",
-    "title": "Incorporating AI into Teaching",
-    "section": "Plan",
-    "text": "Plan\n✓ Example of what AI can do today\n✓ Historical analogues\n\n\nA course on AI\nUpdating existing courses to use AI\nDeep dive into Claude Code"
-  },
-  {
-    "objectID": "index.html#course-on-ai-principles",
-    "href": "index.html#course-on-ai-principles",
-    "title": "Incorporating AI into Teaching",
-    "section": "3. Course on AI: principles",
-    "text": "3. Course on AI: principles\n\nTreat AI as a colleague: Collaborate, evaluate, iterate\nLLMs are not trustworthy for arithmetic: Coding (Python) is essential\nCreate apps: For critical operations, test code and save as app\nCreate tools: To use chatbot for critical operations, create app and provide as tool"
-  },
-  {
-    "objectID": "index.html#prompt-engineering",
-    "href": "index.html#prompt-engineering",
-    "title": "Incorporating AI into Teaching",
-    "section": "Prompt Engineering",
-    "text": "Prompt Engineering\n\nSome students ask for instruction on how to prompt AI\nSpecial techniques aren’t needed. Practice is.\n\nEthan Mollick, Wharton, “Good Enough Prompting:”\n\nTreat AI like an infinitely patient new coworker … As it is a coworker, you want to work with it, not just give it orders, and you also want to learn what it is good or bad at … Working with AI is a dialogue, not an order."
-  },
-  {
-    "objectID": "index.html#course-structure",
-    "href": "index.html#course-structure",
-    "title": "Incorporating AI into Teaching",
-    "section": "Course structure",
-    "text": "Course structure\nA. Introduction\nB. Coding with AI\nC. Apps, Chatbots, and Agents"
-  },
-  {
-    "objectID": "index.html#a.-course-introduction",
-    "href": "index.html#a.-course-introduction",
-    "title": "Incorporating AI into Teaching",
-    "section": "A. Course Introduction",
-    "text": "A. Course Introduction\n\nExample of working with AI on valuation: Claude/Excel example\nCase on corporate implementation of AI"
-  },
-  {
-    "objectID": "index.html#example-of-working-with-ai",
-    "href": "index.html#example-of-working-with-ai",
-    "title": "Incorporating AI into Teaching",
-    "section": "Example of working with AI",
-    "text": "Example of working with AI\n\nClaude/Excel example\n\n\nExplain the calculations\nWhat did you assume for … and why?\nHow does the value change if we assume … instead?"
-  },
-  {
-    "objectID": "index.html#case-on-corporate-implementation",
-    "href": "index.html#case-on-corporate-implementation",
-    "title": "Incorporating AI into Teaching",
-    "section": "Case on corporate implementation",
-    "text": "Case on corporate implementation\nBlazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada, 2024.\n\nDescribes creation of a custom chatbot\nDiscusses reliability, bias, compliance, data privacy, trust of customers"
-  },
-  {
-    "objectID": "index.html#b.-coding-with-ai",
-    "href": "index.html#b.-coding-with-ai",
-    "title": "Incorporating AI into Teaching",
-    "section": "B. Coding with AI",
-    "text": "B. Coding with AI\nIn March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that\n\n\n\nfor roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI."
-  },
-  {
-    "objectID": "index.html#vibe-coding-for-finance",
-    "href": "index.html#vibe-coding-for-finance",
-    "title": "Incorporating AI into Teaching",
-    "section": "Vibe coding for finance",
-    "text": "Vibe coding for finance\n\nChatbots with python can easily do many types of financial analyses: regression, mean-variance optimization, binomial-tree option valuation …\nRunning python in the cloud:\n\nChatGPT, Claude, Google Colab with Gemini, Julius.ai\n\nRunning python locally:\n\nVS Code, Cursor, Windsurf, Claude Code"
-  },
-  {
-    "objectID": "index.html#c.-apps-chatbots-and-agents",
-    "href": "index.html#c.-apps-chatbots-and-agents",
-    "title": "Incorporating AI into Teaching",
-    "section": "C. Apps, Chatbots, and Agents",
-    "text": "C. Apps, Chatbots, and Agents\n\n\n\n\n\n\nApps can use AI\nChatbots are apps\nAgents are chatbots with tools"
-  },
-  {
-    "objectID": "index.html#building-apps-chatbots-and-agents",
-    "href": "index.html#building-apps-chatbots-and-agents",
-    "title": "Incorporating AI into Teaching",
-    "section": "Building apps, chatbots, and agents",
-    "text": "Building apps, chatbots, and agents\n\nPoint and click to build Custom GPTs at chat.openai.com\nVibe code"
-  },
-  {
-    "objectID": "index.html#chatbot-is-an-app-consisting-of",
-    "href": "index.html#chatbot-is-an-app-consisting-of",
-    "title": "Incorporating AI into Teaching",
-    "section": "chatbot is an app consisting of",
-    "text": "chatbot is an app consisting of\n\nUser interface\nAPI connection to an LLM, which has possibly been fine-tuned\nSystem prompt\nPossible retrieval of documents\nPossible use of tools"
-  },
-  {
-    "objectID": "index.html#system-prompt-is-fundamental",
-    "href": "index.html#system-prompt-is-fundamental",
-    "title": "Incorporating AI into Teaching",
-    "section": "System prompt is fundamental",
-    "text": "System prompt is fundamental\n\nA system prompt is text that is sent to the LLM along with each user prompt.\nIt contains information and instructions for the LLM.\n\nAnthropic’s System Prompts"
-  },
-  {
-    "objectID": "index.html#rag-retrieval-augmented-generation-chatbots",
-    "href": "index.html#rag-retrieval-augmented-generation-chatbots",
-    "title": "Incorporating AI into Teaching",
-    "section": "RAG (Retrieval Augmented Generation) chatbots",
-    "text": "RAG (Retrieval Augmented Generation) chatbots\n\nSend stored chunks of documents to LLM along with prompt and system prompt\nChoose chunks most relevant to the prompt\n\nVector embedding (vector store)\nSimilarity search\n\nKey element of many corporate AI implementations"
-  },
-  {
-    "objectID": "index.html#chatbot-structure",
-    "href": "index.html#chatbot-structure",
-    "title": "Incorporating AI into Teaching",
-    "section": "Chatbot structure",
-    "text": "Chatbot structure"
-  },
-  {
-    "objectID": "index.html#agent-chatbot-tools",
-    "href": "index.html#agent-chatbot-tools",
-    "title": "Incorporating AI into Teaching",
-    "section": "Agent = Chatbot + Tools",
-    "text": "Agent = Chatbot + Tools\n\nAI agent is a chatbot equipped with tools to do things\nClaude and ChatGPT are agents - they can send code to Python environments\nDatabase tools are very useful for chatbots"
-  },
-  {
-    "objectID": "index.html#claude-for-financial-services",
-    "href": "index.html#claude-for-financial-services",
-    "title": "Incorporating AI into Teaching",
-    "section": "Claude for Financial Services",
-    "text": "Claude for Financial Services\nFrom Anthropic:\nThrough data providers, Claude has real-time access to comprehensive financial information:\n\n\n\nBox\nDaloopa\nDatabricks\n\n\n\nFactSet\nMorningstar\nPalantir\n\n\n\nPitchBook\nS&P Global\nSnowflake"
-  },
-  {
-    "objectID": "index.html#why-mba-students-should-learn-about-agents",
-    "href": "index.html#why-mba-students-should-learn-about-agents",
-    "title": "Incorporating AI into Teaching",
-    "section": "Why mba students should learn about agents",
-    "text": "Why mba students should learn about agents\nFortune, 9-14-2025:\n\n\nPromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out $900-per-hour wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).\n\n\nTanmai Gopal, PromptQL’s cofounder and CEO, said “MBA types … are very strategic thinkers, and they’re smart people, but they don’t have an intuition for what AI can do.”"
-  },
-  {
-    "objectID": "index.html#database-agent-passes-prompt-from-user-to-llm",
-    "href": "index.html#database-agent-passes-prompt-from-user-to-llm",
-    "title": "Incorporating AI into Teaching",
-    "section": "database agent passes prompt from user to LLM",
-    "text": "database agent passes prompt from user to LLM\n\n\n\n\n\nMay require chatting at this stage to clarify user’s request"
-  },
-  {
-    "objectID": "index.html#agent-passes-sql-from-llm-to-data-warehouse",
-    "href": "index.html#agent-passes-sql-from-llm-to-data-warehouse",
-    "title": "Incorporating AI into Teaching",
-    "section": "agent passes SQL from LLM to data warehouse",
-    "text": "agent passes SQL from LLM to data warehouse"
-  },
-  {
-    "objectID": "index.html#data-warehouse-passes-response-to-agent",
-    "href": "index.html#data-warehouse-passes-response-to-agent",
-    "title": "Incorporating AI into Teaching",
-    "section": "Data Warehouse passes response to agent",
-    "text": "Data Warehouse passes response to agent\n\n\n\n\n\n\nResponse could be error message\nIf so, agent should send to LLM for new SQL code"
-  },
-  {
-    "objectID": "index.html#agent-passes-data-from-warehouse-to-user",
-    "href": "index.html#agent-passes-data-from-warehouse-to-user",
-    "title": "Incorporating AI into Teaching",
-    "section": "agent passes data from warehouse to user",
-    "text": "agent passes data from warehouse to user\n\n\n\n\n\nCould be more things connected\nE.g., send data to python engine\nSend python output to user"
-  },
-  {
-    "objectID": "index.html#what-can-we-do-in-the-classroom",
-    "href": "index.html#what-can-we-do-in-the-classroom",
-    "title": "Incorporating AI into Teaching",
-    "section": "What can we do in the classroom?",
-    "text": "What can we do in the classroom?\n\nWe can show students how to vibe code apps to automate things\n\nGetting data\nFinancial analysis\nGetting written analysis from AI\nProducing Excel, Word, PowerPoint\n\nAnd convert app to chatbot tool"
-  },
-  {
-    "objectID": "index.html#tools",
-    "href": "index.html#tools",
-    "title": "Incorporating AI into Teaching",
-    "section": "Tools",
-    "text": "Tools\n\nPoint and click: ChatGPT’s Custom GPTs\nSimplest vibe coding environment: Replit\nJulius.ai can build but not run Streamlit apps\nGoogle Colab can build Streamlit apps and deploy via ngrok\nPermanent deployment: Koyeb, Render, …\n\n\n\nHow do we learn this stuff to teach it: Ask AI"
-  },
-  {
-    "objectID": "index.html#creating-openai-custom-gpt-no-code",
-    "href": "index.html#creating-openai-custom-gpt-no-code",
-    "title": "Incorporating AI into Teaching",
-    "section": "Creating openai custom gpt (No Code)",
-    "text": "Creating openai custom gpt (No Code)\n\nConfigure: Name, description, and system prompt\nAdd capabilities: Web browsing, DALL-E, Code Interpreter\nUpload knowledge: Documents for RAG (PDFs, text files)\nAdd actions: Connect to external APIs (optional)\nTest & publish: Private, link-only, or public to GPT Store\n\n\nRequires ChatGPT Plus subscription"
-  },
-  {
-    "objectID": "index.html#plan-2",
-    "href": "index.html#plan-2",
-    "title": "Incorporating AI into Teaching",
-    "section": "Plan",
-    "text": "Plan\n✓ Example of what AI can do today\n✓ Historical analogues\n✓ A course on AI\n\n\nUpdating existing courses to use AI\nDeep dive into Claude Code"
-  },
-  {
-    "objectID": "index.html#updating-existing-courses-what-we-should-teach",
-    "href": "index.html#updating-existing-courses-what-we-should-teach",
-    "title": "Incorporating AI into Teaching",
-    "section": "4. Updating existing courses: what we should teach",
-    "text": "4. Updating existing courses: what we should teach\n\nWe generally teach concepts first with slides (or board)\nThen show in tools (usually Excel)\nNow, there is a next step: chatbots and agents\n\n\n\nTeach about implementation in Excel \\(\\rightarrow\\) students build Excel models.\nTeach about implementation in AI \\(\\rightarrow\\) students build prompts or apps"
-  },
-  {
-    "objectID": "index.html#how-we-should-teach",
-    "href": "index.html#how-we-should-teach",
-    "title": "Incorporating AI into Teaching",
-    "section": "How we should teach",
-    "text": "How we should teach\n\nAI is a very effective tutor\nWe should take advantage of it\nAsking students to chat with chatbots can replace “Do the assigned reading.”\nCan be assigned before class or in class before slides.\n\n\n\nAsk your chatbot to teach you about … Be sure to tell it to ask you questions to ensure you are understanding."
-  },
-  {
-    "objectID": "index.html#controlling-the-sources",
-    "href": "index.html#controlling-the-sources",
-    "title": "Incorporating AI into Teaching",
-    "section": "Controlling the sources",
-    "text": "Controlling the sources\n\nBuild RAG (Google’s Notebook LM or Custom GPT or …)\nIf sources are copyrighted, first ask AI for a complete report on the subject, read and edit the AI report, and add to system prompt “Teach from this report …”\n\n\nBut this is probably unnecessary for most topics. The LLMs are much, much more reliable than they were a couple of years ago when everyone was concerned about hallucinations."
-  },
-  {
-    "objectID": "index.html#how-can-we-assess",
-    "href": "index.html#how-can-we-assess",
-    "title": "Incorporating AI into Teaching",
-    "section": "How can we assess?",
-    "text": "How can we assess?\n\n\nOut-of-class assignments should become “turn in your chat, its output, and your evaluation of the output” or “turn in your app.”\nIn-class exams without AI to ensure students understand concepts\nIn-class exams with AI that are more ambitious than exams today. Cases can become exams with AI assistance."
-  },
-  {
-    "objectID": "index.html#plan-3",
-    "href": "index.html#plan-3",
-    "title": "Incorporating AI into Teaching",
-    "section": "Plan",
-    "text": "Plan\n✓ Example of what AI can do today\n✓ Historical analogues\n✓ A course on AI\n✓ Updating existing courses to use AI\n\n\nDeep dive into Claude Code"
-  },
-  {
-    "objectID": "index.html#claude-code",
-    "href": "index.html#claude-code",
-    "title": "Incorporating AI into Teaching",
-    "section": "Claude Code",
-    "text": "Claude Code\n\nTerminal based coding agent - also OpenAI Codex, Gemini CLI\nCan be used as a plug-in to VS Code, Cursor, Windsurf\nUses standard Anthropic models, but seems to have a great system prompt\n\n\nRequires Claude Pro subscription."
-  },
-  {
-    "objectID": "index.html#capabilities",
-    "href": "index.html#capabilities",
-    "title": "Incorporating AI into Teaching",
-    "section": "Capabilities",
-    "text": "Capabilities\n\nCreate, edit, copy, move, delete files\nWrite, edit, and run Python scripts and notebooks\nWrite, edit, and compile LaTeX documents\nCreate and edit Word docs and PowerPoint decks\nCreate GitHub repos and push and launch apps on hosts (Koyeb, Render, …)"
-  },
-  {
-    "objectID": "index.html#claude-code-demo",
-    "href": "index.html#claude-code-demo",
-    "title": "Incorporating AI into Teaching",
-    "section": "Claude Code Demo",
-    "text": "Claude Code Demo\n\nCreate a streamlit app for mean-variance optimization. The user will input the number of assets, their means, standard deviations, and correlations and risk-free rate.\nCompute and display the tangency portfolio. Run the app.\n\n\n\nThen: show the code that calculates the tangency portfolio and explain it."
-  },
-  {
-    "objectID": "index.html#claude-code-in-vs-code-etc.",
-    "href": "index.html#claude-code-in-vs-code-etc.",
-    "title": "Incorporating AI into Teaching",
-    "section": "Claude Code in VS Code, etc.",
-    "text": "Claude Code in VS Code, etc.\n\nVS Code, Cursor, Windsurf are full-featured Python and LaTeX IDEs\nExamples of Claude Code for LaTeX and Python:\n\nRead this paragraph and suggest improvements .\nMake these global edits …\nDo this analysis and generate a figure or LaTeX table and insert it into the document …"
-  },
-  {
-    "objectID": "index.html#aaron-linsky-cto-aia-labs-at-bridgewater",
-    "href": "index.html#aaron-linsky-cto-aia-labs-at-bridgewater",
-    "title": "Incorporating AI into Teaching",
-    "section": "Aaron Linsky, CTO, AIA Labs at Bridgewater:",
-    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through  complex financial analysis tasks with the precision of a junior analyst."
-  },
-  {
-    "objectID": "index.html#yeyati-brookings-2025",
-    "href": "index.html#yeyati-brookings-2025",
-    "title": "Incorporating AI into Teaching",
-    "section": "Yeyati, Brookings, 2025:",
-    "text": "Yeyati, Brookings, 2025:\n\n\nAs AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.\n\n\nAs job descriptions evolve, so does the definition of financial talent. Excel is no longer a differentiator. Python is fast becoming the new Excel. \n\n\nBut technical skills alone will not cut it. The most in demand profiles today are those that speak both AI and finance."
-  },
-  {
-    "objectID": "index.html#final-slide",
-    "href": "index.html#final-slide",
-    "title": "Incorporating AI into Teaching",
-    "section": "",
-    "text": "fma2025.kerryback.com"
-  },
-  {
     "objectID": "slides16x9.html#life-was-the-same-for-40-years",
     "href": "slides16x9.html#life-was-the-same-for-40-years",
     "title": "Incorporating AI into Teaching",
@@ -688,6 +338,349 @@
   {
     "objectID": "slides16x9.html#final-slide",
     "href": "slides16x9.html#final-slide",
+    "title": "Incorporating AI into Teaching",
+    "section": "",
+    "text": "fma2025.kerryback.com"
+  },
+  {
+    "objectID": "index.html#life-was-the-same-for-40-years",
+    "href": "index.html#life-was-the-same-for-40-years",
+    "title": "Incorporating AI into Teaching",
+    "section": "Life was the same for 40 years",
+    "text": "Life was the same for 40 years\n\n\n\n\nVisiCalc introduced for the Apple II in 1979\n\n\n\n\nLotus-123 introduced for the IBM PC in 1983\n\n\n\n\nMicrosoft Excel introduced for Windows in 1987"
+  },
+  {
+    "objectID": "index.html#now-with-ai-were-all-in-the-same-boat",
+    "href": "index.html#now-with-ai-were-all-in-the-same-boat",
+    "title": "Incorporating AI into Teaching",
+    "section": "Now, with AI, we’re all in the same boat",
+    "text": "Now, with AI, we’re all in the same boat"
+  },
+  {
+    "objectID": "index.html#its-hard-to-keep-up",
+    "href": "index.html#its-hard-to-keep-up",
+    "title": "Incorporating AI into Teaching",
+    "section": "It’s hard to keep up!",
+    "text": "It’s hard to keep up!"
+  },
+  {
+    "objectID": "index.html#plan",
+    "href": "index.html#plan",
+    "title": "Incorporating AI into Teaching",
+    "section": "Plan",
+    "text": "Plan\n\nExample of what AI can do today - new Claude skill from September\nHistorical analogues?\nA course on AI\nUpdating existing courses to use AI\nDeep dive into Claude Code"
+  },
+  {
+    "objectID": "index.html#example-prompt-for-claude",
+    "href": "index.html#example-prompt-for-claude",
+    "title": "Incorporating AI into Teaching",
+    "section": "1. Example (prompt for Claude)",
+    "text": "1. Example (prompt for Claude)\n\nRead the uploaded case (Valuing Walmart 2010). Ignore the valuation method described in the case. Instead, generate pro forma statements and perform a two-stage DCF analysis.\n\n\nDocument your assumptions and your reasons for them. Generate an Excel workbook and a Word doc. Format the Excel worksheets nicely.\n\n\nCurrently requires Claude Max subscription."
+  },
+  {
+    "objectID": "index.html#historical-analogues",
+    "href": "index.html#historical-analogues",
+    "title": "Incorporating AI into Teaching",
+    "section": "2. Historical analogues",
+    "text": "2. Historical analogues\n\nHandheld calculators\nPersonal computers\n\n\nHow did teaching and learning change? Are there lessons for today?"
+  },
+  {
+    "objectID": "index.html#introduction-of-handheld-calculators",
+    "href": "index.html#introduction-of-handheld-calculators",
+    "title": "Incorporating AI into Teaching",
+    "section": "Introduction of Handheld Calculators",
+    "text": "Introduction of Handheld Calculators\n\nMuch worry that students wouldn’t learn addition, subtraction, …\n\nStudies haven’t found an effect\nBut primary schools still provide practice and assessments in which calculators are not allowed\n\nSome hoped that schools could move beyond calculation and teach deeper math\n\nThat didn’t seem to happen either"
+  },
+  {
+    "objectID": "index.html#introduction-of-personal-computers-spreadsheets",
+    "href": "index.html#introduction-of-personal-computers-spreadsheets",
+    "title": "Incorporating AI into Teaching",
+    "section": "Introduction of Personal computers & spreadsheets",
+    "text": "Introduction of Personal computers & spreadsheets\n\nWe added courses on how to use spreadsheets\nWe updated existing courses to use spreadsheets\nWe assess how well students can use spreadsheets (no pencil and paper valuation analyses)\n\n\n\nTeaching how to do finance in spreadsheets is a main goal."
+  },
+  {
+    "objectID": "index.html#why",
+    "href": "index.html#why",
+    "title": "Incorporating AI into Teaching",
+    "section": "Why?",
+    "text": "Why?\n\nSpreadsheets are used in business\nSpreadsheets are ideal for teaching the logic of some things (valuation/capital budgeting)\nSpreadsheets don’t automatically do the things we were teaching before (financial calculators \\(\\rightarrow\\) spreadsheets)"
+  },
+  {
+    "objectID": "index.html#what-about-ai",
+    "href": "index.html#what-about-ai",
+    "title": "Incorporating AI into Teaching",
+    "section": "What about AI?",
+    "text": "What about AI?\n✓ AI is used in business\n✓ AI is useful for teaching/tutoring\n✗ AI can automatically do many things we were teaching before\n\n\nAI is more like calculators than spreadsheets. We worry that students won’t learn skills that they need.\nLike primary schools and arithmetic, we will need to have practice and assessments in which AI is not allowed"
+  },
+  {
+    "objectID": "index.html#ai-is-used-in-business",
+    "href": "index.html#ai-is-used-in-business",
+    "title": "Incorporating AI into Teaching",
+    "section": "AI is used in Business",
+    "text": "AI is used in Business\nMIT/Media Labs State of AI in Business 2025:\n\nWorkers from over 90% of the companies we surveyed reported regular use of personal AI tools for work tasks. In fact, almost every single person used an LLM in some form for their work."
+  },
+  {
+    "objectID": "index.html#plan-1",
+    "href": "index.html#plan-1",
+    "title": "Incorporating AI into Teaching",
+    "section": "Plan",
+    "text": "Plan\n✓ Example of what AI can do today\n✓ Historical analogues\n\n\nA course on AI\nUpdating existing courses to use AI\nDeep dive into Claude Code"
+  },
+  {
+    "objectID": "index.html#course-on-ai-principles",
+    "href": "index.html#course-on-ai-principles",
+    "title": "Incorporating AI into Teaching",
+    "section": "3. Course on AI: principles",
+    "text": "3. Course on AI: principles\n\nTreat AI as a colleague: Collaborate, evaluate, iterate\nVibe code financial analyses: LLMs are not trustworthy for arithmetic: Coding (Python) is essential\nCreate apps: For critical operations, test code and save as app\nCreate custom chatbots:&lt;&gt; Chatbots can be customized through the system prompt, RAG, or fine tuning\nCreate tools: To use chatbot for critical operations, create app and provide as tool"
+  },
+  {
+    "objectID": "index.html#prompt-engineering",
+    "href": "index.html#prompt-engineering",
+    "title": "Incorporating AI into Teaching",
+    "section": "Prompt Engineering",
+    "text": "Prompt Engineering\n\nSome students ask for instruction on how to prompt AI\nSpecial techniques aren’t needed. Practice is.\n\nEthan Mollick, Wharton, “Good Enough Prompting:”\n\nTreat AI like an infinitely patient new coworker … As it is a coworker, you want to work with it, not just give it orders, and you also want to learn what it is good or bad at … Working with AI is a dialogue, not an order."
+  },
+  {
+    "objectID": "index.html#course-structure",
+    "href": "index.html#course-structure",
+    "title": "Incorporating AI into Teaching",
+    "section": "Course structure",
+    "text": "Course structure\nA. Introduction\nB. Coding with AI\nC. Apps, Chatbots, and Agents"
+  },
+  {
+    "objectID": "index.html#a.-course-introduction",
+    "href": "index.html#a.-course-introduction",
+    "title": "Incorporating AI into Teaching",
+    "section": "A. Course Introduction",
+    "text": "A. Course Introduction\n\nExample of working with AI on valuation: Claude/Excel example\nCase on corporate implementation of AI"
+  },
+  {
+    "objectID": "index.html#example-of-working-with-ai",
+    "href": "index.html#example-of-working-with-ai",
+    "title": "Incorporating AI into Teaching",
+    "section": "Example of working with AI",
+    "text": "Example of working with AI\n\nClaude/Excel example\n\n\nExplain the calculations\nWhat did you assume for … and why?\nHow does the value change if we assume … instead?"
+  },
+  {
+    "objectID": "index.html#case-on-corporate-implementation",
+    "href": "index.html#case-on-corporate-implementation",
+    "title": "Incorporating AI into Teaching",
+    "section": "Case on corporate implementation",
+    "text": "Case on corporate implementation\nBlazing New Trails: Responsible Generative AI and the Creative Adoption of a Large Language Model at Deloitte Canada, 2024.\n\nDescribes creation of a custom chatbot\nDiscusses reliability, bias, compliance, data privacy, trust of customers"
+  },
+  {
+    "objectID": "index.html#b.-coding-with-ai",
+    "href": "index.html#b.-coding-with-ai",
+    "title": "Incorporating AI into Teaching",
+    "section": "B. Coding with AI",
+    "text": "B. Coding with AI\nIn March 2025, Y Combinator CEO Garry Tan and managing partner Jared Friedman stated that\n\n\n\nfor roughly a quarter of the startups in their Winter 2025 cohort, 95% of the codebase was written by AI."
+  },
+  {
+    "objectID": "index.html#vibe-coding-for-finance",
+    "href": "index.html#vibe-coding-for-finance",
+    "title": "Incorporating AI into Teaching",
+    "section": "Vibe coding for finance",
+    "text": "Vibe coding for finance\n\nChatbots with python can easily do many types of financial analyses: regression, mean-variance optimization, binomial-tree option valuation …\nRunning python in the cloud:\n\nChatGPT, Claude, Google Colab with Gemini, Julius.ai\n\nRunning python locally:\n\nVS Code, Cursor, Windsurf, Claude Code"
+  },
+  {
+    "objectID": "index.html#c.-apps-chatbots-and-agents",
+    "href": "index.html#c.-apps-chatbots-and-agents",
+    "title": "Incorporating AI into Teaching",
+    "section": "C. Apps, Chatbots, and Agents",
+    "text": "C. Apps, Chatbots, and Agents\n\n\n\n\n\n\nApps can use AI\nChatbots are apps\nAgents are chatbots with tools"
+  },
+  {
+    "objectID": "index.html#building-apps-chatbots-and-agents",
+    "href": "index.html#building-apps-chatbots-and-agents",
+    "title": "Incorporating AI into Teaching",
+    "section": "Building apps, chatbots, and agents",
+    "text": "Building apps, chatbots, and agents\n\nPoint and click to build Custom GPTs at chat.openai.com\nVibe code"
+  },
+  {
+    "objectID": "index.html#chatbot-is-an-app-consisting-of",
+    "href": "index.html#chatbot-is-an-app-consisting-of",
+    "title": "Incorporating AI into Teaching",
+    "section": "chatbot is an app consisting of",
+    "text": "chatbot is an app consisting of\n\nUser interface\nAPI connection to an LLM, which has possibly been fine-tuned\nSystem prompt\nPossible retrieval of documents\nPossible use of tools"
+  },
+  {
+    "objectID": "index.html#system-prompt-is-fundamental",
+    "href": "index.html#system-prompt-is-fundamental",
+    "title": "Incorporating AI into Teaching",
+    "section": "System prompt is fundamental",
+    "text": "System prompt is fundamental\n\nA system prompt is text that is sent to the LLM along with each user prompt.\nIt contains information and instructions for the LLM.\n\nAnthropic’s System Prompts"
+  },
+  {
+    "objectID": "index.html#rag-retrieval-augmented-generation-chatbots",
+    "href": "index.html#rag-retrieval-augmented-generation-chatbots",
+    "title": "Incorporating AI into Teaching",
+    "section": "RAG (Retrieval Augmented Generation) chatbots",
+    "text": "RAG (Retrieval Augmented Generation) chatbots\n\nSend stored chunks of documents to LLM along with prompt and system prompt\nChoose chunks most relevant to the prompt\n\nVector embedding (vector store)\nSimilarity search\n\nKey element of many corporate AI implementations"
+  },
+  {
+    "objectID": "index.html#chatbot-structure",
+    "href": "index.html#chatbot-structure",
+    "title": "Incorporating AI into Teaching",
+    "section": "Chatbot structure",
+    "text": "Chatbot structure"
+  },
+  {
+    "objectID": "index.html#agent-chatbot-tools",
+    "href": "index.html#agent-chatbot-tools",
+    "title": "Incorporating AI into Teaching",
+    "section": "Agent = Chatbot + Tools",
+    "text": "Agent = Chatbot + Tools\n\nAI agent is a chatbot equipped with tools to do things\nClaude and ChatGPT are agents - they can send code to Python environments\nDatabase tools are very useful for chatbots"
+  },
+  {
+    "objectID": "index.html#claude-for-financial-services",
+    "href": "index.html#claude-for-financial-services",
+    "title": "Incorporating AI into Teaching",
+    "section": "Claude for Financial Services",
+    "text": "Claude for Financial Services\nFrom Anthropic:\nThrough data providers, Claude has real-time access to comprehensive financial information:\n\n\n\nBox\nDaloopa\nDatabricks\n\n\n\nFactSet\nMorningstar\nPalantir\n\n\n\nPitchBook\nS&P Global\nSnowflake"
+  },
+  {
+    "objectID": "index.html#why-mba-students-should-learn-about-agents",
+    "href": "index.html#why-mba-students-should-learn-about-agents",
+    "title": "Incorporating AI into Teaching",
+    "section": "Why mba students should learn about agents",
+    "text": "Why mba students should learn about agents\nFortune, 9-14-2025:\n\n\nPromptQL, an enterprise AI platform created by San Francisco-based developer tooling company Hasura, is doling out $900-per-hour wages to its engineers tasked with building and deploying AI agents to analyze internal company data using large language models (LLMs).\n\n\nTanmai Gopal, PromptQL’s cofounder and CEO, said “MBA types … are very strategic thinkers, and they’re smart people, but they don’t have an intuition for what AI can do.”"
+  },
+  {
+    "objectID": "index.html#database-agent-passes-prompt-from-user-to-llm",
+    "href": "index.html#database-agent-passes-prompt-from-user-to-llm",
+    "title": "Incorporating AI into Teaching",
+    "section": "database agent passes prompt from user to LLM",
+    "text": "database agent passes prompt from user to LLM\n\n\n\n\n\nMay require chatting at this stage to clarify user’s request"
+  },
+  {
+    "objectID": "index.html#agent-passes-sql-from-llm-to-data-warehouse",
+    "href": "index.html#agent-passes-sql-from-llm-to-data-warehouse",
+    "title": "Incorporating AI into Teaching",
+    "section": "agent passes SQL from LLM to data warehouse",
+    "text": "agent passes SQL from LLM to data warehouse"
+  },
+  {
+    "objectID": "index.html#data-warehouse-passes-response-to-agent",
+    "href": "index.html#data-warehouse-passes-response-to-agent",
+    "title": "Incorporating AI into Teaching",
+    "section": "Data Warehouse passes response to agent",
+    "text": "Data Warehouse passes response to agent\n\n\n\n\n\n\nResponse could be error message\nIf so, agent should send to LLM for new SQL code"
+  },
+  {
+    "objectID": "index.html#agent-passes-data-from-warehouse-to-user",
+    "href": "index.html#agent-passes-data-from-warehouse-to-user",
+    "title": "Incorporating AI into Teaching",
+    "section": "agent passes data from warehouse to user",
+    "text": "agent passes data from warehouse to user\n\n\n\n\n\nCould be more things connected\nE.g., send data to python engine\nSend python output to user"
+  },
+  {
+    "objectID": "index.html#what-can-we-do-in-the-classroom",
+    "href": "index.html#what-can-we-do-in-the-classroom",
+    "title": "Incorporating AI into Teaching",
+    "section": "What can we do in the classroom?",
+    "text": "What can we do in the classroom?\n\nWe can show students how to vibe code apps to automate things\n\nGetting data\nFinancial analysis\nGetting written analysis from AI\nProducing Excel, Word, PowerPoint\n\nAnd convert app to chatbot tool"
+  },
+  {
+    "objectID": "index.html#tools",
+    "href": "index.html#tools",
+    "title": "Incorporating AI into Teaching",
+    "section": "Tools",
+    "text": "Tools\n\nPoint and click: ChatGPT’s Custom GPTs\nSimplest vibe coding environment: Replit\nJulius.ai can build but not run Streamlit apps\nGoogle Colab can build Streamlit apps and deploy via ngrok\nPermanent deployment: Koyeb, Render, …\n\n\n\nHow do we learn this stuff to teach it: Ask AI"
+  },
+  {
+    "objectID": "index.html#creating-openai-custom-gpt-no-code",
+    "href": "index.html#creating-openai-custom-gpt-no-code",
+    "title": "Incorporating AI into Teaching",
+    "section": "Creating openai custom gpt (No Code)",
+    "text": "Creating openai custom gpt (No Code)\n\nConfigure: Name, description, and system prompt\nAdd capabilities: Web browsing, DALL-E, Code Interpreter\nUpload knowledge: Documents for RAG (PDFs, text files)\nAdd actions: Connect to external APIs (optional)\nTest & publish: Private, link-only, or public to GPT Store\n\n\nRequires ChatGPT Plus subscription"
+  },
+  {
+    "objectID": "index.html#plan-2",
+    "href": "index.html#plan-2",
+    "title": "Incorporating AI into Teaching",
+    "section": "Plan",
+    "text": "Plan\n✓ Example of what AI can do today\n✓ Historical analogues\n✓ A course on AI\n\n\nUpdating existing courses to use AI\nDeep dive into Claude Code"
+  },
+  {
+    "objectID": "index.html#updating-existing-courses-what-we-should-teach",
+    "href": "index.html#updating-existing-courses-what-we-should-teach",
+    "title": "Incorporating AI into Teaching",
+    "section": "4. Updating existing courses: what we should teach",
+    "text": "4. Updating existing courses: what we should teach\n\nWe generally teach concepts first with slides (or board)\nThen show in tools (usually Excel)\nNow, there is a next step: chatbots and agents\n\n\n\nTeach about implementation in Excel \\(\\rightarrow\\) students build Excel models.\nTeach about implementation in AI \\(\\rightarrow\\) students build prompts or apps"
+  },
+  {
+    "objectID": "index.html#how-we-should-teach",
+    "href": "index.html#how-we-should-teach",
+    "title": "Incorporating AI into Teaching",
+    "section": "How we should teach",
+    "text": "How we should teach\n\nAI is a very effective tutor\nWe should take advantage of it\nAsking students to chat with chatbots can replace “Do the assigned reading.”\nCan be assigned before class or in class before slides.\n\n\n\nAsk your chatbot to teach you about … Be sure to tell it to ask you questions to ensure you are understanding."
+  },
+  {
+    "objectID": "index.html#controlling-the-sources",
+    "href": "index.html#controlling-the-sources",
+    "title": "Incorporating AI into Teaching",
+    "section": "Controlling the sources",
+    "text": "Controlling the sources\n\nBuild RAG (Google’s Notebook LM or Custom GPT or …)\nIf sources are copyrighted, first ask AI for a complete report on the subject, read and edit the AI report, and add to system prompt “Teach from this report …”\n\n\nBut this is probably unnecessary for most topics. The LLMs are much, much more reliable than they were a couple of years ago when everyone was concerned about hallucinations."
+  },
+  {
+    "objectID": "index.html#how-can-we-assess",
+    "href": "index.html#how-can-we-assess",
+    "title": "Incorporating AI into Teaching",
+    "section": "How can we assess?",
+    "text": "How can we assess?\n\n\nOut-of-class assignments should become “turn in your chat, its output, and your evaluation of the output” or “turn in your app.”\nIn-class exams without AI to ensure students understand concepts\nIn-class exams with AI that are more ambitious than exams today. Cases can become exams with AI assistance."
+  },
+  {
+    "objectID": "index.html#plan-3",
+    "href": "index.html#plan-3",
+    "title": "Incorporating AI into Teaching",
+    "section": "Plan",
+    "text": "Plan\n✓ Example of what AI can do today\n✓ Historical analogues\n✓ A course on AI\n✓ Updating existing courses to use AI\n\n\nDeep dive into Claude Code"
+  },
+  {
+    "objectID": "index.html#claude-code",
+    "href": "index.html#claude-code",
+    "title": "Incorporating AI into Teaching",
+    "section": "Claude Code",
+    "text": "Claude Code\n\nTerminal based coding agent - also OpenAI Codex, Gemini CLI\nCan be used as a plug-in to VS Code, Cursor, Windsurf\nUses standard Anthropic models, but seems to have a great system prompt\n\n\nRequires Claude Pro subscription."
+  },
+  {
+    "objectID": "index.html#capabilities",
+    "href": "index.html#capabilities",
+    "title": "Incorporating AI into Teaching",
+    "section": "Capabilities",
+    "text": "Capabilities\n\nCreate, edit, copy, move, delete files\nWrite, edit, and run Python scripts and notebooks\nWrite, edit, and compile LaTeX documents\nCreate and edit Word docs and PowerPoint decks\nCreate GitHub repos and push and launch apps on hosts (Koyeb, Render, …)"
+  },
+  {
+    "objectID": "index.html#claude-code-demo",
+    "href": "index.html#claude-code-demo",
+    "title": "Incorporating AI into Teaching",
+    "section": "Claude Code Demo",
+    "text": "Claude Code Demo\n\nCreate a streamlit app for mean-variance optimization. The user will input the number of assets, their means, standard deviations, and correlations and risk-free rate.\nCompute and display the tangency portfolio. Run the app.\n\n\n\nThen: show the code that calculates the tangency portfolio and explain it."
+  },
+  {
+    "objectID": "index.html#claude-code-in-vs-code-etc.",
+    "href": "index.html#claude-code-in-vs-code-etc.",
+    "title": "Incorporating AI into Teaching",
+    "section": "Claude Code in VS Code, etc.",
+    "text": "Claude Code in VS Code, etc.\n\nVS Code, Cursor, Windsurf are full-featured Python and LaTeX IDEs\nExamples of Claude Code for LaTeX and Python:\n\nRead this paragraph and suggest improvements .\nMake these global edits …\nDo this analysis and generate a figure or LaTeX table and insert it into the document …"
+  },
+  {
+    "objectID": "index.html#aaron-linsky-cto-aia-labs-at-bridgewater",
+    "href": "index.html#aaron-linsky-cto-aia-labs-at-bridgewater",
+    "title": "Incorporating AI into Teaching",
+    "section": "Aaron Linsky, CTO, AIA Labs at Bridgewater:",
+    "text": "Aaron Linsky, CTO, AIA Labs at Bridgewater:\n\n\nWe’ve been developing capabilities powered by Claude since 2023 within AIA Labs.\n\n\nClaude powered the first versions of our Investment Analyst Assistant, which streamlined our analysts’ workflow by generating Python code, creating data visualizations, and iterating through  complex financial analysis tasks with the precision of a junior analyst."
+  },
+  {
+    "objectID": "index.html#yeyati-brookings-2025",
+    "href": "index.html#yeyati-brookings-2025",
+    "title": "Incorporating AI into Teaching",
+    "section": "Yeyati, Brookings, 2025:",
+    "text": "Yeyati, Brookings, 2025:\n\n\nAs AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.\n\n\nAs job descriptions evolve, so does the definition of financial talent. Excel is no longer a differentiator. Python is fast becoming the new Excel. \n\n\nBut technical skills alone will not cut it. The most in demand profiles today are those that speak both AI and finance."
+  },
+  {
+    "objectID": "index.html#final-slide",
+    "href": "index.html#final-slide",
     "title": "Incorporating AI into Teaching",
     "section": "",
     "text": "fma2025.kerryback.com"
