@@ -53,7 +53,8 @@
       "Bash(cp:*)",
       "Bash(findstr:*)",
       "Bash(del nul)",
-      "Bash(pdflatex:*)"
+      "Bash(pdflatex:*)",
+      "Bash(gh repo rename:*)"
     ],
     "deny": [],
     "ask": []

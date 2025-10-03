@@ -1,0 +1,136 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\setlength{\parindent}{0pt}
+\begin{document}
+
+\begin{minipage}[c][3cm][c]{0.5\textwidth}
+\Large\textbf{MGMT 675\\ AI-Assisted Financial Analysis}
+\end{minipage}
+\hfill
+\begin{minipage}[c][3cm][c]{0.4\textwidth}
+\includegraphics[width=\textwidth]{images/rice-business-transparent-final.png}
+\end{minipage}
+
+\vspace{0.5cm}
+\hrule
+
+\subsection*{Instructor}
+Kerry Back\\
+J. Howard Creekmore Professor of Finance and Professor of Economics\\
+325 McNair Hall\\
+\href{mailto:kerry.e.back@rice.edu}{kerry.e.back@rice.edu}
+
+\subsection*{Course Overview}
+
+The emergence of generative AI has been reshaping financial workflows and careers. This course prepares MBA students to leverage AI for financial analysis.  The course is organized around the folowing principles:
+
+\begin{enumerate}
+\item We should treat AI as a colleague, collaborator, and advisor, as well as an assistant. 
+\item Large language models (LLMs) cannot be relied upon to do arithmetic, so coding (Python) is essential. 
+\item For critical operations, we should save tested code as an app.
+\item To use a chatbot for critical operations, we should configure the app as a chatbot tool, creating an AI agent.
+\end{enumerate}
+
+The learning/building progression is captured in the following diagram. Chatbots are a special type of app, and agents are chatbots with tools.  AI can write the code to create these things, and there are also "no code" options available (Custom GPTs at OpenAI).
+
+\begin{center}
+\includegraphics[width=0.4\textwidth]{ai_progression2.png}
+\end{center}
+
+\subsection*{AI Tool}
+
+We are going to use Anthropic's Claude for the course.  Claude Opus and Sonnet are the best coding LLMs.  Also, Anthropic recently released Excel integration, so Claude can generate fully functioning, nicely formatted Excel workbooks. In addition, Anthropic created the Model Context Protocol (MCP) and has recently made it simpler for users to configure MCP connections in Claude Desktop.  Finally, we will use Claude Code, which is a very powerful coding agent.
+
+\subsection*{Evaluation}
+
+Grades will be based on four elements (25\% each).  The first three are \textbf{group projects}.
+
+\begin{enumerate}\setlength{\itemsep}{0pt}
+\item AI + Python cost of capital exercise: calculation, visualization, report generation 
+\item  Cost of capital app 
+\item Cost of capital agent 
+\item Seated exam with AI allowed 
+\end{enumerate}
+For each of the group projects, the deliverables are:
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item A chat/app/agent
+\item A two-page Word doc explaining development and use
+\end{itemize}
+
+\subsubsection*{Honor Code}
+The Rice University honor code applies to all work in this course. Use of generative AI is of course permitted.
+
+\subsubsection*{Disability Accommodations}
+Any student with a documented disability requiring accommodations in this course is encouraged to contact me outside of class. All discussions will remain confidential. Any adjustments or accommodations regarding assignments or the final exam must be made in advance. Students with disabilities should also contact Disability Support Services in the Allen Center.
+
+\vspace{1cm}
+\hrule
+\vspace{0.5cm}
+
+\begin{center}
+\textbf{\Large  Schedule}
+\end{center}
+
+\subsubsection*{Week 1: Introduction}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item Collaborating with AI: Claude + Excel for valuation
+\begin{itemize}
+\item Case study: \href{https://hbsp.harvard.edu/product/W11058-PDF-ENG}{Valuing Walmart 2010}
+\end{itemize}
+\item Corporate implementations of AI
+\begin{itemize}
+
+\item Case study: \href{https://hbsp.harvard.edu/product/HEC382-PDF-ENG}{Implementing AI at Deloitte}
+\item Other reading: 
+\href{https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf}{State of AI in Business 2025}
+\item
+Other reading: \href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5188231}{Generative AI Reshaping Teamwork and Expertise}
+\end{itemize}
+\end{itemize}
+
+\subsubsection*{Week 2: Vibe Coding for Data Analysis}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item Claude Desktop, Google Colab, and Claude Code
+\item Cleaning, sorting, filtering and aggregating
+\item Data visualization
+\item Generating Word docs and PowerPoint decks 
+\end{itemize}
+
+\subsubsection*{Week 3: Vibe Coding for Financial Analysis}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item Retirement planning 
+\item Mean-variance portfolio optimization
+\item Mutual fund performance evaluation 
+\end{itemize}
+
+\subsubsection*{Week 4: Custom Chatbots}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item API calls
+\item System prompts, RAG, and fine-tuning
+\item Custom GPTs
+\item Building a custom chatbot as a Streamlit app
+\item Group project 1 due
+\end{itemize}
+
+\subsubsection*{Week 5: Apps and Agents}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item Retirement planning app
+\item Asset allocation app 
+\item Configuring apps as tools for chatbots
+\item Group project 2 due
+\end{itemize}
+
+\subsubsection*{Week 6: Deployment and Database Agents}
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item Alternatives for deploying apps/chatbots/agents
+\item Deploying databases
+\item Creating database agents
+\item Wrap-up
+\item Group project 3 due
+\end{itemize}
+
+
+
+\end{document}
