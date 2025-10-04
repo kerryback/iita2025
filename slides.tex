@@ -12,6 +12,7 @@
 
 \usepackage{xspace}
 \usepackage{xcolor}
+\definecolor{tomato}{RGB}{255,99,71}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \hypersetup{
@@ -21,13 +22,14 @@
     citecolor=green
 }
 
+\setbeamercolor{alerted text}{fg=tomato}
 
 \setbeamertemplate{frame footer}{MGMT 675: Generative AI for Finance}
 
 \title{MGMT 675: Generative AI for Finance}
 \subtitle{FMA 2025}
 
-\date{October 24, 2025}
+\date{FMA IITA Session: October 24, 2025}
 \author{Kerry Back\\ 
 Jones Graduate School of Business\\
 Rice University}
@@ -66,7 +68,7 @@ Workers would shift from being creators of reports ... or "makers" ... to "check
 
 \end{frame}
 
-\begin{frame}{Yeyati, Brookings, 2025}
+\begin{frame}{Brookings Institute, 2025}
 
 \begin{itemize}
 \item As AI models begin to handle underwriting, compliance, and asset allocation, the traditional architecture of financial work is undergoing a fundamental shift.
@@ -79,11 +81,91 @@ Workers would shift from being creators of reports ... or "makers" ... to "check
 \begin{enumerate}
 \item How to work with AI to do financial analysis
 \item How custom chatbots and AI agents work 
-\item How to work with AI to build custom chatbots and AI agents for financial analysis
+\item How to work with AI to build apps, custom chatbots, and AI agents for financial analysis
 \end{enumerate}
+\vskip\baselineskip
+\pause
+\begin{center}
+    \alert{\#1 is essential, \#2 is valuable, \#3 reinforces 1 and 2 and is fun}
+\end{center}
 \end{frame}
 
+\begin{frame}{Course Tools}
+    \begin{itemize}
+    \item 2024 case on AI implementation at Deloitte
+    \pause
+    \item Chatbot + Python (I prefer Claude) for 
+    \begin{itemize}
+    \item Cost of capital calculation
+    \item Mean-variance optimization
+    \item DCF analysis
+    \item Performance evaluation
+    \end{itemize}
+    \pause
+    \item Choice of finance topics is dictated by position in curriculum
+    \pause
+    \item Build Streamlit apps for the above
+    \item Build AI agents (chatbots + tools) for above using Streamlit and MCP
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Assessment}
+    Group projects, building:
+    \begin{itemize}
+        \item Financial analysis
+        \item App
+        \item Custom chatbot or AI agent
+    \end{itemize}
+    In-class seated exam (?) : Analyze this case (which they haven't seen before) and prepare Excel/Word/\ldots reports \alert{using AI all you want}.
+\end{frame}
+
+\begin{frame}{Plan}
+    \begin{itemize}
+     \item Claude $\rightarrow$ Excel
+     \item Example of in-class exercise 
+     \item Website: genai4finance.kerryback.com
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{New Excel Skill for Claude}
+\begin{itemize}
+\item 
+In September, Anthropic upgraded Claude so it can generate fully functioning, nicely formatted Excel workbooks.
+\item Microsoft announced the same capability built into Excel (powered by Claude).
+\item Claude Prompt: Create an Excel file to illustrate two-stage DCF valuation of a company.
+\item Result: \href{https://iita2025.kerryback.com/dcf_analysis_example.xlsx}{dcf\_analysis\_example.xlsx}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{In-Class Exercises}
+    \begin{itemize}
+    \item Ask class to propose a prompt to solve a problem 
+    \pause
+    \item Evaluate result $\rightarrow$ another prompt
+    \item Rinse and repeat \ldots
+    \pause
+    \item At end, ask: \alert{How could we have formulated our initial prompt to make this faster?}  Save that prompt as a text file.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Julius.ai Demo Prompt 1}
+   \begin{quote}
+   Use the latest version of yfinance to get closing prices at a monthly frequency from Yahoo Finance for SPY, IEF, and GLD since 1970. Compute returns as percent changes and filter to the longest history for which returns for all three ETFs are available. Compute the historical mean and covariance matrix. Compute the tangency portfolio assuming the monthly risk-free rate is 0.04/12.  Allow short sales.
+
+   \end{quote}
+\end{frame}
+
+\begin{frame}{Julius Demo Prompt 2}
+   \begin{quote}
+   Compute the mean-variance frontier of risky assets using the SPY, IEF, and GLD means and covariance matrix.  Allow short sales.  Create a Word doc containing a plot of (i) the mean-variance frontier, (ii) the risk-free rate, (iii) the tangency portfolio, and (iv) the capital allocation line, assuming again a risk-free rate of 0.04/12.  Include in the Word doc the historical means, standard deviations, and correlations of the monthly SPY, IEF, and GLD returns, an explanation of the method used to compute the tangency portfolio, and your interpretation of why the tangency portfolio is what it is.  Format the Word doc professionally.
+
+   \end{quote}
+\end{frame}
+
+
 \begin{frame}{Website: genai4finance.kerryback.com}
+
+Content:
 \begin{itemize}
 \item Course description aimed at teachers
 \item Blog: short posts about teaching various topics on AI and finance 
@@ -92,36 +174,6 @@ Workers would shift from being creators of reports ... or "makers" ... to "check
 \item Python materials (for pre-course workshop or individual study)
 \end{itemize}
 \end{frame} 
-
-\begin{frame}{Plan}
-    \begin{itemize}
-     \item Demo representing in-class exercise
-     \item Skim of website
-    \end{itemize}
-\end{frame}
-
-\begin{frame}{Some AI Tools}
-    \begin{itemize}
-    \item Claude: Claude Desktop, Claude.ai, and Claude Code 
-    \item ChatGPT (and custom GPTs)
-    \item Google Colab and Gemini
-    \item Julius.ai
-    \end{itemize}
-\end{frame}
-
-\begin{frame}{Julius Demo Prompt 1}
-   \begin{quote}
-   Use the latest version of yfinance to get closing prices at a monthly frequency from Yahoo Finance for SPY, IEF, and GLD since 1970. Compute returns as percent changes and filter to the longest history for which returns for all three ETFs are available. Compute the historical mean and covariance matrix. Compute the tangency portfolio assuming the monthly risk-free rate is 0.04/12.
-
-   \end{quote}
-\end{frame}
-
-\begin{frame}{Julius Demo Prompt 2}
-   \begin{quote}
-   Compute the mean-variance frontier of risky assets using the SPY, IEF, and GLD means and covariance matrix.  Create a Word doc containing a plot of (i) the mean-variance frontier of risky assets, (ii) the risk-free rate, (iii) the tangency portfolio, and (iv) the capital allocation line, assuming again a risk-free rate of 0.04/12.  Include in the Word doc the historical means, standard deviations, and correlations of the monthly SPY, IEF, and GLD returns, an explanation of the method used to compute the tangency portfolio and your interpretation of why the tangency portfolio is what it is.  Format the Word doc professionally.
-
-   \end{quote}
-\end{frame}
 
 \begin{frame}{\href{https://genai4finance.kerryback.com}{genai4finance.kerryback.com}}
 \begin{center}
