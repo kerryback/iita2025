@@ -52,21 +52,6 @@ Rice University}
 
 \end{frame}
 
-\begin{frame}{Learning Objectives}
-\begin{enumerate}
-    \item Working with AI
-    \begin{enumerate}%\renewcommand{\labelenumii}{(\alph{enumii})}
-        \item Collaborate with AI that uses Python to conduct financial analysis 
-        \item Refine prompts to make effective use of AI 
-    \end{enumerate}
-    \item Corporate implementations of AI: system prompts, retrieval-augmented generation (RAG), and agents
-    \item Build with AI 
-    \begin{enumerate}
-        \item Custom chatbots, apps, and AI-enabled apps for financial analysis
-        \item AI agents (chatbots with tools)
-    \end{enumerate}
-\end{enumerate}
-\end{frame}
 
 \begin{frame}{CNBC on JPMorgan, 9/30/2025}
 
@@ -90,17 +75,54 @@ Workers would shift from being creators of reports ... or "makers" ... to "check
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Learning Objectives}
+\begin{enumerate}
+\item How to work with AI to do financial analysis
+\item How custom chatbots and AI agents work 
+\item How to work with AI to build custom chatbots and AI agents for financial analysis
+\end{enumerate}
+\end{frame}
+
 \begin{frame}{Website: \href{https://genai4finance.kerryback.com}{genai4finance.kerryback.com}}
 \begin{itemize}
 \item Course description aimed at instructors
-\item Link to blog: short posts about teaching various topics on AI and finance 
-\item Link to 2025 course syllabus \& slides
-\item Link to 2026 course syllabus (slides coming soon)
-\item Link to these slides
-\item Link to slides for upcoming talk on Integrating AI into Finance Teaching
-\item Link to Jupyter notebooks (and soon slides) for teaching Python to MBAs
+\item Blog: short posts about teaching various topics on AI and finance 
+\item Course materials: 2025 and 2026 (partial)
+\item Slides (these and upcoming talk)
+\item Python materials (pre-course workshop or individual study)
 \end{itemize}
 \end{frame} 
+
+\begin{frame}{Plan}
+    \begin{itemize}
+    \item Skim website materials
+    \item Demo representing in-class exercise
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Some AI Tools}
+    \begin{itemize}
+    \item Claude: Claude Desktop, Claude.ai, and Claude Code 
+    \item ChatGPT (and custom GPTs)
+    \item Google Colab and Gemini
+    \item Julius.ai
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Julius Demo Prompt 1}
+   \begin{quote}
+   Use the latest version of yfinance to get closing prices at a monthly frequency from Yahoo Finance for SPY, IEF, and GLD since 1970. Compute returns as percent changes and filter to the longest history for which returns for all three ETFs are available. Compute the historical mean and covariance matrix. Compute the tangency portfolio assuming the monthly risk-free rate is 0.04/12.
+
+   \end{quote}
+\end{frame}
+
+\begin{frame}{Julius Demo Prompt 2}
+   \begin{quote}
+   Create a professionally formatted Word doc containing a plot containing (i) the mean-variance frontier of risky assets, (ii) the risk-free rate, (iii) the tangency portfolio, and (iv) the capital allocation line extending through the tangency portfolio.  Include in the Word doc the historical means, standard deviations, and correlations of the monthly SPY, IEF, and GLD returns computed before, an explanation of the method used to compute the tangency portfolio and your interpretation of why the tangency portfolio is what it is.
+
+   \end{quote}
+\end{frame}
+
 
 \end{document}
 
