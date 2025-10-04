@@ -7,7 +7,7 @@ project:
     - CNAME
     - .nojekyll
     - slides.pdf
-    - dcf_analysis_example.xlsx
+    - claude-dcf-example.xlsx
    
 
 website:
