@@ -9,7 +9,7 @@
 \usepackage{pgfplots}
 \usepgfplotslibrary{dateplot}
 \pgfplotsset{compat=1.17}
-\usepackage[timeinterval=1]{tdclock} 
+\usepackage[timeinterval=60]{tdclock} 
 
 \usepackage{xspace}
 \usepackage{xcolor}
@@ -25,7 +25,7 @@
 
 \setbeamercolor{alerted text}{fg=tomato}
 
-\setbeamertemplate{frame footer}{MGMT 675: Generative AI for Finance \hfill \cronominutes{20}}
+\setbeamertemplate{frame footer}{MGMT 675: Generative AI for Finance \hfill \tdhours:\tdminutes}
 
 \title{MGMT 675: Generative AI for Finance}
 \subtitle{FMA 2025}
@@ -37,6 +37,8 @@ Rice University}
 
 
 \begin{document}
+
+\initclock
 
 \maketitle
 
